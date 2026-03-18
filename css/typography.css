@@ -34,6 +34,7 @@
     --normalTextFont: 18px;
     --mdTextFont: 17px;
     --smTextFont: 16px;
+    --xsmTextFont: 14px;
     /* formFont */
     --btnFont: 16px;
     --inputTextFont: 16px;
@@ -248,7 +249,8 @@ h6,
     padding-right: 30px;
 }
 .container {
-    max-width: 1320px;
+    max-width: 1320px; 
+    padding: 0;
 }
 @media only screen and (max-width: 1199.98px) {
     .container-fluid {

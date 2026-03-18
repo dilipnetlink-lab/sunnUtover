@@ -65,3 +65,20 @@ document.addEventListener("click", function (e) {
 });
 
 /* end-slide Screen */
+
+/* Language-Logo */
+$(function() {
+    $("#languageDropdown").click(function() {
+        var img = $(this).find('img');
+        if (!img.length) return; // element na male to stop
+        var src = img.attr('src');
+        if (src.includes('language-norwegian-icon')) {
+            img.attr('src', 'images/language-english-icon.svg');
+            img.attr('alt', 'English');
+        } else {
+            img.attr('src', 'images/language-norwegian-icon.svg');
+            img.attr('alt', 'Norwegian');
+        }
+    });
+});
+/* End-Language-Logo */

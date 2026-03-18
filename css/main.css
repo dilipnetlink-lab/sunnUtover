@@ -33,7 +33,7 @@
     overflow: hidden;
     height: 24px;
     border-radius: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .modul-progressbar .progress-bar {
     background-color: var(--secondaryColor);
@@ -45,7 +45,7 @@
     text-align: center;
     position: absolute;
     width: auto;
-    font-size: var(--smTextFont);
+    font-size: var(--xsmTextFont);
     line-height: 1;
     margin: auto;
     display: inline-flex;
@@ -150,7 +150,7 @@
 }
 .step-box-list-title {
     position: relative;
-    width: calc(100% - 200px);
+    width: calc(100% - 190px);
     margin-top: 10px;
 }
 .step-box-list-title::before {
@@ -181,7 +181,7 @@
 }
 .step-box-list-btn {
     position: relative;
-    width: 200px;
+    width: 190px;
     text-align: right;
 }
 .step-box-list-col.active .step-box-list-title h5,
@@ -197,9 +197,9 @@
     display: none;
 }
 .step-box-list-btn .btn {
-    width: 190px;
+    width: 180px;
     max-width: 100%;
-    padding: 20px;
+    padding: 18px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -767,3 +767,23 @@
     }
 }
 /* end-circle-img-caption-box-con */
+
+/* language-logo */ 
+.language-box-con{
+    position: relative;
+}
+.language-box-img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--whiteColor);
+    overflow: hidden;
+}
+.language-box-img img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    object-position: center;
+}  
+/* language-logo */

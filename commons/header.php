@@ -30,7 +30,7 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-xl p-0" id="navbarMenu">
                         <a class="navbar-brand" href="index.php"><img src="images/logo.svg"  alt="" loading="lazy" /></a>                          
-                        <div class="navbar-collapse justify-content-end menu-header collapse" id="headerMenu">
+                        <!-- <div class="navbar-collapse justify-content-end menu-header collapse" id="headerMenu">
                             <div class="header-menu-fixd">
                                 <ul>
                                     <li class="active">
@@ -51,9 +51,14 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                            </div> -->
                         <div class="header-icon-list">
-                            <div class="profile-menu-box">
+                            <div class="language-box-con">
+                                <button class="language-box-img" type="button" id="languageDropdown">
+                                <img src="images/language-norwegian-icon.svg" alt="Norwegian" title="Norwegian" class="flag-icon" />
+                                </button>
+                            </div>
+                            <!-- <div class="profile-menu-box">
                                 <a class="profile-menu-link"> Profil <img src="images/profile-icon.svg" /> </a>
                                 <div class="profile-menu-ul">
                                     <ul>
@@ -61,10 +66,10 @@
                                         <li><a href="javascript:void(0)">Sign out</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                            <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#headerMenu">
-                            <i class="bi bi-list"></i>
-                            </button>
+                                </div> -->
+                            <!-- <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#headerMenu">
+                                <i class="bi bi-list"></i>
+                                </button> --> 
                         </div>
                     </nav>
                 </div>
