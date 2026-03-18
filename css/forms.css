@@ -1,0 +1,201 @@
+.form-group {
+    margin-bottom: var(--mdMargin);
+}
+label {
+    position: relative;
+    color: var(--textColor);
+    font-size: var(--smTextFont);
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: var(--textFontFamily);
+}
+.form-control {
+    position: relative;
+    color: var(--textColor);
+    font-size: var(--smTextFont);
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: var(--textFontFamily);
+}
+textarea.form-control {
+    min-height: 120px;
+}
+.btn {
+    position: relative;
+    width: auto;
+    display: inline-block;
+    min-width: 120px;
+    height: auto;
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
+    border-radius: 8px;
+    border: 1px solid var(--secondaryColor);
+    text-align: center;
+    font-size: var(--btnFont);
+    line-height: 1;
+    font-weight: 500;
+    font-family: var(--secondaryFontFamily);
+    padding: 15px 20px;
+}
+.btn:hover {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    border-color: var(--primaryColor);
+}
+.btn.btn-light {
+    background-color: var(--lightGrayColor);
+    color: var(--textColor);
+    border-color: var(--lightGrayColor);
+}
+.btn.btn-light:hover {
+    background-color: var(--darkGrayColor);
+    color: var(--textColor);
+    border-color: var(--darkGrayColor);
+}
+.btn.btn-next-icon span {
+    position: relative;
+    padding-right: 20px;
+}
+.btn.btn-next-icon span::after {
+    content: "";
+    background-color: transparent;
+    background-position: center;
+    background-size: 22px;
+    background-image: url(../images/btn-next.svg);
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+    right: -8px;
+    top: -1px;
+    bottom: 0;
+}
+.btn.btn-exit-icon span {
+    position: relative;
+    padding-left: 30px;
+}
+.btn.btn-exit-icon span::before {
+    content: "";
+    background-color: transparent;
+    background-position: center;
+    background-size: 22px;
+    background-image: url(../images/btn-exit.svg);
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    bottom: 0;
+}
+.btn-sm {
+    min-width: auto;
+}
+.btn-md {
+    min-width: 160px;
+}
+.btn-lg {
+    min-width: 180px;
+}
+.btn-xl {
+    min-width: 200px;
+}
+.radio-label-grop {
+    position: relative;
+    margin: 8px auto;
+    width: 100%;
+    display: inline-block;
+}
+.radio-label-grop .radio-input {
+    position: absolute;
+    left: 16px;
+    top: 15px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #d5d5d5;
+    border-radius: 50%;
+    background-color: #ffffff;
+    overflow: hidden;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background-image: var(--bs-form-check-bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+    z-index: 3;
+}
+.radio-input:checked[type="radio"] {
+    --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+.radio-label-grop .radio-input:checked {
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
+.radio-label-grop .radio-input:focus {
+    border-color: var(--primaryColor);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(29, 29, 29, 0.25);
+}
+.radio-label-grop .radio-label {
+    position: relative;
+    color: var(--textColor);
+    font-size: var(--mdHeadingFont);
+    line-height: 1.1;
+    font-weight: 500;
+    font-family: var(--textFontFamily);
+    padding: 10px 15px 10px 45px;
+    background: #ffffff;
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+.radio-label-grop.radio-error .radio-label {
+    color: var(--errorColor);
+}
+.radio-label-grop.radio-success .radio-label {
+    color: var(--successColor);
+}
+.radio-label-grop.radio-error .radio-input {
+    background-color: var(--errorColor);
+    border-color: var(--errorColor);
+}
+.radio-label-grop.radio-success .radio-input {
+    background-color: var(--successColor);
+    border-color: var(--successColor);
+}
+.radio-label-grop.radio-error .radio-input {
+    --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+.radio-label-grop.radio-success .radio-input {
+    --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+.radio-label-grop.radio-error .radio-input:checked {
+    background-color: var(--errorColor);
+    border-color: var(--errorColor);
+}
+.radio-label-grop.radio-success .radio-input:checked {
+    background-color: var(--successColor);
+    border-color: var(--successColor);
+}
+.radio-label-grop.radio-error .radio-input:focus {
+    border-color: var(--errorColor);
+    box-shadow: 0 0 0 3px rgba(239, 83, 80, 0.25);
+}
+.radio-label-grop.radio-success .radio-input:focus {
+    border-color: var(--successColor);
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.25);
+}
+@media only screen and (max-width: 1399.98px) {
+}
+@media only screen and (max-width: 1199.98px) {
+}
+@media only screen and (max-width: 991.98px) {
+}
+@media only screen and (max-width: 767.98px) {
+}
+@media only screen and (max-width: 575.98px) {
+}

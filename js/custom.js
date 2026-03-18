@@ -1,0 +1,67 @@
+/* slide Screen */
+const slides = document.querySelectorAll(".slider-box-col");
+let current = 0;
+let animating = false;
+
+const slideContent = document.querySelectorAll(".slider-box-col > .row");
+
+gsap.set(slides, { display: "none" });
+gsap.set(slideContent, { autoAlpha: 0, y: 40 });
+
+gsap.set(slides[0], { display: "block" });
+gsap.set(slideContent[0], { autoAlpha: 1, y: 0 });
+
+function changeSlide(i, dir) {
+    if (i < 0 || i >= slides.length || animating) return;
+
+    animating = true;
+
+    const currentContent = slideContent[current];
+    const nextContent = slideContent[i];
+
+    const currentSlide = slides[current];
+    const nextSlide = slides[i];
+
+    const tl = gsap.timeline({
+        onComplete: () => (animating = false),
+    });
+
+    tl.to(currentContent, {
+        y: dir === 1 ? -60 : 60,
+        autoAlpha: 0,
+        duration: 0.4,
+        ease: "power2.inOut",
+    });
+
+    tl.set(currentSlide, { display: "none" });
+
+    tl.set(nextSlide, { display: "block" });
+
+    tl.fromTo(
+        nextContent,
+        {
+            y: dir === 1 ? 60 : -60,
+            autoAlpha: 0,
+        },
+        {
+            y: 0,
+            autoAlpha: 1,
+            duration: 0.5,
+            ease: "power2.out",
+        }
+    );
+
+    current = i;
+}
+
+document.addEventListener("click", function (e) {
+    if (e.target.closest(".slider-box-down") || e.target.closest(".btn-next-icon")) {
+        changeSlide(current + 1, 1);
+    }
+
+    if (e.target.closest(".slider-box-up")) {
+        changeSlide(current - 1, -1);
+    }
+});
+
+/* end-slide Screen */
