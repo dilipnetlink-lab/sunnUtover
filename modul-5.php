@@ -22,16 +22,16 @@
                                 </div>
                             </div>
                             <div class="col-sm-12">
-                                <div class="page-step-box">
+                                <div class="step-slide-box-con">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <div class="two-step-box-con dot-ul dot-ul-white slider-box-con">
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                            <div class="step-slide-box-slider">
+                                                <div class="step-slide-box-item">
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>Læringsmål</h3>
                                                                         <h6>Mål for modulen:</h6>
                                                                         <ul>
@@ -42,35 +42,35 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-5-img-1.jpg" class="rounded"/></figure>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="step-box-btn-con text-center">
-                                                                        <a href="javascript:void(0)" class="btn btn-next-icon slider-box-down"> <span> Neste </span> </a>
+                                                                    <div class="step-slide-box-btn">
+                                                                        <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> Neste </span> </a>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>Hva nå?</h3>
                                                                         <p><strong>Hvis du tenker at noe kanskje ikke stemmer - enten hos deg selv eller noen du følger opp - er det lurt å vite hva du kan gjøre.  Velg rollen din:</strong></p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <div class="row align-items-center justify-content-around">
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down">
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-2-a.jpg"/>                                                                                        
                                                                                     </figure>
@@ -81,7 +81,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down">
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-2-b.jpg"/>                                                                                        
                                                                                     </figure>
@@ -92,7 +92,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down circle-img-caption-img-not">
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow circle-img-caption-img-not">
                                                                                     <!-- <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-2-c.jpg"/>                                                                                        
                                                                                         </figure> -->
@@ -109,13 +109,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>UTØVER</h3>
                                                                         <p><strong>Steg 1: Lytt til kroppen og ta tegnene under på alvor</strong></p>
                                                                         <ul>
@@ -133,22 +133,22 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure class="circle-img-box"><img src="images/box-modul-5-img-2-a.jpg"/></figure>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>TRENER</h3>
                                                                         <p><strong>Vær observant</strong></p>
                                                                         <ul>
@@ -161,7 +161,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <p><strong>Samarbeid</strong></p>
                                                                         <ul>
                                                                             <li> Informer foreldre - oppfølging skjer best i fellesskap</li>
@@ -187,15 +187,15 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>FORELDER</h3>
                                                                         <p><i>Du er en nøkkelperson for forebygging - du trenger ikke være ekspert, det viktigste er at du følger med og støtter</i></p>
                                                                         <p><strong>Ser du endringer</strong></p>
@@ -211,7 +211,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <p><strong>Søk hjelp</strong></p>
                                                                         <ul>
                                                                             <li> Ta kontakt med fastlege eller spesialist, f.eks. ernæringsfysiolog</li>
@@ -228,24 +228,24 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>Hvordan foregår behandling?</h3>
                                                                         <p>Behandling av REDs handler om å hjelpe kroppen tilbake i balanse. Det skjer ofte i samarbeid med flere fagpersoner:</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <div class="row align-items-center">
                                                                             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down">
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-6-a.jpg"/>                                                                                        
                                                                                     </figure>
@@ -256,7 +256,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down">
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-6-b.jpg"/>                                                                                        
                                                                                     </figure>
@@ -267,7 +267,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down">
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-6-c.jpg"/>                                                                                        
                                                                                     </figure>
@@ -278,7 +278,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down circle-img-caption-img-not">
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow circle-img-caption-img-not">
                                                                                     <!-- <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-6-d.jpg"/>                                                                                        
                                                                                         </figure> -->
@@ -295,13 +295,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>FASTLEGE</h3>
                                                                         <ul>
                                                                             <li> Vurderer medisinske forhold </li>
@@ -312,22 +312,22 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure class="circle-img-box"><img src="images/box-modul-5-img-6-a.jpg"/></figure>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>KLINISK ERNÆRINGSFYSIOLOG</h3>
                                                                         <ul>
                                                                             <li> Hjelper til med å øke energiinntaket og tilpasse måltidsrytme </li>
@@ -337,22 +337,22 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure class="circle-img-box"><img src="images/box-modul-5-img-6-b.jpg"/></figure>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>PSYKOLOG ELLER RÅDGIVER</h3>
                                                                         <ul>
                                                                             <li> Kan støtte med håndtering av:</li>
@@ -366,22 +366,22 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure class="circle-img-box"><img src="images/box-modul-5-img-6-c.jpg"/></figure>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>TRENER OG FORELDRE</h3>
                                                                         <p><strong>Trenerens rolle i behandlingsfasen:</strong></p>
                                                                         <ul>
@@ -393,7 +393,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>Foreldrenes rolle i behandlingsfasen:</h3>
                                                                         <ul>
                                                                             <li> Kan inkluderes i samtaler med fagpersoner (lege, ernæringsfysiolog), dersom utøveren ønsker det</li>
@@ -407,15 +407,15 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>Ressurser du kan utforske</h3>
                                                                         <p><strong>Idrettens skadetelefon</strong>  <br/> Utøvere med lisens gjennom et særforbund kan ringe Skadetelefonen (Idrettens Helsesenter) for rask og riktig hjelp:</p>
                                                                         <ul>
@@ -426,7 +426,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>Sunn Idrett </h3>
                                                                         <ul>
                                                                             <li>Mange gode artikler, tips og webinarer for både utøvere, trenere og foreldre</li>
@@ -438,7 +438,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <div class="row align-items-center">
                                                                             <div class="col-4 text-center">
                                                                                 <figure class="circle-img-box sm-circle-img"><img src="images/box-modul-5-img-8-a.jpg" /></figure>
@@ -455,14 +455,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>Quiz</h3>
                                                                         <h4>En utøver viser disse tegnene: manglende fremgang, ofte syk, lavt energinivå, tretthetsbrudd i foten og dårlig konsentrasjon. Hva er riktig tiltak?</h4>
                                                                         <div class="radio-label-grop">
@@ -492,20 +492,20 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="step-box-btn-con step-box-btn-form text-center"> 
-                                                                        <button type="submit" class="btn btn-next-icon slider-box-down"><span> Neste </span></button>
+                                                                    <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption">
                                                                         <h3>Quiz</h3>
                                                                         <h4>Hva bør en utøver gjøre ved mistanke om REDs?</h4>
                                                                         <div class="radio-label-grop radio-error">
@@ -535,8 +535,8 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="step-box-btn-con step-box-btn-form text-center"> 
-                                                                        <button type="submit" class="btn btn-next-icon slider-box-down"><span> Neste </span></button>
+                                                                    <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>

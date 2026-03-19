@@ -22,109 +22,43 @@
     --sectionPadding: 55px;
     /* HeadingFont */
     --XXlHeadingFont: 40px;
-    --XlHeadingFont: 38px;
-    --lgHeadingFont: 28px;
+    --XlHeadingFont: 28px;
+    --lgHeadingFont: 26px;
     --mdHeadingFont: 24px;
     --smHeadingFont: 21px;
     --xsHeadingFont: 18px;
-    /* TextFont */
-    --xxlTextFont: 21px;
-    --xlTextFont: 20px;
-    --lgTextFont: 19px;
-    --normalTextFont: 18px;
-    --mdTextFont: 17px;
-    --smTextFont: 16px;
-    --xsmTextFont: 14px;
+    /* TextFont */ 
+    --lgTextFont: 22px; 
+    --normalTextFont: 21px; 
+    --mdTextFont: 20px;
+    --smTextFont: 18px; 
+    --xsTextFont: 16px; 
     /* formFont */
     --btnFont: 16px;
-    --inputTextFont: 16px;
+    --inputTextFont: 18px;
     /* TagMargin */
-    --lgMargin: 22px;
-    --mdMargin: 20px;
-    --smMargin: 18px;
+    --lgMargin: 20px;
+    --mdMargin: 18px;
+    --smMargin: 16px;
 }
 @media only screen and (max-width: 1399.98px) {
     :root {
-        /* sectionPadding */
-        --sectionPadding: 52px;
-        /* HeadingFont */
-        --XXlHeadingFont: 37px;
-        --XlHeadingFont: 35px;
-        --lgHeadingFont: 27px;
-        --mdHeadingFont: 23px;
-        --smHeadingFont: 20px;
-        --xsHeadingFont: 18px;
+         
     }
 }
 @media only screen and (max-width: 1199.98px) {
     :root {
-        /* sectionPadding */
-        --sectionPadding: 48px;
-        /* HeadingFont */
-        --XXlHeadingFont: 34px;
-        --XlHeadingFont: 32px;
-        --lgHeadingFont: 26px;
-        --mdHeadingFont: 22px;
-        --smHeadingFont: 20px;
-        --xsHeadingFont: 18px;
-        /* TextFont */
-        --xxlTextFont: 20px;
-        --xlTextFont: 19px;
-        --lgTextFont: 18px;
-        --normalTextFont: 17px;
-        --mdTextFont: 16px;
-        --smTextFont: 15px;
-        /* formFont */
-        --btnFont: 15px;
-        --inputTextFont: 15px;
-        /* TagMargin */
-        --lgMargin: 21px;
-        --mdMargin: 19px;
-        --smMargin: 17px;
+        
     }
 }
 @media only screen and (max-width: 767.98px) {
     :root {
-        /* sectionPadding */
-        --sectionPadding: 44px;
-        /* HeadingFont */
-        --XXlHeadingFont: 31px;
-        --XlHeadingFont: 29px;
-        --lgHeadingFont: 25px;
-        --mdHeadingFont: 21px;
-        --smHeadingFont: 19px;
-        --xsHeadingFont: 18px;
-        /* TextFont */
-        --xxlTextFont: 19px;
-        --xlTextFont: 18px;
-        --lgTextFont: 17px;
-        --normalTextFont: 16px;
-        --mdTextFont: 15px;
-        --smTextFont: 14px;
-        /* formFont */
-        --btnFont: 14px;
-        --inputTextFont: 14px;
-        /* TagMargin */
-        --lgMargin: 20px;
-        --mdMargin: 18px;
-        --smMargin: 16px;
+         
     }
 }
 @media only screen and (max-width: 575.98px) {
     :root {
-        /* sectionPadding */
-        --sectionPadding: 40px;
-        /* HeadingFont */
-        --XXlHeadingFont: 28px;
-        --XlHeadingFont: 26px;
-        --lgHeadingFont: 24px;
-        --mdHeadingFont: 20px;
-        --smHeadingFont: 19px;
-        --xsHeadingFont: 17px;
-        /* TagMargin */
-        --lgMargin: 19px;
-        --mdMargin: 17px;
-        --smMargin: 15px;
+         
     }
 }
 /* Text Colors */
@@ -178,14 +112,14 @@
 body {
     color: var(--textColor);
     font-size: var(--normalTextFont);
-    line-height: 1.5;
+    line-height: 1.3;
     font-weight: 400;
-    font-family: var(--textFontFamily);
+    font-family: var(--textFontFamily); 
 }
 p {
     color: var(--textColor);
     font-size: var(--normalTextFont);
-    line-height: 1.5;
+    line-height: 1.3;
     font-weight: 400;
     font-family: var(--textFontFamily);
     margin-bottom: var(--smMargin);
@@ -194,8 +128,8 @@ h1,
 .h1 {
     color: var(--headingColor);
     font-size: var(--XXlHeadingFont);
-    line-height: 1.2;
-    font-weight: 600;
+    line-height: 1.1;
+    font-weight: 500;
     font-family: var(--primaryFontFamily);
     margin-bottom: var(--lgMargin);
 }
@@ -203,8 +137,8 @@ h2,
 .h2 {
     color: var(--headingColor);
     font-size: var(--XlHeadingFont);
-    line-height: 1.2;
-    font-weight: 600;
+    line-height: 1.1;
+    font-weight: 500;
     font-family: var(--primaryFontFamily);
     margin-bottom: var(--lgMargin);
 }
@@ -212,45 +146,44 @@ h3,
 .h3 {
     color: var(--headingColor);
     font-size: var(--lgHeadingFont);
-    line-height: 1.2;
-    font-weight: 600;
+    line-height: 1.1;
+    font-weight: 500;
     font-family: var(--primaryFontFamily);
-    margin-bottom: var(--mdMargin);
+    margin-bottom: var(--lgMargin);
 }
 h4,
 .h4 {
     color: var(--headingColor);
     font-size: var(--mdHeadingFont);
-    line-height: 1.2;
-    font-weight: 600;
+    line-height: 1.1;
+    font-weight: 500;
     font-family: var(--primaryFontFamily);
-    margin-bottom: var(--mdMargin);
+    margin-bottom: var(--lgMargin);
 }
 h5,
 .h5 {
     color: var(--headingColor);
     font-size: var(--smHeadingFont);
-    line-height: 1.2;
-    font-weight: 600;
+    line-height: 1.1;
+    font-weight: 500;
     font-family: var(--primaryFontFamily);
-    margin-bottom: var(--smMargin);
+    margin-bottom: var(--lgMargin);
 }
 h6,
 .h6 {
     color: var(--headingColor);
     font-size: var(--xsHeadingFont);
-    line-height: 1.2;
+    line-height: 1.1;
     font-weight: 600;
     font-family: var(--primaryFontFamily);
-    margin-bottom: var(--smMargin);
+    margin-bottom: var(--lgMargin);
 }
 .container-fluid {
     padding-left: 30px;
     padding-right: 30px;
 }
 .container {
-    max-width: 1320px; 
-    padding: 0;
+    max-width: 1350px;
 }
 @media only screen and (max-width: 1199.98px) {
     .container-fluid {
@@ -422,6 +355,9 @@ strong {
 }
 .allWhiteColor * {
     color: var(--whiteColor);
+} 
+.br-sm{
+    border-radius: 8px;
 }
 .same-box {
     display: flex !important;

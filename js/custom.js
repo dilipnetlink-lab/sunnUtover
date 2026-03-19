@@ -1,9 +1,9 @@
 /* slide Screen */
-const slides = document.querySelectorAll(".slider-box-col");
+const slides = document.querySelectorAll(".step-slide-box-item");
 let current = 0;
 let animating = false;
 
-const slideContent = document.querySelectorAll(".slider-box-col > .row");
+const slideContent = document.querySelectorAll(".step-slide-box-item > .row");
 
 gsap.set(slides, { display: "none" });
 gsap.set(slideContent, { autoAlpha: 0, y: 40 });
@@ -55,11 +55,11 @@ function changeSlide(i, dir) {
 }
 
 document.addEventListener("click", function (e) {
-    if (e.target.closest(".slider-box-down") || e.target.closest(".btn-next-icon")) {
+    if (e.target.closest(".sliderBoxDownArrow") || e.target.closest(".btn-next-icon")) {
         changeSlide(current + 1, 1);
     }
 
-    if (e.target.closest(".slider-box-up")) {
+    if (e.target.closest(".sliderBoxUpArrow")) {
         changeSlide(current - 1, -1);
     }
 });

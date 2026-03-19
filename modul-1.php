@@ -23,17 +23,17 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
-                                    <div class="page-step-box">
+                                    <div class="step-slide-box-con">
                                         <div class="row">
                                             <div class="col-sm-12">
-                                                <div class="two-step-box-con dot-ul dot-ul-white slider-box-con">
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                <div class="step-slide-box-slider">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                            <h3>Læringsmål</h3>
+                                                                        <div class="step-slide-box-caption">
+                                                                            <h2>Læringsmål</h2>
                                                                             <h6>Etter denne modulen skal du kunne: </h6>
                                                                             <ul>
                                                                                 <li>Forklare hva <strong> relativ energimangel i idrett </strong> (REDs) er.</li>
@@ -44,26 +44,26 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                        <div class="two-step-box-col two-step-box-img">
+                                                                        <div class="step-slide-box-img">
                                                                             <figure><img src="images/box-modul-1-img-1.jpg" class="rounded"/></figure>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                        <div class="step-box-btn-con text-center">
-                                                                            <a href="javascript:void(0)" class="btn btn-next-icon slider-box-down"> <span> Neste </span> </a>
+                                                                        <div class="step-slide-box-btn">
+                                                                            <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> Neste </span> </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Kroppen trenger energi til mer enn trening</h3>
                                                                             <p>For at kroppen skal fungere optimalt, trenger den nok energi - ikke bare til trening, men til å opprettholde viktige, daglige funksjoner. Energi brukes blant annet til: </p>
                                                                             <ul>
@@ -77,93 +77,93 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                        <div class="two-step-box-col two-step-box-img">
+                                                                        <div class="step-slide-box-img">
                                                                             <figure><img src="images/box-modul-1-img-2.svg" class="rounded"/></figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                        <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Energitilgjengelighet</h3>
                                                                             <p>Energitilgjengelighet handler om hvor mye energi (mat og drikke) kroppen har igjen til å drive alle kroppens funksjoner etter at energien brukt på fysisk aktivitet er trukket fra.</p>
                                                                             <p>Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket. </p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                        <div class="two-step-box-col two-step-box-img">
+                                                                        <div class="step-slide-box-img">
                                                                             <figure><img src="images/box-modul-1-img-3.svg" class="rounded"/></figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                        <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Energibalanse</h3>
                                                                             <p>Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket. </p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                        <div class="two-step-box-col two-step-box-img">
+                                                                        <div class="step-slide-box-img">
                                                                             <figure><img src="images/box-modul-1-img-4.svg" class="rounded"/></figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                        <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Negativ energibalanse</h3>
                                                                             <p>Ethvert unntak fra denne balansen, bevisst eller ubevisst, kan lede til lav energitilgjengelighet lettere enn mange av oss tror. </p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                        <div class="two-step-box-col two-step-box-img">
+                                                                        <div class="step-slide-box-img">
                                                                             <figure><img src="images/box-modul-1-img-5.svg" class="rounded"/></figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                        <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Lav energitilgjengelighet</h3>
                                                                             <p>Lav energitilgjengelighet oppstår når kroppen får for lite energi til å dekke både treningsbehov og de grunnleggende behovene som å puste, sirkulere blod, bygge opp bein og vev, produsere hormoner, osv. </p>
                                                                             <p> 🪫  <strong>Tenk på det som et batteri i spareblussmodus:</strong> Når kroppen får for lite energi, må den prioritere hva den bruker energien på. Da vil den redusere “ikke-essensielle” funksjoner for å spare på ressursene. </p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                        <div class="two-step-box-col two-step-box-img">
+                                                                        <div class="step-slide-box-img">
                                                                             <figure><img src="images/box-modul-1-img-6.svg" class="rounded"/></figure>
                                                                         </div>
                                                                     </div>
@@ -182,37 +182,37 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                        <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Adaptiv vs. problematisk LEA</h3>
                                                                             <p>Det er normalt at kroppen tilpasser seg kortvarige perioder med lav energitilgjengelighet. Det kalles adaptiv LEA, og utgjør ikke nødvendigvis et problem. Dersom slike energiunderskudd skjer ofte nok (flere dager i uka, over flere uker), kan kroppen begynne å spare på energien og nedprioritere funksjoner som eksempelvis hormonproduksjon og restitusjon. </p>
                                                                             <p>Det er stor forskjell på ha en “sliten uke” og en kropp som over tid mangler energi til å fungere som den skal. </p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                        <div class="two-step-box-col two-step-box-img">
+                                                                        <div class="step-slide-box-img">
                                                                             <figure><img src="images/box-modul-1-img-7.svg" class="rounded"/></figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                        <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Fra lav energitilgjengelighet (LEA) til relativ energimangel i idrett (REDs)</h3>
                                                                             <p>REDs oppstår altså når kroppen over tid har for <strong> lav energi-tilgjengelighet </strong> til å fungere normalt. Da reduseres evnen til å regulere viktige systemer, noe som kan føre til helseproblemer.</p>
                                                                             <p>REDs handler ikke bare om kroppsstørrelse eller vekt, men om <strong> ubalanse mellom energiinntak og forbruk.</strong> Man kan ha normal eller høy kroppsvekt og likevel være i lav energitilgjengelighet - særlig hvis energiforbruket gjennom trening er høyt.</p>
@@ -220,22 +220,22 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                        <div class="two-step-box-col two-step-box-img">
+                                                                        <div class="step-slide-box-img">
                                                                             <figure><img src="images/box-modul-1-img-8.svg" class="rounded"/></figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                        <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Lav energitilgjengelighet selv i energibalanse?</h3>
                                                                             <p>Du kan være i energibalanse totalt sett i løpet av en dag - og likevel risikere lav energitilgjengelighet. </p>
                                                                             <p>Tenk deg at du trener tidlig og spiser lite før og etter. Da havner kroppen i underskudd i mange timer, selv om totalen på dagen er tilstrekkelig. </p>
@@ -243,7 +243,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                        <div class="two-step-box-col two-step-box-img">
+                                                                        <div class="step-slide-box-img">
                                                                             <div class="bg-text-con">
                                                                                 <h5>Eksempel på måltidsmønster:</h5>
                                                                                 <div class="table-responsive">
@@ -292,14 +292,14 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                        <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Quiz</h3>
                                                                             <h4>Hva betyr det at kroppen er i “lav energitilgjengelighet (LEA)”?</h4>
                                                                             <div class="radio-label-grop">
@@ -329,20 +329,20 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                        <div class="step-box-btn-con step-box-btn-form text-center"> 
-                                                                            <button type="submit" class="btn btn-next-icon slider-box-down"><span> Neste </span></button>
+                                                                        <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                            <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-col">
-                                                        <div class="slider-box-caption-con">
-                                                            <div class="slider-box-caption">
+                                                    <div class="step-slide-box-item">
+                                                        <div class="step-slide-box-description-con">
+                                                            <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
-                                                                        <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                        <div class="step-slide-box-caption">
                                                                             <h3>Quiz</h3>
                                                                             <h4>Hvilken av disse påstandene er sanne?</h4>
                                                                             <div class="radio-label-grop radio-error">
@@ -372,8 +372,8 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                        <div class="step-box-btn-con step-box-btn-form text-center"> 
-                                                                            <button type="submit" class="btn btn-next-icon slider-box-down"><span> Neste </span></button>
+                                                                        <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                            <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
                                                                         </div>
                                                                     </div>
                                                                 </div>

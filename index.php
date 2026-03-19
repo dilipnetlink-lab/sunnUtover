@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-top-caption">
-                        <h1 class="h2">Lær mer om kropp og helse med Sunn Utøver</h1>
+                        <h1>Lær mer om kropp og helse med Sunn Utøver</h1>
                         <p>Sunn Utøver er en plattform som gjør informasjon knyttet til tilstanden Relativ energimangel i idrett (REDs) mer tilgjengelig for både utøvere, trenere og foreldre. Her vil du lære hva REDs er, hva som er typiske tegn på denne tilstandeng, og hva man kan gjøre for både å håndtere og forebygge REDs. </p>
                     </div>
                 </div>
