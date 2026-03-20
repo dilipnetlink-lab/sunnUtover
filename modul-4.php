@@ -261,7 +261,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                    <div class="two-step-box-col step-slide-box-caption">
+                                                                    <div class="step-slide-box-caption">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
@@ -298,7 +298,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                    <div class="two-step-box-col step-slide-box-caption">
+                                                                    <div class="step-slide-box-caption">
                                                                         <ul>
                                                                             <li>Spis noe hver 3. - 4. time - ikke vent for lenge mellom måltidene</li>
                                                                             <li>Ha alltid et lite måltid klar til etter trening</li>

@@ -33,6 +33,7 @@
     --mdTextFont: 20px;
     --smTextFont: 18px; 
     --xsTextFont: 16px; 
+    --xxsTextFont: 14px; 
     /* formFont */
     --btnFont: 16px;
     --inputTextFont: 18px;
@@ -41,26 +42,87 @@
     --mdMargin: 18px;
     --smMargin: 16px;
 }
-@media only screen and (max-width: 1399.98px) {
-    :root {
-         
-    }
-}
 @media only screen and (max-width: 1199.98px) {
     :root {
-        
+        /* sectionPadding */
+        --sectionPadding: 50px;
+        /* HeadingFont */
+        --XXlHeadingFont: 36px;
+        --XlHeadingFont: 27px;
+        --lgHeadingFont: 25px;
+        --mdHeadingFont: 23px;
+        --smHeadingFont: 20px;
+        --xsHeadingFont: 17px;
+        /* TextFont */ 
+        --lgTextFont: 21px; 
+        --normalTextFont: 20px; 
+        --mdTextFont: 19px;
+        --smTextFont: 17px; 
+        --xsTextFont: 15px; 
+        --xxsTextFont: 13px; 
+        /* formFont */
+        --btnFont: 16px;
+        --inputTextFont: 17px;
+        /* TagMargin */
+        --lgMargin: 19px;
+        --mdMargin: 18px;
+        --smMargin: 16px;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPadding: 45px;
+        /* HeadingFont */
+        --XXlHeadingFont: 32px;
+        --XlHeadingFont: 26px;
+        --lgHeadingFont: 24px;
+        --mdHeadingFont: 22px;
+        --smHeadingFont: 19px;
+        --xsHeadingFont: 16px;
+        /* TextFont */ 
+        --lgTextFont: 20px; 
+        --normalTextFont: 19px; 
+        --mdTextFont: 18px;
+        --smTextFont: 16px; 
+        --xsTextFont: 14px; 
+        --xxsTextFont: 12px; 
+         /* formFont */
+        --btnFont: 15px;
+        --inputTextFont: 16px;
+         /* TagMargin */
+        --lgMargin: 18px;
+        --mdMargin: 17px;
+        --smMargin: 15px;
     }
 }
 @media only screen and (max-width: 767.98px) {
     :root {
-         
+        /* sectionPadding */
+        --sectionPadding: 40px;
+        /* HeadingFont */
+        --XXlHeadingFont: 28px;
+        --XlHeadingFont: 25px;
+        --lgHeadingFont: 23px;
+        --mdHeadingFont: 21px;
+        --smHeadingFont: 18px;
+        --xsHeadingFont: 15px;
+          /* TextFont */ 
+        --lgTextFont: 19px; 
+        --normalTextFont: 18px; 
+        --mdTextFont: 17px;
+        --smTextFont: 15px; 
+        --xsTextFont: 14px; 
+        --xxsTextFont: 12px; 
+         /* formFont */ 
+        --btnFont: 14px;
+        --inputTextFont: 15px;
+         /* TagMargin */
+        --lgMargin: 17px;
+        --mdMargin: 16px;
+        --smMargin: 15px;
     }
-}
-@media only screen and (max-width: 575.98px) {
-    :root {
-         
-    }
-}
+} 
 /* Text Colors */
 .primaryColor {
     color: var(--primaryColor) !important;
