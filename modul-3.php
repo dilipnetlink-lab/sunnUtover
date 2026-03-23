@@ -8,16 +8,16 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="page-back-btn"> 
-                                    <a href="index.php" class="btn btn-light btn-exit-icon"> <span> Avslutt </span></a>
+                                    <a href="<?= base_url() ?>" class="btn btn-light btn-exit-icon"> <span> <?php echo __("common.exit"); ?> </span></a>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="page-title-del-box-full">
                                     <div class="page-title-del-box-left">
-                                        <h1>Modul 3 - Hva er symptomene på REDs?</h1>
+                                        <h1><?php echo __("modul3Page.main_title"); ?></h1>
                                     </div>
                                     <div class="page-title-del-box-right">
-                                        <p id="slideCounter">Del 1 av 1</p>
+                                         <p id="slideCounter"><?php echo __("common.slide_part"); ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -32,13 +32,17 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>Læringsmål</h3>
-                                                                        <h6>Etter denne modulen skal du kunne: </h6>
+                                                                        <h2><?php echo __("modul3Page.screens.screen_01.title"); ?></h2>
+                                                                        <h6><?php echo __("modul3Page.screens.screen_01.subtitle"); ?> </h6>
                                                                         <ul>
-                                                                            <li>Gjenkjenne fysiske og psykiske symptomer som kan oppstå ved REDs</li>
-                                                                            <li>Forstå hvordan symptomer kan variere fra person til person</li>
-                                                                            <li>Vite hvilke tegn du kan være oppmerksom på hos deg selv eller andre</li>
-                                                                            <li>Være tryggere på når det kan være lurt å ta symptomer på alvor og søke hjelp</li>
+                                                                            <?php
+                                                                                $list = __("modul3Page.screens.screen_01.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                            ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -49,7 +53,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn">
-                                                                        <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> Neste </span> </a>
+                                                                        <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> <?php echo __("common.next"); ?>  </span> </a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -698,7 +702,7 @@
                                                                         </ul>
                                                                         <p><strong>Sosiale faktorer</strong></p>
                                                                         <ul>
-                                                                            <li><strong>Normalisering av faresignaler:</strong> Utøvere kan overse symptomer som søvnproblemer, hormonforstyrrelser (som menstruasjonstap hos jenter) fordi de tror det er “normalt” i idretten </li>
+                                                                            <li><strong>Normalisering av faresignaler:</strong> Utøvere kan overse symptomer som søvnproblemer, hormonforstyrrelser (som menstruasjonstap hos jenter) fordi de tror det er “normalt” i idretten</li>
                                                                             <li><strong>Miljøets rolle:</strong> Trenere, lagkamerater og kulturen rundt kan påvirke hvordan utøveren tolker og håndterer signaler fra kroppen</li>
                                                                         </ul>
                                                                     </div>

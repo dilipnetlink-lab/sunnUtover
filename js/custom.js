@@ -9,7 +9,21 @@ const slideContent = document.querySelectorAll(".step-slide-box-item > .row");
 
 function updateCounter() {
     if (counter) {
-        counter.textContent = `Del ${current + 1} av ${totalSlides}`;
+        let total = totalSlides;
+        let currentNum = current + 1;
+
+        let textTemplate = counter.dataset.template;
+
+        if (!textTemplate) {
+            textTemplate = counter.textContent; 
+            counter.dataset.template = textTemplate;
+        }
+
+        let finalText = textTemplate
+            .replace("{current}", currentNum)
+            .replace("{total}", total);
+
+        counter.textContent = finalText;
     }
 }
 
@@ -34,7 +48,7 @@ function changeSlide(i, dir) {
     const tl = gsap.timeline({
         onComplete: () => {
             animating = false;
-            updateCounter(); // 👈 important
+            updateCounter(); 
         },
     });
 

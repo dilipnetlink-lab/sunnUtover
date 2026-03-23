@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en" dir="ltr">
     <head>
+        <base href="/sunnUtover/">
         <!-- Charset & Viewport -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -24,17 +25,18 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
-    <body>
+    <body> 
+        <?php include_once 'language/language_helper.php'; ?>
         <header class="sticky-top">
             <div class="container-fluid header-con">
                 <div class="container">
                     <nav class="navbar navbar-expand-xl p-0" id="navbarMenu">
-                        <a class="navbar-brand" href="index.php"><img src="images/logo.svg"  alt="" loading="lazy" /></a>                          
+                        <a class="navbar-brand" href="<?= base_url() ?>"><img src="images/logo.svg"  alt="" loading="lazy" /></a>                          
                         <!-- <div class="navbar-collapse justify-content-end menu-header collapse" id="headerMenu">
                             <div class="header-menu-fixd">
                                 <ul>
                                     <li class="active">
-                                        <a href="index.php">Læring</a>
+                                        <a href="<?= base_url() ?>">Læring</a>
                                     </li>
                                     <li class="sub-menu">
                                         <a href="javascript:void(0)">Modul</a> 
@@ -52,11 +54,17 @@
                                 </ul>
                             </div>
                             </div> -->
-                        <div class="header-icon-list">
+                        <div class="header-icon-list"> 
                             <div class="language-box-con">
-                                <button class="language-box-img" type="button" id="languageDropdown">
-                                <img src="images/language-norwegian-icon.svg" alt="Norwegian" title="Norwegian" class="flag-icon" />
-                                </button>
+                                <?php if ($lang == 'no'): ?>
+                                    <a href="<?= base_url('en/' . $current_page) ?>" class="language-box-img">
+                                        <img src="images/language-english-icon.svg" alt="English" title="English" />
+                                    </a>
+                                <?php else: ?>
+                                    <a href="<?= base_url('no/' . $current_page) ?>" class="language-box-img">
+                                        <img src="images/language-norwegian-icon.svg" alt="Norwegian" title="Norwegian" />
+                                    </a>
+                                <?php endif; ?>
                             </div>
                             <!-- <div class="profile-menu-box">
                                 <a class="profile-menu-link"> Profil <img src="images/profile-icon.svg" /> </a>

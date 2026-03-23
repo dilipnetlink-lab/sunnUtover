@@ -9,16 +9,16 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="page-back-btn"> 
-                                        <a href="index.php" class="btn btn-light btn-exit-icon"> <span> Avslutt </span></a>
+                                        <a href="<?= base_url() ?>" class="btn btn-light btn-exit-icon"> <span> <?php echo __("common.exit"); ?> </span></a>
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="page-title-del-box-full">
                                         <div class="page-title-del-box-left">
-                                            <h1>Modul 1 - Hva er REDs?</h1>
+                                            <h1><?php echo __("modul1Page.main_title"); ?></h1>
                                         </div>
                                         <div class="page-title-del-box-right">
-                                            <p id="slideCounter">Del 1 av 1</p>
+                                            <p id="slideCounter"><?php echo __("common.slide_part"); ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -33,14 +33,18 @@
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-6">
                                                                         <div class="step-slide-box-caption">
-                                                                            <h2>Læringsmål</h2>
-                                                                            <h6>Etter denne modulen skal du kunne: </h6>
+                                                                            <h2><?php echo __("modul1Page.screens.screen_01.title"); ?></h2>
+                                                                            <h6><?php echo __("modul1Page.screens.screen_01.subtitle"); ?> </h6>
                                                                             <ul>
-                                                                                <li>Forklare hva <strong> relativ energimangel i idrett </strong> (REDs) er.</li>
-                                                                                <li>Definere begrepet <strong> lav energitilgjengelighet </strong> (LEA) og vite at LEA er hovedårsaken til REDs</li>
-                                                                                <li>Skille mellom <strong> kortvarig LEA og langvarig/problematisk LEA </strong> </li>
-                                                                                <li>Nevne hvilke kroppssystemer og funksjoner som kan påvirkes når kroppen får for lite energi</li>
-                                                                            </ul>
+                                                                                <?php
+                                                                                    $list = __("modul1Page.screens.screen_01.list_items1");
+                                                                                    if(is_array($list)){
+                                                                                        foreach($list as $item){
+                                                                                            echo "<li>$item</li>";
+                                                                                        }   
+                                                                                    }
+                                                                                ?>
+                                                                            </ul> 
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-6">
@@ -50,7 +54,7 @@
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-12">
                                                                         <div class="step-slide-box-btn">
-                                                                            <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> Neste </span> </a>
+                                                                            <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> <?php echo __("common.next"); ?> </span> </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>

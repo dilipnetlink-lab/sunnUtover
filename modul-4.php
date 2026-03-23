@@ -8,16 +8,16 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="page-back-btn"> 
-                                    <a href="index.php" class="btn btn-light btn-exit-icon"> <span> Avslutt </span></a>
+                                    <a href="<?= base_url() ?>" class="btn btn-light btn-exit-icon"> <span> <?php echo __("common.exit"); ?> </span></a>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="page-title-del-box-full">
                                     <div class="page-title-del-box-left">
-                                        <h1>Modul 4 - Forebygging </h1>
+                                        <h1><?php echo __("modul4Page.main_title"); ?></h1>
                                     </div>
                                     <div class="page-title-del-box-right">
-                                        <p id="slideCounter">Del 1 av 1</p>
+                                         <p id="slideCounter"><?php echo __("common.slide_part"); ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -32,15 +32,19 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>Læringsmål</h3>
-                                                                        <p> <strong> Forebygging </strong> handler om alt som skjer før det har gått for langt, altså å: </p>
+                                                                        <h2><?php echo __("modul4Page.screens.screen_01.title"); ?></h2> 
+                                                                        <p> <?php echo __("modul4Page.screens.screen_01.description1"); ?> </p>
                                                                         <ul>
-                                                                            <li>Forutse risiko</li>
-                                                                            <li> Kjenne igjen tidlige tegn på lav energitilgjengelighet og REDs</li>
-                                                                            <li> Legge til rette for gode vaner</li>
-                                                                            <li>Bidra til trygghet og åpenhet</li>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_01.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                            ?>
                                                                         </ul>
-                                                                        <p>Denne modulen vil gå gjennom viktige aspekter og gode praksiser knyttet til forebygging, slik at du som utøver, trener eler forelder stiller sterkere. </p>
+                                                                        <p><?php echo __("modul4Page.screens.screen_01.description2"); ?></p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -50,7 +54,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn">
-                                                                        <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> Neste </span> </a>
+                                                                        <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> <?php echo __("common.next"); ?>  </span> </a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -218,7 +222,7 @@
                                                                     <div class="step-slide-box-caption">
                                                                         <h3>Ernæring - det handler om å fylle batteriet</h3>
                                                                         <p>Trener du mye vil du ha et større batteri du må fylle opp.</p>
-                                                                        <p>For å fylle dette batteriet er det viktig at vi starter med de næringsrike matvarene; som inneholder byggeklossene vi trenger for et godt fundament.  </p>
+                                                                        <p>For å fylle dette batteriet er det viktig at vi starter med de næringsrike matvarene; som inneholder byggeklossene vi trenger for et godt fundament. </p>
                                                                         <p>For en som trener mye og har et stort energibehov er det i perioder også viktig å legge til ekstra, for eksempel i form av bakst, barer, sportsdrikke, sjokolade, brus også videre.</p>
                                                                     </div>
                                                                 </div>

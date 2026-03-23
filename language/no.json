@@ -1,0 +1,101 @@
+{
+  "common": {
+    "try_again": "Ta på nytt",
+    "start_now": "Start nå",
+    "locked": "Låst",
+    "next": "Neste",
+    "back": "Tilbake",
+    "home": "Hjem",
+    "exit": "Avslutt",
+    "slide_part": "Del {current} av {total}"
+  },
+  "homePage": {
+    "title": "Lær mer om kropp og helse med Sunn Utøver",
+    "description": "Sunn Utøver er en plattform som gjør informasjon knyttet til tilstanden Relativ energimangel i idrett (REDs) mer tilgjengelig for både utøvere, trenere og foreldre. Her vil du lære hva REDs er, hva som er typiske tegn på denne tilstandeng, og hva man kan gjøre for både å håndtere og forebygge REDs.",
+    "module_section_title": "Læringsmoduler",
+    "module_1_title": "Modul 1 - Hva er REDs?",
+    "module_2_title": "Modul 2 - Konsekvenser",
+    "module_3_title": "Modul 3 - Symptomer på REDs",
+    "module_4_title": "Modul 4 - Forebygging",
+    "module_5_title": "Modul 5 - Hvordan håndtere REDs?"
+  },
+  "modul1Page": {
+    "main_title": "Modul 1 - Hva er REDs?",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "Etter denne modulen skal du kunne:",
+        "description1": "",
+        "list_items1": [
+          "Forklare hva relativ energimangel i idrett (REDs) er.",
+          "Definere begrepet lav energitilgjengelighet (LEA) og vite at LEA er hovedårsaken til REDs",
+          "Skille mellom <strong>kortvarig LEA og langvarig/problematisk LEA</strong>",
+          "Nevne hvilke kroppssystemer og funksjoner som kan påvirkes når kroppen får for lite energi"
+        ]
+      }
+    }
+  },
+  "modul2Page": {
+    "main_title": "Modul 2 - Konsekvenser",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "Etter denne modulen skal du kunne:",
+        "description1": "",
+        "list_items1": [
+          "Identifisere både helsemessige og prestasjonsmessige konsekvenser av REDs.",
+          "Forklare hvordan REDs kan påvirke forskjellige kroppslige systemer på sikt",
+          "Være klar over psykologiske konsekvenser"
+        ]
+      }
+    }
+  },
+  "modul3Page": {
+    "main_title": "Modul 3 - Hva er symptomene på REDs?",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "Etter denne modulen skal du kunne:",
+        "description1": "",
+        "list_items1": [
+          "Gjenkjenne fysiske og psykiske symptomer som kan oppstå ved REDs",
+          "Forstå hvordan symptomer kan variere fra person til person",
+          "Vite hvilke tegn du kan være oppmerksom på hos deg selv eller andre",
+          "Være tryggere på når det kan være lurt å ta symptomer på alvor og søke hjelp"
+        ]
+      }
+    }
+  },
+  "modul4Page": {
+    "main_title": "Modul 4 - Forebygging",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "",
+        "description1": "<strong>Forebygging</strong> handler om alt som skjer før det har gått for langt, altså å:",
+        "list_items1": [
+          "Forutse risiko",
+          "Kjenne igjen tidlige tegn på lav energitilgjengelighet og REDs",
+          "Legge til rette for gode vaner",
+          "Bidra til trygghet og åpenhet"
+        ],
+        "description2": "Denne modulen vil gå gjennom viktige aspekter og gode praksiser knyttet til forebygging, slik at du som utøver, trener eller forelder stiller sterkere."
+      }
+    }
+  },
+  "modul5Page": {
+    "main_title": "Modul 5 - Hvordan håndtere REDs?",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "Mål for modulen:",
+        "description1": "",
+        "list_items1": [
+          "Forstå hvordan man identifiserer og håndterer REDs",
+          "Lære hvordan utøvere, trenere og foreldre kan samarbeide",
+          "Bli kjent med tilgjengelige ressurser og behandlingsmuligheter"
+        ]
+      }
+    }
+  }
+}

@@ -774,6 +774,7 @@
     background-color: var(--secondaryColor);
     border: 1px solid var(--whiteColor);
     overflow: hidden;
+    display: inline-block;
 }
 .language-box-img img{
     width: 100%;

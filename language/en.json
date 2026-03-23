@@ -1,0 +1,101 @@
+{
+  "common": {
+    "try_again": "Try again",
+    "start_now": "Start now",
+    "locked": "Locked",
+    "next": "Next",
+    "back": "Back",
+    "home": "Home",
+    "exit": "Exit",
+    "slide_part": "Part {current} of {total}"
+  },
+  "homePage": {
+    "title": "Learn more about the body and health with Sunn Utøver",
+    "description": "Sunn Utøver is a platform that makes information related to the condition Relative Energy Deficiency in Sport (REDs) more accessible for athletes, coaches, and parents. Here you will learn what REDs is, what the typical signs of this condition are, and what can be done to both manage and prevent REDs.",
+    "module_section_title": "Learning modules",
+    "module_1_title": "Module 1 - What is REDs?",
+    "module_2_title": "Module 2 - Consequences",
+    "module_3_title": "Module 3 - Symptoms of REDs",
+    "module_4_title": "Module 4 - Prevention",
+    "module_5_title": "Module 5 - How to manage REDs?"
+  },
+  "modul1Page": {
+    "main_title": "Module 1 - What is REDs?",
+    "screens": {
+      "screen_01": {
+        "title": "Learning objectives",
+        "subtitle": "After this module, you should be able to:",
+        "description1": "",
+        "list_items1": [
+          "Explain what Relative Energy Deficiency in Sport (REDs) is.",
+          "Define the concept of low energy availability (LEA) and understand that LEA is the main cause of REDs",
+          "Distinguish between <strong>short-term LEA and long-term/problematic LEA</strong>",
+          "Mention which body systems and functions can be affected when the body receives too little energy"
+        ]
+      }
+    }
+  },
+  "modul2Page": {
+    "main_title": "Module 2 - Consequences",
+    "screens": {
+      "screen_01": {
+        "title": "Learning objectives",
+        "subtitle": "After this module, you should be able to:",
+        "description1": "",
+        "list_items1": [
+          "Identify both health-related and performance-related consequences of REDs.",
+          "Explain how REDs can affect different bodily systems over time",
+          "Be aware of psychological consequences"
+        ]
+      }
+    }
+  },
+  "modul3Page": {
+    "main_title": "Module 3 - What are the symptoms of REDs?",
+    "screens": {
+      "screen_01": {
+        "title": "Learning objectives",
+        "subtitle": "After this module, you should be able to:",
+        "description1": "",
+        "list_items1": [
+          "Recognize physical and psychological symptoms that may occur with REDs",
+          "Understand how symptoms can vary from person to person",
+          "Know which signs to look out for in yourself or others",
+          "Feel more confident about when it is appropriate to take symptoms seriously and seek help"
+        ]
+      }
+    }
+  },
+  "modul4Page": {
+    "main_title": "Module 4 - Prevention",
+    "screens": {
+      "screen_01": {
+        "title": "Learning objectives",
+        "subtitle": "",
+        "description1": "<strong>Prevention</strong> is about everything that happens before things go too far, namely to:",
+        "list_items1": [
+          "Anticipate risks",
+          "Recognize early signs of low energy availability and REDs",
+          "Facilitate healthy habits",
+          "Promote safety and openness"
+        ],
+        "description2": "This module will cover important aspects and best practices related to prevention, so that you as an athlete, coach, or parent are better prepared."
+      }
+    }
+  },
+  "modul5Page": {
+    "main_title": "Module 5 - How to manage REDs?",
+    "screens": {
+      "screen_01": {
+        "title": "Learning objectives",
+        "subtitle": "Goals for this module:",
+        "description1": "",
+        "list_items1": [
+          "Understand how to identify and manage REDs",
+          "Learn how athletes, coaches, and parents can collaborate",
+          "Become familiar with available resources and treatment options"
+        ]
+      }
+    }
+  }
+}

@@ -8,16 +8,16 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="page-back-btn"> 
-                                    <a href="index.php" class="btn btn-light btn-exit-icon"> <span> Avslutt </span></a>
+                                    <a href="<?= base_url() ?>" class="btn btn-light btn-exit-icon"> <span> <?php echo __("common.exit"); ?> </span></a>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="page-title-del-box-full">
                                     <div class="page-title-del-box-left">
-                                        <h1>Modul 5 - Hvordan håndtere REDs?</h1>
+                                        <h1><?php echo __("modul5Page.main_title"); ?></h1>
                                     </div>
                                     <div class="page-title-del-box-right">
-                                        <p id="slideCounter">Del 1 av 1</p>
+                                         <p id="slideCounter"><?php echo __("common.slide_part"); ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -32,12 +32,17 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>Læringsmål</h3>
-                                                                        <h6>Mål for modulen:</h6>
+                                                                        <h2><?php echo __("modul5Page.screens.screen_01.title"); ?></h2>
+                                                                        <h6><?php echo __("modul5Page.screens.screen_01.subtitle"); ?> </h6>
                                                                         <ul>
-                                                                            <li>Forstå hvordan man identifiserer og håndterer REDs</li>
-                                                                            <li>Lære hvordan utøvere, trenere og foreldre kan samarbeide </li>
-                                                                            <li>Bli kjent med tilgjengelige ressurser og behandlingsmuligheter</li>
+                                                                            <?php
+                                                                                $list = __("modul5Page.screens.screen_01.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                            ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -48,7 +53,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn">
-                                                                        <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> Neste </span> </a>
+                                                                        <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> <?php echo __("common.next"); ?>  </span> </a>
                                                                     </div>
                                                                 </div>
                                                             </div>
