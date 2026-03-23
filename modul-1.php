@@ -18,7 +18,7 @@
                                             <h1>Modul 1 - Hva er REDs?</h1>
                                         </div>
                                         <div class="page-title-del-box-right">
-                                            <p>Del 1 av 1</p>
+                                            <p id="slideCounter">Del 1 av 1</p>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
                                                                         <div class="step-slide-box-caption">
                                                                             <h2>Negativ energibalanse</h2>
-                                                                            <p>Ethvert unntak fra denne balansen, bevisst eller ubevisst, kan lede til lav energitilgjengelighet lettere enn mange av oss tror. </p>
+                                                                            <p>Ethvert unntak fra denne balansen, bevisst eller ubevisst, kan lede til <strong> lav energitilgjengelighet </strong> lettere enn mange av oss tror. </p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
@@ -193,7 +193,7 @@
                                                                     <div class="col-sm-12 col-md-12 col-lg-7">
                                                                         <div class="step-slide-box-caption">
                                                                             <h2>Adaptiv vs. problematisk LEA</h2>
-                                                                            <p>Det er normalt at kroppen tilpasser seg kortvarige perioder med lav energitilgjengelighet. Det kalles adaptiv LEA, og utgjør ikke nødvendigvis et problem. Dersom slike energiunderskudd skjer ofte nok (flere dager i uka, over flere uker), kan kroppen begynne å spare på energien og nedprioritere funksjoner som eksempelvis hormonproduksjon og restitusjon. </p>
+                                                                            <p>Det er normalt at kroppen tilpasser seg kortvarige perioder med lav energitilgjengelighet. Det kalles <strong>adaptiv LEA,</strong> og utgjør ikke nødvendigvis et problem. Dersom slike energiunderskudd skjer ofte nok (flere dager i uka, over flere uker), kan kroppen begynne å spare på energien og nedprioritere funksjoner som eksempelvis hormonproduksjon og restitusjon. </p>
                                                                             <p>Det er stor forskjell på ha en “sliten uke” og en kropp som over tid mangler energi til å fungere som den skal. </p>
                                                                         </div>
                                                                     </div>

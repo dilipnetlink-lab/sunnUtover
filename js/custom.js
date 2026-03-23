@@ -1,15 +1,24 @@
 /* slide Screen */
 const slides = document.querySelectorAll(".step-slide-box-item");
+const totalSlides = slides.length;
+const counter = document.getElementById("slideCounter");
 let current = 0;
 let animating = false;
 
 const slideContent = document.querySelectorAll(".step-slide-box-item > .row");
+
+function updateCounter() {
+    if (counter) {
+        counter.textContent = `Del ${current + 1} av ${totalSlides}`;
+    }
+}
 
 gsap.set(slides, { display: "none" });
 gsap.set(slideContent, { autoAlpha: 0, y: 40 });
 
 gsap.set(slides[0], { display: "block" });
 gsap.set(slideContent[0], { autoAlpha: 1, y: 0 });
+updateCounter();
 
 function changeSlide(i, dir) {
     if (i < 0 || i >= slides.length || animating) return;
@@ -23,7 +32,10 @@ function changeSlide(i, dir) {
     const nextSlide = slides[i];
 
     const tl = gsap.timeline({
-        onComplete: () => (animating = false),
+        onComplete: () => {
+            animating = false;
+            updateCounter(); // 👈 important
+        },
     });
 
     tl.to(currentContent, {

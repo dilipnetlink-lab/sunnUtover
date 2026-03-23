@@ -17,7 +17,7 @@
                                         <h1>Modul 4 - Forebygging </h1>
                                     </div>
                                     <div class="page-title-del-box-right">
-                                        <p>Del 1 av 5</p>
+                                        <p id="slideCounter">Del 1 av 1</p>
                                     </div>
                                 </div>
                             </div>

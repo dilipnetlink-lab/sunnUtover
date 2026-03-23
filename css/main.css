@@ -385,6 +385,9 @@
 .page-title-del-box-full p {
     margin-bottom: 0;
 }
+#slideCounter {
+  transition: all 0.3s ease;
+}
 .step-slide-box-con {
     position: relative;
     width: 100%;
@@ -498,6 +501,9 @@
     text-align: center;
     justify-items: center;
     margin: auto;
+}
+.slider-box-arrow i:hover{
+    color: var(--secondaryColor);
 }
 /* end-step-slide-box-slider */
 /* dot-ul */
