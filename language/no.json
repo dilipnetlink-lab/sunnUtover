@@ -7,7 +7,8 @@
     "back": "Tilbake",
     "home": "Hjem",
     "exit": "Avslutt",
-    "slide_part": "Del {current} av {total}"
+    "slide_part": "Del {current} av {total}",
+    "click_to_see": "Trykk for å se"
   },
   "homePage": {
     "title": "Lær mer om kropp og helse med Sunn Utøver",
@@ -269,7 +270,12 @@
         "title": "",
         "subtitle": "",
         "description1": "",
-        "list_items1": ["", "", "", ""],
+        "list_items1": [
+          "",
+          "",
+          "",
+          ""
+        ],
         "description2": ""
       }
     }
@@ -293,7 +299,12 @@
         "title": "",
         "subtitle": "",
         "description1": "",
-        "list_items1": ["", "", "", ""],
+        "list_items1": [
+          "",
+          "",
+          "",
+          ""
+        ],
         "description2": ""
       }
     }
@@ -304,20 +315,190 @@
       "screen_01": {
         "title": "Læringsmål",
         "subtitle": "Mål for modulen:",
-        "description1": "",
         "list_items1": [
           "Forstå hvordan man identifiserer og håndterer REDs",
           "Lære hvordan utøvere, trenere og foreldre kan samarbeide",
           "Bli kjent med tilgjengelige ressurser og behandlingsmuligheter"
-        ],
-        "description2": ""
+        ]
       },
       "screen_02": {
-        "title": "",
-        "subtitle": "",
-        "description1": "",
-        "list_items1": ["", "", "", ""],
-        "description2": ""
+        "title": "Hva nå?",
+        "subtitle": "Hvis du tenker at noe kanskje ikke stemmer - enten hos deg selv eller noen du følger opp - er det lurt å vite hva du kan gjøre.  Velg rollen din:",
+        "cir_text_img_list": {
+          "title1": "UTØVER",
+          "title2": "TRENER",
+          "title3": "FORELDER"
+        }
+      },
+      "screen_03": {
+        "title": "UTØVER",
+        "subtitle1": "Steg 1: Lytt til kroppen og ta tegnene under på alvor",
+        "list_items1": [
+          "Unormalt sliten?",
+          "Sover dårlig?",
+          "Fravær eller uregelmessig menstruasjon?",
+          "Færre morgenereksjoner, styrke og “drive” borte?",
+          "Nedfor/dårlig humør"
+        ],
+        "subtitle2": "Steg 2: Snakk med noen",
+        "list_items2": [
+          "Snakk med noen du føler deg komfortabel med",
+          "Sover dårlig?",
+          "Vær åpen om symptom"
+        ]
+      },
+      "screen_04": {
+        "title": "TRENER",
+        "subtitle1": "Vær observant",
+        "list_items1": [
+          "Utøvere med stagnasjon? Lavt overskudd?"
+        ],
+        "subtitle2": "Still de riktige spørsmålene",
+        "list_items2": [
+          "Snakk om søvn, overskudd, respons, normal mensen (hvis kvinne)"
+        ],
+        "subtitle3": "Samarbeid",
+        "list_items3": [
+          "Informer foreldre - oppfølging skjer best i fellesskap"
+        ],
+        "subtitle4": "Tilrettelegg",
+        "list_items4": [
+          "Reduser treningsbelastningen hvis du er bekymret"
+        ],
+        "bg_info_box": {
+          "title": "Visste du at:",
+          "description": "Lav laktatrespons - særlig ved terskel og hard trening - kan tyde på REDs. Lav karbohydrattilgang og lav energitilgjengelighet (LEA) påvirker evnen til å produsere laktat normalt. Det er ikke et sikkert tegn alene, men bør vekke oppmerksomhet - spesielt sammen med andre symptomer. "
+        }
+      },
+      "screen_05": {
+        "title": "FORELDER",
+        "description": "Du er en nøkkelperson for forebygging - du trenger ikke være ekspert, det viktigste er at du følger med og støtter",
+        "subtitle1": "Ser du endringer",
+        "list_items1": [
+          "Nedstemt, sliten, dårlig søvn?",
+          "piser mindre og trener mer enn før?"
+        ],
+        "subtitle2": "Snakk om kroppen",
+        "list_items2": [
+          "For jenter - Har du mensen? Er den regelmessig?",
+          "For gutter - Har det vært endringer i morgenereksjon?"
+        ],
+        "subtitle3": "Søk hjelp",
+        "list_items3": [
+          "Ta kontakt med fastlege eller spesialist, f.eks. ernæringsfysiolog",
+          "Ta kontakt med trener"
+        ],
+        "subtitle4": "Tilrettelegg hjemme",
+        "list_items4": [
+          "Sørg for mellommåltider.",
+          "Berik maten: bruk smør, olje og sauser i maten. Unngå lettprodukter",
+          "Snacks, godteri og bakst er ofte nødvendig for tilstrekkelig energiinntak."
+        ]
+      },
+      "screen_06": {
+        "title": "REDs finnes på et spekter",
+        "description": "Trafiklyset for energibalanse og helse i idrett"
+      },
+      "screen_07": {
+        "title": "REDs finnes på et spekter",
+        "description": "Trafiklyset for energibalanse og helse i idrett"
+      },
+      "screen_08": {
+        "title": "Hvordan foregår behandling?",
+        "subtitle": "Behandling av REDs handler om å hjelpe kroppen tilbake i balanse. Det skjer ofte i samarbeid med flere fagpersoner:",
+        "cir_text_img_list": {
+          "title1": "FASTLEGE",
+          "title2": "KLINISK ERNÆRINGS-FYSIOLOG",
+          "title3": "PSYKOLOG",
+          "title4": "FORELDRE <br/> OG TRENER"
+        }
+      },
+      "screen_09": {
+        "title": "FASTLEGE",
+        "list_items1": [
+          "Vurderer medisinske forhold",
+          "Bestiller blodprøver",
+          "Kan henvise til spesialist",
+          "Kan rekvidere DEXA (bentetthetsmåling) ved mistanke om redusert beinhelse"
+        ]
+      },
+      "screen_10": {
+        "title": "KLINISK ERNÆRINGSFYSIOLOG",
+        "list_items1": [
+          "Hjelper til med å øke energiinntaket og tilpasse måltidsrytme",
+          "Gir konkrete råd for å få i seg nok mat - både på vanlige og mer krevende dager",
+          "Kan initiere behov for videre utredning, f.eks. DEXA-måling (bentetthetsmåling)"
+        ]
+      },
+      "screen_11": {
+        "title": "PSYKOLOG ELLER RÅDGIVER",
+        "sub_list_items1": [
+          {
+            "text": "Kan støtte med håndtering av:",
+            "sub_items": [
+              "Kroppsbilde",
+              "Stress",
+              "Matrelaterte utfordringer",
+              "Mental belastning"
+            ]
+          }
+        ]
+      },
+      "screen_12": {
+        "title": "TRENER OG FORELDRE",
+        "subtitle1": "Trenerens rolle i behandlingsfasen:",
+        "list_items1": [
+          "Følg opp og hold kontakten",
+          "Bidra med tilrettelegging av trening",
+          "Delta i samtaler med ernæringsfysiolog hvis ønskelig",
+          "Skap trygghet og forutsigbarhet - utøveren er fortsatt en del av laget"
+        ],
+        "subtitle2": "Foreldrenes rolle i behandlingsfasen:",
+        "sub_list_items1": [
+          {
+            "text": "Kan inkluderes i samtaler med fagpersoner (lege, ernæringsfysiolog), dersom utøveren ønsker det",
+            "sub_items": [
+              "Økt innsikt kan gi bedre støtte i hverdagen og bidra til bedre mat- og hvilerutiner hjemme"
+            ]
+          },
+          {
+            "text": "Viktig støttespiller som følger opp signaler og tilpasninger over tid"
+          }
+        ]
+      },
+      "screen_13": {
+        "title": "Ressurser du kan utforske",
+        "subtitle1": "Idrettens skadetelefon",
+        "description": "Utøvere med lisens gjennom et særforbund kan ringe Skadetelefonen (Idrettens Helsesenter) for rask og riktig hjelp:",
+        "list_items1": [
+          "Tilgang til kvalitetssikret behandlingsnettverk",
+          "Spesialkompetanse på idrettsmedisin",
+          "Gir råd uavhengig av om skaden dekkes av forsikringen"
+        ],
+        "subtitle2": "Sunn Idrett",
+        "list_items2": [
+          "Mange gode artikler, tips og webinarer for både utøvere, trenere og foreldre"
+        ],
+        "subtitle3": "Olympiatoppen - idrettsernæring",
+        "list_items3": [
+          "Faktaark og veiledning om mat og måltider for idrettsutøvere"
+        ]
+      },
+      "screen_14": {
+        "title": "Quiz",
+        "question": "En utøver viser disse tegnene: manglende fremgang, ofte syk, lavt energinivå, tretthetsbrudd i foten og dårlig konsentrasjon. Hva er riktig tiltak?",
+        "options1": "Vente og se - det går sikkert over",
+        "options2": "Gi råd om mer søvn og mindre trening i noen uker",
+        "options3": "Oppsøke fastlege og/eller klinisk ernæringsfysiolog",
+        "options4": "Be utøveren trene lettere og loggføre egen fremgang"
+      },
+      "screen_15": {
+        "title": "Quiz",
+        "question": "Hva bør en utøver gjøre ved mistanke om REDs?",
+        "options1": "Holde det for seg selv og se an situasjonen",
+        "options2": "Snakke med en voksen og oppsøke profesjonell hjelp",
+        "options3": "Trene litt roligere, men ikke gjøre noe mer",
+        "options4": "Søke på nettet og prøve å løse det selv"
       }
     }
   }

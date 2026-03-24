@@ -400,6 +400,7 @@
 }
 .step-slide-box-btn{
     text-align: center;
+    margin-top: 15px;
 }
 .step-slide-box-btn .btn:hover {
     background-color: var(--lightSecondaryColor);
@@ -415,7 +416,8 @@
 .step-slide-box-description-con {
     display: flex;
     align-items: center;
-    min-height: 450px;
+    min-height: 400px;
+    padding: 15px 0;
 }
 .step-slide-box-description-wrapper {
     position: relative;
@@ -645,11 +647,10 @@
 /* circle-img-box */
 .circle-img-box {
     position: relative;
-    width: 280px;
-    max-width: 280px;
+    width: 288px; 
     border-radius: 50%;
     overflow: hidden;
-    margin: 15px auto;
+    margin: 8px auto;
     display: block;
     aspect-ratio: 1/1;
     max-width: 98%;
@@ -694,7 +695,7 @@
 /* circle-img-caption-box-con */
 .circle-img-caption-box-con {
     position: relative;
-    width: 280px;
+    width: 288px;
     border-radius: 50%;
     overflow: hidden;
     margin: 15px auto;
@@ -739,10 +740,12 @@
 }
 .circle-img-caption-box-caption > * {
     color: var(--whiteColor);
-    margin: 2px 0;
+    margin: 5px 0;
 }
 .circle-img-caption-box-caption p { 
     position: relative;
+    font-size: var(--lgHeadingFont);
+    font-weight: 300;
 }
 .circle-img-caption-img-not .circle-img-caption-box-caption {
     background-color: var(--lavenderLightColor);
@@ -803,10 +806,18 @@
  
 .step-slide-box-caption{
     position: relative;
+    padding: 8px 0;
 }
 .step-slide-box-img{
     position: relative;
     text-align: center;
+    padding: 8px 0;
+}
+.step-slide-box-img figure{
+    position: relative;
+}
+.img-top-fixed img{
+    margin-top: -4%;
 }
 .step-slide-box-caption > *{
     color: var(--whiteColor)
@@ -819,7 +830,7 @@
     display: inline-block;
 }
 .step-slide-box-caption ul ul {
-    margin: 0 0 0 20px;
+    margin: 4px 0 0 0;
 }
 .step-slide-box-caption ul li {
     margin: 4px 0;
@@ -870,5 +881,13 @@
      .step-slide-box-caption p{
         font-size: var(--normalTextFont);
     }
+    .img-top-fixed img{
+        margin-top: -2%;
+    }
 } 
+@media only screen and (max-width: 991.98px) {
+    .img-top-fixed img{
+        margin-top: -0%;
+    }
+}
 /*end-step-slide-box-caption*/

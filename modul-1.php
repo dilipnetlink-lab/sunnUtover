@@ -28,7 +28,7 @@
                                             <div class="col-sm-12">
                                                 <div class="step-slide-box-slider">
                                                     <div class="step-slide-box-item">
-                                                        <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-con p-0">
                                                             <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
                                                                     <div class="col-sm-12 col-md-12 col-lg-6">
