@@ -31,7 +31,7 @@
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="step-slide-box-caption">
+                                                                    <div class="step-slide-box-caption top-slide-caption">
                                                                         <h2><?php echo __("modul2Page.screens.screen_01.title"); ?></h2>
                                                                         <h6><?php echo __("modul2Page.screens.screen_01.subtitle"); ?> </h6>
                                                                          <ul>
@@ -67,9 +67,9 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>Kroppen må prioritere</h3>
+                                                                        <h2>Kroppen må prioritere</h2>
                                                                         <p>Som vi lærte i forrige delmodul: når kroppen over tid ikke får nok energi, må den begynne å prioritere hvilke funksjoner som er viktigst. Det betyr at funksjoner som ikke er livsnødvendige i øyeblikket, skrus ned. </p>
-                                                                        <h5>Dette får konsekvenser for både helse og prestasjon. </h5>
+                                                                        <h4>Dette får konsekvenser for både helse og prestasjon. </h4>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -94,9 +94,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Hindret vekst, pubertet og hormonfunksjon</h3>
+                                                                        <h2>♦️ Hindret vekst, pubertet og hormonfunksjon</h2>
                                                                         <p>Når kroppen får for lite energi, skrur den ned signaler som styrer vekst, pubertet og hormonproduksjon, noe som kan forsinke puberteten. Jenter kan miste menstruasjonen, gutter får lavere testosteronnivå, og også hormoner for stoffskifte, humør og appetitt påvirkes. </p>
-                                                                        <p> <strong> Hvorfor er det viktig </strong> <br/> Hormoner er avgjørende for vekst, beinhelse og fruktbarhet. Uten nok energi får ikke kroppen bygge seg sterk nok, men med tidlig hjelp og riktig ernæring kan utviklingen ofte tas igjen. </p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig</h4>
+                                                                        <p> Hormoner er avgjørende for vekst, beinhelse og fruktbarhet. Uten nok energi får ikke kroppen bygge seg sterk nok, men med tidlig hjelp og riktig ernæring kan utviklingen ofte tas igjen. </p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -116,9 +117,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Svekket beinhelse</h3>
+                                                                        <h2>♦️ Svekket beinhelse</h2>
                                                                         <p>Når kroppen får for lite energi, reduseres viktige hormoner som bygger bein. Det gjør skjelettet svakere, og risikoen for belastningsbrudd og beinskjørhet øker. </p>
-                                                                        <p><strong>Hvorfor er det viktig <br/> Rundt 90 % av beinmassen bygges før fylte 18 år for jenter, og 20 år for gutter. </strong> Bygger man ikke nok beinmasse i ungdomsårene, øker risikoen for beinskjørhet og belastningsbrudd - både i dag og som voksen.</p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig</h4>
+                                                                        <p><strong> Rundt 90 % av beinmassen bygges før fylte 18 år for jenter, og 20 år for gutter. </strong> Bygger man ikke nok beinmasse i ungdomsårene, øker risikoen for beinskjørhet og belastningsbrudd - både i dag og som voksen.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -150,9 +152,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Nedsatt mage- og tarmfunksjon</h3>
+                                                                        <h2>♦️ Nedsatt mage- og tarmfunksjon</h2>
                                                                         <p>Når kroppen får for lite energi, nedprioriteres fordøyelsen. Det betyr at magen jobber saktere, og det kan føre til <strong> nedsatt appetitt, forstoppelse, oppblåsthet </strong> og <strong> ubehag. </strong> Mange opplever også mageplager som ligner irritabel tarm (IBS). </p>
-                                                                        <p>Hvorfor er det viktig <br/> God fordøyelse er viktig for å ta opp næring, holde energinivået oppe og ha det bra i hverdagen. Langvarige fordøyelsesplager kan gi redusert livskvalitet, dårligere restitusjon og mindre matlyst.</p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig </h4>
+                                                                        <p>God fordøyelse er viktig for å ta opp næring, holde energinivået oppe og ha det bra i hverdagen. Langvarige fordøyelsesplager kan gi redusert livskvalitet, dårligere restitusjon og mindre matlyst.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -172,9 +175,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Svekket energimetabolisme</h3>
+                                                                        <h2>♦️ Svekket energimetabolisme</h2>
                                                                         <p>Når kroppen får for lite energi over tid, senker den stoffskiftet for å spare på kreftene. </p>
-                                                                        <p>Hvorfor er det viktig <br/> Lavt stoffskifte gjør at kroppen bruker mindre energi i hvile. Dette kan føre til økt <strong> tretthet, frysninger, vektendringer </strong> og <strong> hormonforstyrrelser.</strong>  </p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig </h4>
+                                                                        <p>Lavt stoffskifte gjør at kroppen bruker mindre energi i hvile. Dette kan føre til økt <strong> tretthet, frysninger, vektendringer </strong> og <strong> hormonforstyrrelser.</strong>  </p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -194,9 +198,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Nedsatt blodfunksjon</h3>
+                                                                        <h2>♦️ Nedsatt blodfunksjon</h2>
                                                                         <p>Ved lav energitilgjengelighet kan kroppen få for lite av jern og andre viktige næringsstoffer. Jern er nødvendig for å lage røde blodceller, som frakter oksygen rundt i kroppen. Når jernlagrene er lave (vanlig hos unge, kvinnelige utøvere) reduseres blodets evne til å levere oksygen effektivt.</p>
-                                                                        <p><strong> Hvorfor er det viktig</strong> <br/> Jernmangel kan forverre energimangelen fordi det påvirker stoffskiftet og gjør at kroppen bruker energi mindre effektivt, både i hvile og under aktivitet. Jernmangel ved REDs kan også svekke hormonbalansen og påvirke beinhelse, fertilitet og psykisk helse.</p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig </h4>
+                                                                        <p>Jernmangel kan forverre energimangelen fordi det påvirker stoffskiftet og gjør at kroppen bruker energi mindre effektivt, både i hvile og under aktivitet. Jernmangel ved REDs kan også svekke hormonbalansen og påvirke beinhelse, fertilitet og psykisk helse.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -216,9 +221,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Urinlekkasje</h3>
+                                                                        <h2>♦️ Urinlekkasje</h2>
                                                                         <p>REDs reduserer energitilførselen til muskler, inkludert bekkenbunnen, som er ansvarlig for å holde urinblæren tett under fysisk belastning. Hormonendringer - spesielt lavt østrogen hos jenter - kan også svekke støttevevet i urinveiene. </p>
-                                                                        <p><strong> Hvorfor er det viktig</strong> <br/> Svake bekkenbunnsmuskler og endret bindevevsfunksjon kan føre til urinlekkasje under løping, hopping eller styrketrening.</p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig </h4>
+                                                                        <p>Svake bekkenbunnsmuskler og endret bindevevsfunksjon kan føre til urinlekkasje under løping, hopping eller styrketrening.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -238,9 +244,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Nedsatt regulering av blodsukker og fettstoffer </h3>
+                                                                        <h2>♦️ Nedsatt regulering av blodsukker og fettstoffer </h2>
                                                                         <p>For lite energi gjør at hormoner som styrer blodsukker og forbrenning (blant annet insulin, kortisol og leptin) kommer i ubalanse.</p>
-                                                                        <p><strong> Hvorfor er det viktig</strong> <br/> Når disse hormonene kommer i ubalanse, kan det føre til ustabilt blodsukker, energisvigninger, svimmelhet og hodepine. Dette påvirker både prestasjon og humør, og gjør det vanskeligere for kroppen å bruke mat effektivt.  </p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig </h4>
+                                                                        <p> Når disse hormonene kommer i ubalanse, kan det føre til ustabilt blodsukker, energisvigninger, svimmelhet og hodepine. Dette påvirker både prestasjon og humør, og gjør det vanskeligere for kroppen å bruke mat effektivt.  </p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -260,9 +267,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Psykiske helseplager </h3>
+                                                                        <h2>♦️ Psykiske helseplager </h2>
                                                                         <p>REDs påvirker hjernen gjennom energimangel og hormonforstyrrelser. Dette kan endre kjemien i hjernen og gjøre det vanskeligere å regulere humør. </p>
-                                                                        <p><strong> Hvorfor er det viktig</strong> <br/> Man kan oppleve nedstemthet, angst eller irritabilitet. Psykiske plager kan oppstå selv uten kroppspress eller bevisst matkontroll, og gjør det vanskeligere å ha overskudd i hverdagen, trene godt og føle seg som seg selv. </p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig </h4>
+                                                                        <p> Man kan oppleve nedstemthet, angst eller irritabilitet. Psykiske plager kan oppstå selv uten kroppspress eller bevisst matkontroll, og gjør det vanskeligere å ha overskudd i hverdagen, trene godt og føle seg som seg selv. </p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -282,9 +290,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Nedsatt hjernefunksjon </h3>
+                                                                        <h2>♦️ Nedsatt hjernefunksjon </h2>
                                                                         <p>Ved REDs får hjernen for lite energi, og hormonene som påvirker konsentrasjon, læring og reaksjonsevne kommer i ubalanse.</p>
-                                                                        <p><strong> Hvorfor er det viktig</strong> <br/> Dette kan gjøre det vanskeligere å fokusere, huske informasjon og ta raske beslutninger – både i idrett og skole. Man kan føle seg uklar i hodet og «ute av det», selv uten å være sliten fysisk.</p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig </h4>
+                                                                        <p> Dette kan gjøre det vanskeligere å fokusere, huske informasjon og ta raske beslutninger – både i idrett og skole. Man kan føle seg uklar i hodet og «ute av det», selv uten å være sliten fysisk.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -304,9 +313,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Søvnproblemer </h3>
+                                                                        <h2>♦️ Søvnproblemer </h2>
                                                                         <p>Forskning viser at utøvere som får for lite energi i forhold til hvor mye de trener, også sover dårligere. De våkner oftere i løpet av natta, har lavere søvneffektivitet og sover mindre i den dype, viktige søvnfasen. Forskerne tror dette kan henge sammen med hvordan kroppen reagerer på lite energi – for eksempel gjennom hormoner som påvirker søvn og våkenhet. </p>
-                                                                        <p><strong> Hvorfor er det viktig</strong> <br/> Søvn er helt avgjørende for å restituere, prestere og unngå skader. Dårlig søvn kan være et tegn på at kroppen ikke får nok energi, særlig når du trener mye</p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig</h4>
+                                                                        <p> Søvn er helt avgjørende for å restituere, prestere og unngå skader. Dårlig søvn kan være et tegn på at kroppen ikke får nok energi, særlig når du trener mye</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -326,9 +336,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Svekket hjertefunksjon</h3>
+                                                                        <h2>♦️ Svekket hjertefunksjon</h2>
                                                                         <p>Alvorlig REDs er assosiert med lavere blodtrykk og hvilepuls.</p>
-                                                                        <p><strong> Hvorfor er det viktig</strong> <br/> Redusert hjerteaktivitet kan være en følge av energimangel, og kan øke risikoen for hjerterytmeforstyrrelser.</p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig</h4>
+                                                                        <p> Redusert hjerteaktivitet kan være en følge av energimangel, og kan øke risikoen for hjerterytmeforstyrrelser.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -348,9 +359,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Redusert skjelettmuskelfunksjon</h3>
+                                                                        <h2>♦️ Redusert skjelettmuskelfunksjon</h2>
                                                                         <p>Lav energitilgjengelighet reduserer muskelproteinsyntesen. Dette skyldes hormonelle endringer og utilstrekkelig tilførsel av både energi og næringsstoffer som protein og karbohydrat. Samtidig reduseres muskelens lagring av glykogen, som er en viktig energikilde under trening. Resultatet er svekket muskelstyrke, dårligere restitusjon og redusert evne til å tilpasse seg treningsbelastning over tid.</p>
-                                                                        <p><strong> Hvorfor er det viktig</strong> <br/> Man føler seg svakere og orker mindre, noe som svekker prestasjon og øker risikoen for skader som strekk og overbelastning.</p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig</h4>
+                                                                        <p> Man føler seg svakere og orker mindre, noe som svekker prestasjon og øker risikoen for skader som strekk og overbelastning.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -370,9 +382,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Svekket immunforsvar </h3>
+                                                                        <h2>♦️ Svekket immunforsvar </h2>
                                                                         <p>Kroppen trenger energi og næringsstoffer for å lage immunceller og bekjempe sykdom. Ved REDs settes immunforsvaret i sparebluss.</p>
-                                                                        <p><strong> Hvorfor er det viktig</strong> <br/> Man blir oftere syk, får lengre sykdomsforløp og tåler mindre trening før kroppen sier stopp. Infeksjoner og betennelser kan også vare lenger enn normalt.</p>
+                                                                        <h4 class="mb-0">Hvorfor er det viktig</h4>
+                                                                        <p> Man blir oftere syk, får lengre sykdomsforløp og tåler mindre trening før kroppen sier stopp. Infeksjoner og betennelser kan også vare lenger enn normalt.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -392,9 +405,9 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>♦️ Hvordan påvirker REDs prestasjonen? </h3>
+                                                                        <h2>♦️ Hvordan påvirker REDs prestasjonen? </h2>
                                                                         <p>Du har nå lært hvordan kroppen prioriterer bort viktige funksjoner når energien ikke strekker til. Disse funksjonene får naturligvis også konsekvenser for prestasjonen. </p>
-                                                                        <p><strong>Vanlige prestasjonsmessige konsekvenser av REDs er:</strong> </p>
+                                                                        <h4>Vanlige prestasjonsmessige konsekvenser av REDs er:</h4>
                                                                         <ul>
                                                                             <li>Stagnasjon - fremgangen stopper opp</li>
                                                                             <li>Økt treningsslitasje - treningen føles tyngre</li>
@@ -419,8 +432,8 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>Quiz</h3>
-                                                                        <h4>Når i livet er omtrent 90 % av den maksimale beinmassen bygd opp?</h4>
+                                                                        <h2>Quiz</h2>
+                                                                        <p>Når i livet er omtrent 90 % av den maksimale beinmassen bygd opp?</p>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio1">
@@ -462,8 +475,8 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h3>Quiz</h3>
-                                                                        <h4>Hvilken av disse er ikke en vanlig helsemessig konsekvens av REDs?</h4>
+                                                                        <h2>Quiz</h2>
+                                                                        <p>Hvilken av disse er ikke en vanlig helsemessig konsekvens av REDs?</p>
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio1">

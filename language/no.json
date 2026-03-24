@@ -31,7 +31,117 @@
           "Definere begrepet lav energitilgjengelighet (LEA) og vite at LEA er hovedårsaken til REDs",
           "Skille mellom <strong>kortvarig LEA og langvarig/problematisk LEA</strong>",
           "Nevne hvilke kroppssystemer og funksjoner som kan påvirkes når kroppen får for lite energi"
-        ]
+        ],
+        "description2": ""
+      },
+      "screen_02": {
+        "title": "Kroppen trenger energi til mer enn trening",
+        "subtitle": "",
+        "description1": "For at kroppen skal fungere optimalt, trenger den nok energi - ikke bare til trening, men til å opprettholde viktige, daglige funksjoner. Energi brukes blant annet til:",
+        "list_items1": [
+          "<strong>Hjernefunksjon og nervesystem</strong>",
+          "<strong>Hjerte- og sirkulasjonssystem</strong>",
+          "<strong>Hormonproduksjon</strong>",
+          "<strong>Immunforsvar</strong>",
+          "<strong>Beinhelse</strong>",
+          "<strong>Fordøyelse og metabolisme</strong>"
+        ],
+        "description2": ""
+      },
+      "screen_03": {
+        "title": "Energitilgjengelighet",
+        "subtitle": "",
+        "description1": "Energitilgjengelighet handler om hvor mye energi (mat og drikke) kroppen har igjen til å drive alle kroppens funksjoner etter at energien brukt på fysisk aktivitet er trukket fra.",
+        "description2": "Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket.",
+        "list_items1": ["", "", "", ""],
+        "description3": ""
+      },
+      "screen_04": {
+        "title": "Energibalanse",
+        "subtitle": "",
+        "description1": "Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket.",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
+      },
+      "screen_05": {
+        "title": "Negativ energibalanse",
+        "subtitle": "",
+        "description1": "Ethvert unntak fra denne balansen, bevisst eller ubevisst, kan lede til <strong> lav energitilgjengelighet </strong> lettere enn many av oss tror.",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
+      },
+      "screen_06": {
+        "title": "Lav energitilgjengelighet",
+        "description1": "Lav energitilgjengelighet oppstår når kroppen får for lite energi til å dekke både treningsbehov og de grunnleggende behovene som å puste, sirkulere blod, bygge opp bein og vev, produsere hormoner, osv.",
+        "subtitle": "🪫 Tenk på det som et batteri i spareblussmodus:",
+        "description2": "Når kroppen får for lite energi, må den prioritere hva den bruker energien på. Da vil den redusere “ikke-essensielle” funksjoner for å spare på ressursene.",
+        "list_items1": ["", "", "", ""],
+        "description3": "",
+        "bg_info_box": {
+          "title": "<strong> Forskjell fra energibalanse:</strong> Du kan være i energibalanse (altså ikke gå opp eller ned i vekt), men likevel ha lav energitilgjengelighet hvis treningsmengden er høy og matinntaket ikke dekker kroppens behov etter trening."
+        }
+      },
+      "screen_07": {
+        "title": "Adaptiv vs. problematisk LEA",
+        "subtitle": "",
+        "description1": "Det er normalt at kroppen tilpasser seg kortvarige perioder med lav energitilgjengelighet. Det kalles <strong>adaptiv LEA,</strong> og utgjør ikke nødvendigvis et problem. Dersom slike energiunderskudd skjer ofte nok (flere dager i uka, over flere uker), kan kroppen begynne å spare på energien og nedprioritere funksjoner som eksempelvis hormonproduksjon og restitusjon.",
+        "list_items1": ["", "", "", ""],
+        "description2": "Det er stor forskjell på ha en “sliten uke” og en kropp som over tid mangler energi til å fungere som den skal."
+      },
+      "screen_08": {
+        "title": "Fra lav energitilgjengelighet (LEA) til relativ energimangel i idrett (REDs)",
+        "subtitle": "",
+        "description1": "REDs oppstår altså når kroppen over tid har for <strong> lav energi-tilgjengelighet </strong> til å fungere normalt. Da reduseres evnen til å regulere viktige systemer, noe som kan føre til helseproblemer.",
+        "description2": "REDs handler ikke bare om kroppsstørrelse eller vekt, men om <strong> ubalanse mellom energiinntak og forbruk.</strong> Man kan ha normal eller høy kroppsvekt og likevel være i lav energitilgjengelighet - særlig hvis energiforbruket gjennom trening er høyt.",
+        "description3": "REDs rammer både gutter og jenter - og gjelder ikke bare toppidrettsutøvere. Mosjonister kan også utvikle REDs hvis energibehovet ikke dekkes.",
+        "list_items1": ["", "", "", ""],
+        "description4": ""
+      },
+      "screen_09": {
+        "title": "Lav energitilgjengelighet selv i energibalanse?",
+        "subtitle": "",
+        "description1": "Du kan være i energibalanse totalt sett i løpet av en dag - og likevel risikere lav energitilgjengelighet.",
+        "description2": "Tenk deg at du trener tidlig og spiser lite før og etter. Da havner kroppen i underskudd i mange timer, selv om totalen på dagen er tilstrekkelig.",
+        "description3": "Det er altså ikke bare mengden energi det kommer an på - tidspunkt og jevn energitilførsel er avgjørende. Spiser du for lite rundt treningsøktene er du i risikosonen for å kunne utvikle problematisk energitilgjengelighet og REDs.",
+        "list_items1": ["", "", "", ""],
+        "description4": "",
+        "table_info": {
+          "title": "Eksempel på måltidsmønster:",
+          "tr1_td1": "07:00",
+          "tr1_td2": "<strong>Frokost</strong>",
+          "tr2_td1": "08:00 - 10:00",
+          "tr2_td2": "Trening",
+          "tr3_td1": "10:00",
+          "tr3_td2": "Restitusjonsinntak",
+          "tr4_td1": "10:30",
+          "tr4_td2": "<strong>Lunsj</strong>",
+          "tr5_td1": "13:00",
+          "tr5_td2": "Mellommåltid",
+          "tr6_td1": "15:30",
+          "tr6_td2": "<strong>Middag</strong>",
+          "tr7_td1": "17:00 - 19:00",
+          "tr7_td2": "Trening",
+          "tr8_td1": "19:00",
+          "tr8_td2": "Restitusjonsinntak",
+          "tr9_td1": "20:00",
+          "tr9_td2": "<strong>Kveldsmat</strong>"
+        }
+      },
+      "screen_10": {
+        "title": "Quiz",
+        "question": "Hva betyr det at kroppen er i lav energitilgjengelighet (LEA)?",
+        "options1": "At man spiser for lite fett",
+        "options2": "At kroppen bruker mer energi enn den får til overs etter trening",
+        "options3": "At man er overtrent",
+        "options4": "At man ikke har sovet nok"
+      },
+      "screen_11": {
+        "title": "Quiz",
+        "question": "Hvilken av disse påstandene er sanne?",
+        "options1": "REDs oppstår bare hos utøvere som har veldig lav kroppsvekt",
+        "options2": "REDs kan både ramme gutter og jenter",
+        "options3": "REDs handler først og fremst om dårlig form",
+        "options4": "REDs er kun et problem i toppidrett"
       }
     }
   },
@@ -46,7 +156,15 @@
           "Identifisere både helsemessige og prestasjonsmessige konsekvenser av REDs.",
           "Forklare hvordan REDs kan påvirke forskjellige kroppslige systemer på sikt",
           "Være klar over psykologiske konsekvenser"
-        ]
+        ],
+        "description2": ""
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
       }
     }
   },
@@ -62,7 +180,15 @@
           "Forstå hvordan symptomer kan variere fra person til person",
           "Vite hvilke tegn du kan være oppmerksom på hos deg selv eller andre",
           "Være tryggere på når det kan være lurt å ta symptomer på alvor og søke hjelp"
-        ]
+        ],
+        "description2": ""
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
       }
     }
   },
@@ -80,6 +206,13 @@
           "Bidra til trygghet og åpenhet"
         ],
         "description2": "Denne modulen vil gå gjennom viktige aspekter og gode praksiser knyttet til forebygging, slik at du som utøver, trener eller forelder stiller sterkere."
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
       }
     }
   },
@@ -94,7 +227,15 @@
           "Forstå hvordan man identifiserer og håndterer REDs",
           "Lære hvordan utøvere, trenere og foreldre kan samarbeide",
           "Bli kjent med tilgjengelige ressurser og behandlingsmuligheter"
-        ]
+        ],
+        "description2": ""
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
       }
     }
   }

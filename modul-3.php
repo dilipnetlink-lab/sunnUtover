@@ -31,7 +31,7 @@
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="step-slide-box-caption">
+                                                                    <div class="step-slide-box-caption top-slide-caption">
                                                                         <h2><?php echo __("modul3Page.screens.screen_01.title"); ?></h2>
                                                                         <h6><?php echo __("modul3Page.screens.screen_01.subtitle"); ?> </h6>
                                                                         <ul>

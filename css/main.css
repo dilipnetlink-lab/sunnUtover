@@ -373,10 +373,10 @@
     gap: 24px;
 }
 .page-title-del-box-left {
-    width: calc(100% - 120px);
+    width: calc(100% - 160px);
 }
 .page-title-del-box-right {
-    width: 120px;
+    width: 160px;
     text-align: end;
 }
 .page-title-del-box-full h1 {
@@ -490,7 +490,7 @@
 .slider-box-arrow {
     position: relative;
     color: var(--whiteColor);
-    font-size: 30px;
+    font-size: 36px;
     cursor: pointer;
     z-index: 5;
     width: 30px;
@@ -608,7 +608,7 @@
 .bg-text-con {
     position: relative;
     width: 100%;
-    padding: 24px;
+    padding: 30px;
     border-radius: 8px;
     background-color: var(--lightSecondaryColor);
     margin: var(--mdMargin) 0;
@@ -625,6 +625,21 @@
     padding: 2px 8px 2px 0;
     font-size: var(--normalTextFont);
     min-width: 160px;
+}
+@media only screen and (max-width: 1199.98px) {
+    .bg-text-con {
+       padding: 28px;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    .bg-text-con {
+       padding: 26px;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .bg-text-con {
+       padding: 24px;
+    }
 }
 /* end-bg-text-con */
 /* circle-img-box */
@@ -839,10 +854,13 @@
 .step-slide-box-caption p{
     font-size: var(--mdHeadingFont);
 }
-.step-slide-box-slider .step-slide-box-item:first-child .step-slide-box-caption p{
+.top-slide-caption h2{
+    font-weight: 400;
+}
+.top-slide-caption p{
     font-size: var(--normalTextFont);
 }
-.step-slide-box-slider .step-slide-box-item:first-child .step-slide-box-caption ul li{
+.top-slide-caption ul li{
     font-size: var(--normalTextFont);
 } 
 @media only screen and (max-width: 1199.98px) {

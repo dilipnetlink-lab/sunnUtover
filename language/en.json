@@ -10,9 +10,9 @@
     "slide_part": "Part {current} of {total}"
   },
   "homePage": {
-    "title": "Learn more about the body and health with Sunn Utøver",
-    "description": "Sunn Utøver is a platform that makes information related to the condition Relative Energy Deficiency in Sport (REDs) more accessible for athletes, coaches, and parents. Here you will learn what REDs is, what the typical signs of this condition are, and what can be done to both manage and prevent REDs.",
-    "module_section_title": "Learning modules",
+    "title": "Learn more about body and health with Sunn Utøver",
+    "description": "Sunn Utøver is a platform that makes information related to Relative Energy Deficiency in Sport (REDs) more accessible for athletes, coaches, and parents. Here you will learn what REDs is, the typical signs of this condition, and what can be done to both manage and prevent REDs.",
+    "module_section_title": "Learning Modules",
     "module_1_title": "Module 1 - What is REDs?",
     "module_2_title": "Module 2 - Consequences",
     "module_3_title": "Module 3 - Symptoms of REDs",
@@ -23,15 +23,125 @@
     "main_title": "Module 1 - What is REDs?",
     "screens": {
       "screen_01": {
-        "title": "Learning objectives",
+        "title": "Learning Objectives",
         "subtitle": "After this module, you should be able to:",
         "description1": "",
         "list_items1": [
           "Explain what Relative Energy Deficiency in Sport (REDs) is.",
-          "Define the concept of low energy availability (LEA) and understand that LEA is the main cause of REDs",
-          "Distinguish between <strong>short-term LEA and long-term/problematic LEA</strong>",
-          "Mention which body systems and functions can be affected when the body receives too little energy"
-        ]
+          "Define the term Low Energy Availability (LEA) and know that LEA is the main cause of REDs.",
+          "Distinguish between <strong>short-term LEA and long-term/problematic LEA</strong>.",
+          "Mention which body systems and functions can be affected when the body receives too little energy."
+        ],
+        "description2": ""
+      },
+      "screen_02": {
+        "title": "The body needs energy for more than just training",
+        "subtitle": "",
+        "description1": "For the body to function optimally, it needs enough energy - not just for training, but to maintain vital daily functions. Energy is used for, among other things:",
+        "list_items1": [
+          "<strong>Brain function and nervous system</strong>",
+          "<strong>Heart and circulatory system</strong>",
+          "<strong>Hormone production</strong>",
+          "<strong>Immune system</strong>",
+          "<strong>Bone health</strong>",
+          "<strong>Digestion and metabolism</strong>"
+        ],
+        "description2": ""
+      },
+      "screen_03": {
+        "title": "Energy Availability",
+        "subtitle": "",
+        "description1": "Energy availability is about how much energy (food and drink) the body has left to run all body functions after the energy used for physical activity has been subtracted.",
+        "description2": "Energy balance is another important concept to understand when talking about energy availability, and can be simply explained as a state where energy intake is equal to energy expenditure.",
+        "list_items1": ["", "", "", ""],
+        "description3": ""
+      },
+      "screen_04": {
+        "title": "Energy Balance",
+        "subtitle": "",
+        "description1": "Energy balance is another concept that is important to relate to when talking about energy availability, and can be simply explained as a state where energy intake is equal to energy expenditure.",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
+      },
+      "screen_05": {
+        "title": "Negative Energy Balance",
+        "subtitle": "",
+        "description1": "Any exception to this balance, intentional or unintentional, can lead to <strong>low energy availability</strong> more easily than many of us think.",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
+      },
+      "screen_06": {
+        "title": "Low Energy Availability",
+        "description1": "Low energy availability occurs when the body receives too little energy to cover both training needs and basic needs such as breathing, circulating blood, building bone and tissue, producing hormones, etc.",
+        "subtitle": "🪫 Think of it as a battery in power-saving mode:",
+        "description2": "When the body gets too little energy, it must prioritize what it uses energy for. It will then reduce \"non-essential\" functions to save resources.",
+        "list_items1": ["", "", "", ""],
+        "description3": "",
+        "bg_info_box": {
+          "title": "<strong>Difference from energy balance:</strong> You can be in energy balance (i.e., not gaining or losing weight), but still have low energy availability if the training volume is high and food intake does not cover the body's needs after exercise."
+        }
+      },
+      "screen_07": {
+        "title": "Adaptive vs. Problematic LEA",
+        "subtitle": "",
+        "description1": "It is normal for the body to adapt to short periods of low energy availability. This is called <strong>adaptive LEA,</strong> and does not necessarily pose a problem. If such energy deficits happen often enough (several days a week, over several weeks), the body may start to save energy and deprioritize functions such as hormone production and recovery.",
+        "list_items1": ["", "", "", ""],
+        "description2": "There is a big difference between having a \"tired week\" and a body that over time lacks the energy to function as it should."
+      },
+      "screen_08": {
+        "title": "From Low Energy Availability (LEA) to Relative Energy Deficiency in Sport (REDs)",
+        "subtitle": "",
+        "description1": "REDs occurs when the body over time has <strong>too low energy availability</strong> to function normally. This reduces the ability to regulate important systems, which can lead to health problems.",
+        "description2": "REDs is not just about body size or weight, but about the <strong>imbalance between energy intake and expenditure.</strong> You can have a normal or high body weight and still have low energy availability - especially if energy expenditure through training is high.",
+        "description3": "REDs affects both boys and girls - and does not only apply to top athletes. Recreational athletes can also develop REDs if energy needs are not met.",
+        "list_items1": ["", "", "", ""],
+        "description4": ""
+      },
+      "screen_09": {
+        "title": "Low energy availability even in energy balance?",
+        "subtitle": "",
+        "description1": "You can be in energy balance overall during a day - and still risk low energy availability.",
+        "description2": "Imagine that you train early and eat little before and after. The body then falls into a deficit for many hours, even if the daily total is sufficient.",
+        "description3": "It is therefore not just the amount of energy that matters - timing and consistent energy supply are crucial. If you eat too little around training sessions, you are at risk of developing problematic energy availability and REDs.",
+        "list_items1": ["", "", "", ""],
+        "description4": "",
+        "table_info": {
+          "title": "Example of a meal pattern:",
+          "tr1_td1": "07:00",
+          "tr1_td2": "<strong>Breakfast</strong>",
+          "tr2_td1": "08:00 - 10:00",
+          "tr2_td2": "Training",
+          "tr3_td1": "10:00",
+          "tr3_td2": "Recovery intake",
+          "tr4_td1": "10:30",
+          "tr4_td2": "<strong>Lunch</strong>",
+          "tr5_td1": "13:00",
+          "tr5_td2": "Snack",
+          "tr6_td1": "15:30",
+          "tr6_td2": "<strong>Dinner</strong>",
+          "tr7_td1": "17:00 - 19:00",
+          "tr7_td2": "Training",
+          "tr8_td1": "19:00",
+          "tr8_td2": "Recovery intake",
+          "tr9_td1": "20:00",
+          "tr9_td2": "<strong>Evening meal</strong>"
+        }
+      },
+      "screen_10": {
+        "title": "Quiz",
+        "question": "What does it mean for the body to be in Low Energy Availability (LEA)?",
+        "options1": "That you eat too little fat",
+        "options2": "That the body uses more energy than it has left over after training",
+        "options3": "That you are overtrained",
+        "options4": "That you haven't slept enough"
+      },
+      "screen_11": {
+        "title": "Quiz",
+        "question": "Which of these statements is true?",
+        "options1": "REDs only occurs in athletes with very low body weight",
+        "options2": "REDs can affect both boys and girls",
+        "options3": "REDs is primarily about being out of shape",
+        "options4": "REDs is only a problem in elite sports"
       }
     }
   },
@@ -39,14 +149,22 @@
     "main_title": "Module 2 - Consequences",
     "screens": {
       "screen_01": {
-        "title": "Learning objectives",
+        "title": "Learning Objectives",
         "subtitle": "After this module, you should be able to:",
         "description1": "",
         "list_items1": [
-          "Identify both health-related and performance-related consequences of REDs.",
-          "Explain how REDs can affect different bodily systems over time",
-          "Be aware of psychological consequences"
-        ]
+          "Identify both health and performance consequences of REDs.",
+          "Explain how REDs can affect different bodily systems over time.",
+          "Be aware of psychological consequences."
+        ],
+        "description2": ""
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
       }
     }
   },
@@ -54,15 +172,23 @@
     "main_title": "Module 3 - What are the symptoms of REDs?",
     "screens": {
       "screen_01": {
-        "title": "Learning objectives",
+        "title": "Learning Objectives",
         "subtitle": "After this module, you should be able to:",
         "description1": "",
         "list_items1": [
-          "Recognize physical and psychological symptoms that may occur with REDs",
-          "Understand how symptoms can vary from person to person",
-          "Know which signs to look out for in yourself or others",
-          "Feel more confident about when it is appropriate to take symptoms seriously and seek help"
-        ]
+          "Recognize physical and psychological symptoms that can occur with REDs.",
+          "Understand how symptoms can vary from person to person.",
+          "Know which signs to look for in yourself or others.",
+          "Be more confident in when it may be wise to take symptoms seriously and seek help."
+        ],
+        "description2": ""
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
       }
     }
   },
@@ -70,16 +196,23 @@
     "main_title": "Module 4 - Prevention",
     "screens": {
       "screen_01": {
-        "title": "Learning objectives",
+        "title": "Learning Objectives",
         "subtitle": "",
-        "description1": "<strong>Prevention</strong> is about everything that happens before things go too far, namely to:",
+        "description1": "<strong>Prevention</strong> is about everything that happens before things have gone too far, namely:",
         "list_items1": [
-          "Anticipate risks",
-          "Recognize early signs of low energy availability and REDs",
-          "Facilitate healthy habits",
-          "Promote safety and openness"
+          "Anticipating risk",
+          "Recognizing early signs of low energy availability and REDs",
+          "Establishing good habits",
+          "Contributing to safety and openness"
         ],
-        "description2": "This module will cover important aspects and best practices related to prevention, so that you as an athlete, coach, or parent are better prepared."
+        "description2": "This module will cover important aspects and good practices related to prevention, so that you as an athlete, coach, or parent are better prepared."
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
       }
     }
   },
@@ -87,14 +220,22 @@
     "main_title": "Module 5 - How to manage REDs?",
     "screens": {
       "screen_01": {
-        "title": "Learning objectives",
-        "subtitle": "Goals for this module:",
+        "title": "Learning Objectives",
+        "subtitle": "Module Goals:",
         "description1": "",
         "list_items1": [
-          "Understand how to identify and manage REDs",
-          "Learn how athletes, coaches, and parents can collaborate",
-          "Become familiar with available resources and treatment options"
-        ]
+          "Understand how to identify and manage REDs.",
+          "Learn how athletes, coaches, and parents can collaborate.",
+          "Get to know available resources and treatment options."
+        ],
+        "description2": ""
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": ["", "", "", ""],
+        "description2": ""
       }
     }
   }

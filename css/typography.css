@@ -191,7 +191,7 @@ h1,
     color: var(--headingColor);
     font-size: var(--XXlHeadingFont);
     line-height: 1.1;
-    font-weight: 500;
+    font-weight: 600;
     font-family: var(--primaryFontFamily);
     margin-bottom: var(--lgMargin);
 }
@@ -200,7 +200,7 @@ h2,
     color: var(--headingColor);
     font-size: var(--XlHeadingFont);
     line-height: 1.1;
-    font-weight: 500;
+    font-weight: 600;
     font-family: var(--primaryFontFamily);
     margin-bottom: var(--lgMargin);
 }
@@ -209,7 +209,7 @@ h3,
     color: var(--headingColor);
     font-size: var(--lgHeadingFont);
     line-height: 1.1;
-    font-weight: 500;
+    font-weight: 600;
     font-family: var(--primaryFontFamily);
     margin-bottom: var(--lgMargin);
 }
@@ -218,7 +218,7 @@ h4,
     color: var(--headingColor);
     font-size: var(--mdHeadingFont);
     line-height: 1.1;
-    font-weight: 500;
+    font-weight: 600;
     font-family: var(--primaryFontFamily);
     margin-bottom: var(--lgMargin);
 }
@@ -227,7 +227,7 @@ h5,
     color: var(--headingColor);
     font-size: var(--smHeadingFont);
     line-height: 1.1;
-    font-weight: 500;
+    font-weight: 600;
     font-family: var(--primaryFontFamily);
     margin-bottom: var(--lgMargin);
 }
