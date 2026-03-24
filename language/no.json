@@ -31,12 +31,10 @@
           "Definere begrepet lav energitilgjengelighet (LEA) og vite at LEA er hovedårsaken til REDs",
           "Skille mellom <strong>kortvarig LEA og langvarig/problematisk LEA</strong>",
           "Nevne hvilke kroppssystemer og funksjoner som kan påvirkes når kroppen får for lite energi"
-        ],
-        "description2": ""
+        ]
       },
       "screen_02": {
         "title": "Kroppen trenger energi til mer enn trening",
-        "subtitle": "",
         "description1": "For at kroppen skal fungere optimalt, trenger den nok energi - ikke bare til trening, men til å opprettholde viktige, daglige funksjoner. Energi brukes blant annet til:",
         "list_items1": [
           "<strong>Hjernefunksjon og nervesystem</strong>",
@@ -45,66 +43,46 @@
           "<strong>Immunforsvar</strong>",
           "<strong>Beinhelse</strong>",
           "<strong>Fordøyelse og metabolisme</strong>"
-        ],
-        "description2": ""
+        ]
       },
       "screen_03": {
         "title": "Energitilgjengelighet",
-        "subtitle": "",
         "description1": "Energitilgjengelighet handler om hvor mye energi (mat og drikke) kroppen har igjen til å drive alle kroppens funksjoner etter at energien brukt på fysisk aktivitet er trukket fra.",
-        "description2": "Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket.",
-        "list_items1": ["", "", "", ""],
-        "description3": ""
+        "description2": "Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket."
       },
       "screen_04": {
         "title": "Energibalanse",
-        "subtitle": "",
-        "description1": "Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket.",
-        "list_items1": ["", "", "", ""],
-        "description2": ""
+        "description1": "Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket."
       },
       "screen_05": {
         "title": "Negativ energibalanse",
-        "subtitle": "",
-        "description1": "Ethvert unntak fra denne balansen, bevisst eller ubevisst, kan lede til <strong> lav energitilgjengelighet </strong> lettere enn many av oss tror.",
-        "list_items1": ["", "", "", ""],
-        "description2": ""
+        "description1": "Ethvert unntak fra denne balansen, bevisst eller ubevisst, kan lede til <strong> lav energitilgjengelighet </strong> lettere enn many av oss tror."
       },
       "screen_06": {
         "title": "Lav energitilgjengelighet",
         "description1": "Lav energitilgjengelighet oppstår når kroppen får for lite energi til å dekke både treningsbehov og de grunnleggende behovene som å puste, sirkulere blod, bygge opp bein og vev, produsere hormoner, osv.",
         "subtitle": "🪫 Tenk på det som et batteri i spareblussmodus:",
         "description2": "Når kroppen får for lite energi, må den prioritere hva den bruker energien på. Da vil den redusere “ikke-essensielle” funksjoner for å spare på ressursene.",
-        "list_items1": ["", "", "", ""],
-        "description3": "",
         "bg_info_box": {
           "title": "<strong> Forskjell fra energibalanse:</strong> Du kan være i energibalanse (altså ikke gå opp eller ned i vekt), men likevel ha lav energitilgjengelighet hvis treningsmengden er høy og matinntaket ikke dekker kroppens behov etter trening."
         }
       },
       "screen_07": {
         "title": "Adaptiv vs. problematisk LEA",
-        "subtitle": "",
         "description1": "Det er normalt at kroppen tilpasser seg kortvarige perioder med lav energitilgjengelighet. Det kalles <strong>adaptiv LEA,</strong> og utgjør ikke nødvendigvis et problem. Dersom slike energiunderskudd skjer ofte nok (flere dager i uka, over flere uker), kan kroppen begynne å spare på energien og nedprioritere funksjoner som eksempelvis hormonproduksjon og restitusjon.",
-        "list_items1": ["", "", "", ""],
         "description2": "Det er stor forskjell på ha en “sliten uke” og en kropp som over tid mangler energi til å fungere som den skal."
       },
       "screen_08": {
         "title": "Fra lav energitilgjengelighet (LEA) til relativ energimangel i idrett (REDs)",
-        "subtitle": "",
         "description1": "REDs oppstår altså når kroppen over tid har for <strong> lav energi-tilgjengelighet </strong> til å fungere normalt. Da reduseres evnen til å regulere viktige systemer, noe som kan føre til helseproblemer.",
         "description2": "REDs handler ikke bare om kroppsstørrelse eller vekt, men om <strong> ubalanse mellom energiinntak og forbruk.</strong> Man kan ha normal eller høy kroppsvekt og likevel være i lav energitilgjengelighet - særlig hvis energiforbruket gjennom trening er høyt.",
-        "description3": "REDs rammer både gutter og jenter - og gjelder ikke bare toppidrettsutøvere. Mosjonister kan også utvikle REDs hvis energibehovet ikke dekkes.",
-        "list_items1": ["", "", "", ""],
-        "description4": ""
+        "description3": "REDs rammer både gutter og jenter - og gjelder ikke bare toppidrettsutøvere. Mosjonister kan også utvikle REDs hvis energibehovet ikke dekkes."
       },
       "screen_09": {
         "title": "Lav energitilgjengelighet selv i energibalanse?",
-        "subtitle": "",
         "description1": "Du kan være i energibalanse totalt sett i løpet av en dag - og likevel risikere lav energitilgjengelighet.",
         "description2": "Tenk deg at du trener tidlig og spiser lite før og etter. Da havner kroppen i underskudd i mange timer, selv om totalen på dagen er tilstrekkelig.",
         "description3": "Det er altså ikke bare mengden energi det kommer an på - tidspunkt og jevn energitilførsel er avgjørende. Spiser du for lite rundt treningsøktene er du i risikosonen for å kunne utvikle problematisk energitilgjengelighet og REDs.",
-        "list_items1": ["", "", "", ""],
-        "description4": "",
         "table_info": {
           "title": "Eksempel på måltidsmønster:",
           "tr1_td1": "07:00",
@@ -151,20 +129,124 @@
       "screen_01": {
         "title": "Læringsmål",
         "subtitle": "Etter denne modulen skal du kunne:",
-        "description1": "",
         "list_items1": [
           "Identifisere både helsemessige og prestasjonsmessige konsekvenser av REDs.",
           "Forklare hvordan REDs kan påvirke forskjellige kroppslige systemer på sikt",
           "Være klar over psykologiske konsekvenser"
-        ],
-        "description2": ""
+        ]
       },
       "screen_02": {
-        "title": "",
-        "subtitle": "",
-        "description1": "",
-        "list_items1": ["", "", "", ""],
-        "description2": ""
+        "title": "Kroppen må prioritere",
+        "description1": "Som vi lærte i forrige delmodul: når kroppen over tid ikke får nok energi, må den begynne å prioritere hvilke funksjoner som er viktigst. Det betyr at funksjoner som ikke er livsnødvendige i øyeblikket, skrus ned. ",
+        "subtitle": "Dette får konsekvenser for både helse og prestasjon."
+      },
+      "screen_03": {
+        "title": "♦️ Hindret vekst, pubertet og hormonfunksjon",
+        "description1": "Når kroppen får for lite energi, skrur den ned signaler som styrer vekst, pubertet og hormonproduksjon, noe som kan forsinke puberteten. Jenter kan miste menstruasjonen, gutter får lavere testosteronnivå, og også hormoner for stoffskifte, humør og appetitt påvirkes.  ",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Hormoner er avgjørende for vekst, beinhelse og fruktbarhet. Uten nok energi får ikke kroppen bygge seg sterk nok, men med tidlig hjelp og riktig ernæring kan utviklingen ofte tas igjen."
+      },
+      "screen_04": {
+        "title": "♦️ Svekket beinhelse",
+        "description1": "Når kroppen får for lite energi, reduseres viktige hormoner som bygger bein. Det gjør skjelettet svakere, og risikoen for belastningsbrudd og beinskjørhet øker. ",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "<strong> Rundt 90 % av beinmassen bygges før fylte 18 år for jenter, og 20 år for gutter. </strong> Bygger man ikke nok beinmasse i ungdomsårene, øker risikoen for beinskjørhet og belastningsbrudd - både i dag og som voksen.",
+        "bg_info_box": {
+          "title": "<strong> Visste du at...<br/> Rundt 90 % av den maksimale beinmassen bygges innen man når 20-årene? Dette legger grunnlaget for sterke bein livet ut - og kroppen trenger nok energi i ungdomsårene for å klare det.</strong> "
+        }
+      },
+      "screen_05": {
+        "title": "♦️ Nedsatt mage- og tarmfunksjon",
+        "description1": "Når kroppen får for lite energi, nedprioriteres fordøyelsen. Det betyr at magen jobber saktere, og det kan føre til <strong> nedsatt appetitt, forstoppelse, oppblåsthet </strong> og <strong> ubehag. </strong> Mange opplever også mageplager som ligner irritabel tarm (IBS).",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "God fordøyelse er viktig for å ta opp næring, holde energinivået oppe og ha det bra i hverdagen. Langvarige fordøyelsesplager kan gi redusert livskvalitet, dårligere restitusjon og mindre matlyst."
+      },
+      "screen_06": {
+        "title": "♦️ Svekket energimetabolisme",
+        "description1": "Når kroppen får for lite energi over tid, senker den stoffskiftet for å spare på kreftene. ",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Lavt stoffskifte gjør at kroppen bruker mindre energi i hvile. Dette kan føre til økt <strong> tretthet, frysninger, vektendringer </strong> og <strong> hormonforstyrrelser.</strong>  "
+      },
+      "screen_07": {
+        "title": "♦️ Nedsatt blodfunksjon",
+        "description1": "Ved lav energitilgjengelighet kan kroppen få for lite av jern og andre viktige næringsstoffer. Jern er nødvendig for å lage røde blodceller, som frakter oksygen rundt i kroppen. Når jernlagrene er lave (vanlig hos unge, kvinnelige utøvere) reduseres blodets evne til å levere oksygen effektivt.",
+        "subtitle": "Hvorfor er det viktig ",
+        "description2": "Jernmangel kan forverre energimangelen fordi det påvirker stoffskiftet og gjør at kroppen bruker energi mindre effektivt, både i hvile og under aktivitet. Jernmangel ved REDs kan også svekke hormonbalansen og påvirke beinhelse, fertilitet og psykisk helse."
+      },
+      "screen_08": {
+        "title": "♦️ Urinlekkasje",
+        "description1": "REDs reduserer energitilførselen til muskler, inkludert bekkenbunnen, som er ansvarlig for å holde urinblæren tett under fysisk belastning. Hormonendringer - spesielt lavt østrogen hos jenter - kan også svekke støttevevet i urinveiene.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Svake bekkenbunnsmuskler og endret bindevevsfunksjon kan føre til urinlekkasje under løping, hopping eller styrketrening."
+      },
+      "screen_09": {
+        "title": "♦️ Nedsatt regulering av blodsukker og fettstoffer ",
+        "description1": "For lite energi gjør at hormoner som styrer blodsukker og forbrenning (blant annet insulin, kortisol og leptin) kommer i ubalanse.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Når disse hormonene kommer i ubalanse, kan det føre til ustabilt blodsukker, energisvigninger, svimmelhet og hodepine. Dette påvirker både prestasjon og humør, og gjør det vanskeligere for kroppen å bruke mat effektivt."
+      },
+      "screen_10": {
+        "title": "♦️ Psykiske helseplager ",
+        "description1": "REDs påvirker hjernen gjennom energimangel og hormonforstyrrelser. Dette kan endre kjemien i hjernen og gjøre det vanskeligere å regulere humør.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Man kan oppleve nedstemthet, angst eller irritabilitet. Psykiske plager kan oppstå selv uten kroppspress eller bevisst matkontroll, og gjør det vanskeligere å ha overskudd i hverdagen, trene godt og føle seg som seg selv."
+      },
+      "screen_11": {
+        "title": "♦️ Nedsatt hjernefunksjon ",
+        "description1": "Ved REDs får hjernen for lite energi, og hormonene som påvirker konsentrasjon, læring og reaksjonsevne kommer i ubalanse.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Dette kan gjøre det vanskeligere å fokusere, huske informasjon og ta raske beslutninger – både i idrett og skole. Man kan føle seg uklar i hodet og «ute av det», selv uten å være sliten fysisk."
+      },
+      "screen_12": {
+        "title": "♦️ Søvnproblemer ",
+        "description1": "Forskning viser at utøvere som får for lite energi i forhold til hvor mye de trener, også sover dårligere. De våkner oftere i løpet av natta, har lavere søvneffektivitet og sover mindre i den dype, viktige søvnfasen. Forskerne tror dette kan henge sammen med hvordan kroppen reagerer på lite energi - for eksempel gjennom hormoner som påvirker søvn og våkenhet. ",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Søvn er helt avgjørende for å restituere, prestere og unngå skader. Dårlig søvn kan være et tegn på at kroppen ikke får nok energi, særlig når du trener mye"
+      },
+      "screen_13": {
+        "title": "♦️ Svekket hjertefunksjon",
+        "description1": "Alvorlig REDs er assosiert med lavere blodtrykk og hvilepuls.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Redusert hjerteaktivitet kan være en følge av energimangel, og kan øke risikoen for hjerterytmeforstyrrelser."
+      },
+      "screen_14": {
+        "title": "♦️ Redusert skjelettmuskelfunksjon",
+        "description1": "Lav energitilgjengelighet reduserer muskelproteinsyntesen. Dette skyldes hormonelle endringer og utilstrekkelig tilførsel av både energi og næringsstoffer som protein og karbohydrat. Samtidig reduseres muskelens lagring av glykogen, som er en viktig energikilde under trening. Resultatet er svekket muskelstyrke, dårligere restitusjon og redusert evne til å tilpasse seg treningsbelastning over tid.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Man føler seg svakere og orker mindre, noe som svekker prestasjon og øker risikoen for skader som strekk og overbelastning."
+      },
+      "screen_15": {
+        "title": "♦️ Svekket immunforsvar",
+        "description1": "Kroppen trenger energi og næringsstoffer for å lage immunceller og bekjempe sykdom. Ved REDs settes immunforsvaret i sparebluss.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Man blir oftere syk, får lengre sykdomsforløp og tåler mindre trening før kroppen sier stopp. Infeksjoner og betennelser kan også vare lenger enn normalt."
+      },
+      "screen_16": {
+        "title": "♦️ Hvordan påvirker REDs prestasjonen? ",
+        "description1": "Du har nå lært hvordan kroppen prioriterer bort viktige funksjoner når energien ikke strekker til. Disse funksjonene får naturligvis også konsekvenser for prestasjonen. ",
+        "subtitle": "Vanlige prestasjonsmessige konsekvenser av REDs er:",
+        "list_items1": [
+          "Stagnasjon - fremgangen stopper opp",
+          "Økt treningsslitasje - treningen føles tyngre",
+          "Dårligere restitusjon",
+          "Mer sykdom og skader"
+        ]
+      },
+      "screen_17": {
+        "title": "Quiz",
+        "question": "Når i livet er omtrent 90 % av den maksimale beinmassen bygd opp?",
+        "options1": "Etter at man er ferdig å vokse",
+        "options2": "Rundt 18 års alder",
+        "options3": "Rundt 25 års alder",
+        "options4": "Rundt 30 års alder"
+      },
+      "screen_18": {
+        "title": "Quiz",
+        "question": "Hvilken av disse er ikke en vanlig helsemessig konsekvens av REDs?",
+        "options1": "Økt beinstyrke",
+        "options2": "Forstyrret hormonbalanse",
+        "options3": "Økt risiko for belastningsskader",
+        "options4": "Forsinket pubertetsutvikling"
       }
     }
   },

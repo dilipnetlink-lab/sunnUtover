@@ -11,7 +11,7 @@
   },
   "homePage": {
     "title": "Learn more about body and health with Sunn Utøver",
-    "description": "Sunn Utøver is a platform that makes information related to Relative Energy Deficiency in Sport (REDs) more accessible for athletes, coaches, and parents. Here you will learn what REDs is, the typical signs of this condition, and what can be done to both manage and prevent REDs.",
+    "description": "Sunn Utøver is a platform that makes information related to the condition Relative Energy Deficiency in Sport (REDs) more accessible for athletes, coaches, and parents. Here you will learn what REDs is, what the typical signs of this condition are, and what can be done to both manage and prevent REDs.",
     "module_section_title": "Learning Modules",
     "module_1_title": "Module 1 - What is REDs?",
     "module_2_title": "Module 2 - Consequences",
@@ -31,13 +31,11 @@
           "Define the term Low Energy Availability (LEA) and know that LEA is the main cause of REDs.",
           "Distinguish between <strong>short-term LEA and long-term/problematic LEA</strong>.",
           "Mention which body systems and functions can be affected when the body receives too little energy."
-        ],
-        "description2": ""
+        ]
       },
       "screen_02": {
         "title": "The body needs energy for more than just training",
-        "subtitle": "",
-        "description1": "For the body to function optimally, it needs enough energy - not just for training, but to maintain vital daily functions. Energy is used for, among other things:",
+        "description1": "For the body to function optimally, it needs enough energy - not just for training, but to maintain important daily functions. Energy is used for, among other things:",
         "list_items1": [
           "<strong>Brain function and nervous system</strong>",
           "<strong>Heart and circulatory system</strong>",
@@ -45,68 +43,48 @@
           "<strong>Immune system</strong>",
           "<strong>Bone health</strong>",
           "<strong>Digestion and metabolism</strong>"
-        ],
-        "description2": ""
+        ]
       },
       "screen_03": {
         "title": "Energy Availability",
-        "subtitle": "",
-        "description1": "Energy availability is about how much energy (food and drink) the body has left to run all body functions after the energy used for physical activity has been subtracted.",
-        "description2": "Energy balance is another important concept to understand when talking about energy availability, and can be simply explained as a state where energy intake is equal to energy expenditure.",
-        "list_items1": ["", "", "", ""],
-        "description3": ""
+        "description1": "Energy availability is about how much energy (food and drink) the body has left to drive all body functions after the energy used for physical activity is subtracted.",
+        "description2": "Energy balance is another important concept to understand when talking about energy availability, and can be simply explained as a state where energy intake is equal to energy expenditure."
       },
       "screen_04": {
         "title": "Energy Balance",
-        "subtitle": "",
-        "description1": "Energy balance is another concept that is important to relate to when talking about energy availability, and can be simply explained as a state where energy intake is equal to energy expenditure.",
-        "list_items1": ["", "", "", ""],
-        "description2": ""
+        "description1": "Energy balance is a state where energy intake is equal to energy expenditure."
       },
       "screen_05": {
         "title": "Negative Energy Balance",
-        "subtitle": "",
-        "description1": "Any exception to this balance, intentional or unintentional, can lead to <strong>low energy availability</strong> more easily than many of us think.",
-        "list_items1": ["", "", "", ""],
-        "description2": ""
+        "description1": "Any deviation from this balance, conscious or unconscious, can lead to <strong>low energy availability</strong> more easily than many of us think."
       },
       "screen_06": {
         "title": "Low Energy Availability",
         "description1": "Low energy availability occurs when the body receives too little energy to cover both training needs and basic needs such as breathing, circulating blood, building bone and tissue, producing hormones, etc.",
-        "subtitle": "🪫 Think of it as a battery in power-saving mode:",
-        "description2": "When the body gets too little energy, it must prioritize what it uses energy for. It will then reduce \"non-essential\" functions to save resources.",
-        "list_items1": ["", "", "", ""],
-        "description3": "",
+        "subtitle": "🪫 Think of it like a battery in power-saving mode:",
+        "description2": "When the body receives too little energy, it must prioritize what it uses energy for. It will then reduce \"non-essential\" functions to save resources.",
         "bg_info_box": {
-          "title": "<strong>Difference from energy balance:</strong> You can be in energy balance (i.e., not gaining or losing weight), but still have low energy availability if the training volume is high and food intake does not cover the body's needs after exercise."
+          "title": "<strong>Difference from energy balance:</strong> You can be in energy balance (meaning you don't gain or lose weight), but still have low energy availability if the training volume is high and food intake does not cover the body's needs after exercise."
         }
       },
       "screen_07": {
         "title": "Adaptive vs. Problematic LEA",
-        "subtitle": "",
-        "description1": "It is normal for the body to adapt to short periods of low energy availability. This is called <strong>adaptive LEA,</strong> and does not necessarily pose a problem. If such energy deficits happen often enough (several days a week, over several weeks), the body may start to save energy and deprioritize functions such as hormone production and recovery.",
-        "list_items1": ["", "", "", ""],
+        "description1": "It is normal for the body to adapt to short periods of low energy availability. This is called <strong>adaptive LEA,</strong> and does not necessarily pose a problem. If such energy deficits happen often enough (several days a week, over several weeks), the body may start saving energy and deprioritizing functions such as hormone production and recovery.",
         "description2": "There is a big difference between having a \"tired week\" and a body that over time lacks the energy to function as it should."
       },
       "screen_08": {
         "title": "From Low Energy Availability (LEA) to Relative Energy Deficiency in Sport (REDs)",
-        "subtitle": "",
-        "description1": "REDs occurs when the body over time has <strong>too low energy availability</strong> to function normally. This reduces the ability to regulate important systems, which can lead to health problems.",
-        "description2": "REDs is not just about body size or weight, but about the <strong>imbalance between energy intake and expenditure.</strong> You can have a normal or high body weight and still have low energy availability - especially if energy expenditure through training is high.",
-        "description3": "REDs affects both boys and girls - and does not only apply to top athletes. Recreational athletes can also develop REDs if energy needs are not met.",
-        "list_items1": ["", "", "", ""],
-        "description4": ""
+        "description1": "REDs occurs when the body over time has <strong>too low energy availability</strong> to function normally. Then the ability to regulate important systems is reduced, which can lead to health problems.",
+        "description2": "REDs is not just about body size or weight, but about an <strong>imbalance between energy intake and expenditure.</strong> One can have a normal or high body weight and still be in low energy availability - especially if energy expenditure through training is high.",
+        "description3": "REDs affects both boys and girls - and does not only apply to elite athletes. Recreational athletes can also develop REDs if energy needs are not met."
       },
       "screen_09": {
         "title": "Low energy availability even in energy balance?",
-        "subtitle": "",
         "description1": "You can be in energy balance overall during a day - and still risk low energy availability.",
-        "description2": "Imagine that you train early and eat little before and after. The body then falls into a deficit for many hours, even if the daily total is sufficient.",
-        "description3": "It is therefore not just the amount of energy that matters - timing and consistent energy supply are crucial. If you eat too little around training sessions, you are at risk of developing problematic energy availability and REDs.",
-        "list_items1": ["", "", "", ""],
-        "description4": "",
+        "description2": "Imagine that you train early and eat little before and after. Then the body ends up in a deficit for many hours, even if the total for the day is sufficient.",
+        "description3": "It is therefore not just the amount of energy that matters - timing and steady energy supply are crucial. If you eat too little around training sessions, you are at risk of developing problematic energy availability and REDs.",
         "table_info": {
-          "title": "Example of a meal pattern:",
+          "title": "Example of meal pattern:",
           "tr1_td1": "07:00",
           "tr1_td2": "<strong>Breakfast</strong>",
           "tr2_td1": "08:00 - 10:00",
@@ -129,7 +107,7 @@
       },
       "screen_10": {
         "title": "Quiz",
-        "question": "What does it mean for the body to be in Low Energy Availability (LEA)?",
+        "question": "What does it mean that the body is in low energy availability (LEA)?",
         "options1": "That you eat too little fat",
         "options2": "That the body uses more energy than it has left over after training",
         "options3": "That you are overtrained",
@@ -140,7 +118,7 @@
         "question": "Which of these statements is true?",
         "options1": "REDs only occurs in athletes with very low body weight",
         "options2": "REDs can affect both boys and girls",
-        "options3": "REDs is primarily about being out of shape",
+        "options3": "REDs is primarily about being in poor shape",
         "options4": "REDs is only a problem in elite sports"
       }
     }
@@ -151,20 +129,124 @@
       "screen_01": {
         "title": "Learning Objectives",
         "subtitle": "After this module, you should be able to:",
-        "description1": "",
         "list_items1": [
           "Identify both health and performance consequences of REDs.",
           "Explain how REDs can affect different bodily systems over time.",
           "Be aware of psychological consequences."
-        ],
-        "description2": ""
+        ]
       },
       "screen_02": {
-        "title": "",
-        "subtitle": "",
-        "description1": "",
-        "list_items1": ["", "", "", ""],
-        "description2": ""
+        "title": "The body must prioritize",
+        "description1": "As we learned in the previous module: when the body over time does not get enough energy, it must begin to prioritize which functions are most important. This means that functions that are not vital in the moment are dialed down.",
+        "subtitle": "This has consequences for both health and performance."
+      },
+      "screen_03": {
+        "title": "♦️ Impaired growth, puberty, and hormone function",
+        "description1": "When the body receives too little energy, it turns down signals that control growth, puberty, and hormone production, which can delay puberty. Girls may lose their period, boys get lower testosterone levels, and hormones for metabolism, mood, and appetite are also affected.",
+        "subtitle": "Why is it important?",
+        "description2": "Hormones are crucial for growth, bone health, and fertility. Without enough energy, the body cannot build itself strong enough, but with early help and proper nutrition, development can often be caught up."
+      },
+      "screen_04": {
+        "title": "♦️ Weakened bone health",
+        "description1": "When the body receives too little energy, important hormones that build bone are reduced. This makes the skeleton weaker, and the risk of stress fractures and osteoporosis increases.",
+        "subtitle": "Why is it important?",
+        "description2": "<strong>Around 90% of bone mass is built before the age of 18 for girls, and 20 for boys.</strong> If you don't build enough bone mass in your teenage years, the risk of osteoporosis and stress fractures increases - both today and as an adult.",
+        "bg_info_box": {
+          "title": "<strong>Did you know...<br/> Around 90% of peak bone mass is built by the time you reach your 20s? This lays the foundation for strong bones for life - and the body needs enough energy in the teenage years to achieve it.</strong> "
+        }
+      },
+      "screen_05": {
+        "title": "♦️ Impaired gastrointestinal function",
+        "description1": "When the body receives too little energy, digestion is deprioritized. This means the stomach works slower, which can lead to <strong>decreased appetite, constipation, bloating</strong> and <strong>discomfort.</strong> Many also experience stomach issues similar to Irritable Bowel Syndrome (IBS).",
+        "subtitle": "Why is it important?",
+        "description2": "Good digestion is important for absorbing nutrients, keeping energy levels up, and feeling good in everyday life. Long-term digestive problems can lead to reduced quality of life, poorer recovery, and less appetite."
+      },
+      "screen_06": {
+        "title": "♦️ Impaired energy metabolism",
+        "description1": "When the body receives too little energy over time, it lowers its metabolism to save strength.",
+        "subtitle": "Why is it important?",
+        "description2": "Low metabolism means the body uses less energy at rest. This can lead to increased <strong>fatigue, feeling cold, weight changes</strong> and <strong>hormonal disturbances.</strong>"
+      },
+      "screen_07": {
+        "title": "♦️ Impaired blood function",
+        "description1": "With low energy availability, the body may get too little iron and other important nutrients. Iron is necessary to make red blood cells, which transport oxygen around the body. When iron stores are low (common among young, female athletes), the blood's ability to deliver oxygen effectively is reduced.",
+        "subtitle": "Why is it important?",
+        "description2": "Iron deficiency can worsen energy deficiency because it affects metabolism and makes the body use energy less efficiently, both at rest and during activity. Iron deficiency in REDs can also weaken hormone balance and affect bone health, fertility, and mental health."
+      },
+      "screen_08": {
+        "title": "♦️ Urinary incontinence",
+        "description1": "REDs reduces the energy supply to muscles, including the pelvic floor, which is responsible for keeping the bladder tight during physical exertion. Hormonal changes - especially low estrogen in girls - can also weaken the supporting tissue in the urinary tract.",
+        "subtitle": "Why is it important?",
+        "description2": "Weak pelvic floor muscles and altered connective tissue function can lead to urinary leakage during running, jumping, or strength training."
+      },
+      "screen_09": {
+        "title": "♦️ Impaired regulation of blood sugar and blood lipids",
+        "description1": "Too little energy causes hormones that control blood sugar and metabolism (including insulin, cortisol, and leptin) to become unbalanced.",
+        "subtitle": "Why is it important?",
+        "description2": "When these hormones become unbalanced, it can lead to unstable blood sugar, energy fluctuations, dizziness, and headaches. This affects both performance and mood, making it harder for the body to use food effectively."
+      },
+      "screen_10": {
+        "title": "♦️ Mental health issues",
+        "description1": "REDs affects the brain through energy deficiency and hormonal disturbances. This can change the chemistry in the brain and make it harder to regulate mood.",
+        "subtitle": "Why is it important?",
+        "description2": "One may experience low mood, anxiety, or irritability. Mental health issues can arise even without body pressure or conscious food control, making it harder to have energy in everyday life, train well, and feel like oneself."
+      },
+      "screen_11": {
+        "title": "♦️ Impaired brain function",
+        "description1": "In REDs, the brain receives too little energy, and the hormones that affect concentration, learning, and reaction time become unbalanced.",
+        "subtitle": "Why is it important?",
+        "description2": "This can make it harder to focus, remember information, and make quick decisions – both in sports and school. One can feel mentally foggy and \"out of it,\" even without being physically tired."
+      },
+      "screen_12": {
+        "title": "♦️ Sleep problems",
+        "description1": "Research shows that athletes who get too little energy relative to how much they train also sleep worse. They wake up more often during the night, have lower sleep efficiency, and sleep less in the deep, important sleep phase. Researchers believe this may be related to how the body reacts to low energy - for example, through hormones that affect sleep and alertness.",
+        "subtitle": "Why is it important?",
+        "description2": "Sleep is absolutely crucial for recovery, performance, and avoiding injuries. Poor sleep can be a sign that the body is not getting enough energy, especially when you train a lot."
+      },
+      "screen_13": {
+        "title": "♦️ Weakened heart function",
+        "description1": "Severe REDs is associated with lower blood pressure and resting heart rate.",
+        "subtitle": "Why is it important?",
+        "description2": "Reduced heart activity can be a consequence of energy deficiency and can increase the risk of heart rhythm disturbances."
+      },
+      "screen_14": {
+        "title": "♦️ Reduced skeletal muscle function",
+        "description1": "Low energy availability reduces muscle protein synthesis. This is due to hormonal changes and insufficient supply of both energy and nutrients such as protein and carbohydrates. At the same time, the muscle's storage of glycogen, an important energy source during exercise, is reduced. The result is weakened muscle strength, poorer recovery, and reduced ability to adapt to training loads over time.",
+        "subtitle": "Why is it important?",
+        "description2": "One feels weaker and can endure less, which impairs performance and increases the risk of injuries such as strains and overexertion."
+      },
+      "screen_15": {
+        "title": "♦️ Weakened immune system",
+        "description1": "The body needs energy and nutrients to make immune cells and fight disease. In REDs, the immune system is put in power-saving mode.",
+        "subtitle": "Why is it important?",
+        "description2": "One gets sick more often, has longer illness durations, and can tolerate less training before the body says stop. Infections and inflammation can also last longer than normal."
+      },
+      "screen_16": {
+        "title": "♦️ How does REDs affect performance?",
+        "description1": "You have now learned how the body deprioritizes important functions when energy is insufficient. These functions naturally also have consequences for performance.",
+        "subtitle": "Common performance-related consequences of REDs are:",
+        "list_items1": [
+          "Stagnation - progress stops",
+          "Increased training wear and tear - training feels heavier",
+          "Poorer recovery",
+          "More illness and injuries"
+        ]
+      },
+      "screen_17": {
+        "title": "Quiz",
+        "question": "When in life is approximately 90% of peak bone mass built up?",
+        "options1": "After you have finished growing",
+        "options2": "Around age 18",
+        "options3": "Around age 25",
+        "options4": "Around age 30"
+      },
+      "screen_18": {
+        "title": "Quiz",
+        "question": "Which of these is not a common health consequence of REDs?",
+        "options1": "Increased bone strength",
+        "options2": "Disturbed hormone balance",
+        "options3": "Increased risk of overuse injuries",
+        "options4": "Delayed pubertal development"
       }
     }
   },
@@ -198,14 +280,14 @@
       "screen_01": {
         "title": "Learning Objectives",
         "subtitle": "",
-        "description1": "<strong>Prevention</strong> is about everything that happens before things have gone too far, namely:",
+        "description1": "<strong>Prevention</strong> is about everything that happens before things have gone too far, meaning to:",
         "list_items1": [
-          "Anticipating risk",
-          "Recognizing early signs of low energy availability and REDs",
-          "Establishing good habits",
-          "Contributing to safety and openness"
+          "Anticipate risk",
+          "Recognize early signs of low energy availability and REDs",
+          "Facilitate good habits",
+          "Contribute to safety and openness"
         ],
-        "description2": "This module will cover important aspects and good practices related to prevention, so that you as an athlete, coach, or parent are better prepared."
+        "description2": "This module will go through important aspects and good practices related to prevention, so that you as an athlete, coach, or parent are better prepared."
       },
       "screen_02": {
         "title": "",
@@ -221,12 +303,12 @@
     "screens": {
       "screen_01": {
         "title": "Learning Objectives",
-        "subtitle": "Module Goals:",
+        "subtitle": "Module objectives:",
         "description1": "",
         "list_items1": [
           "Understand how to identify and manage REDs.",
           "Learn how athletes, coaches, and parents can collaborate.",
-          "Get to know available resources and treatment options."
+          "Become familiar with available resources and treatment options."
         ],
         "description2": ""
       },
