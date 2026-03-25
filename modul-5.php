@@ -219,8 +219,8 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4 class="mb-0"><?php echo __("modul5Page.screens.screen_04.bg_info_box.title"); ?></h4>
-                                                                                <h4 class="mb-0 fw-normal"> <?php echo __("modul5Page.screens.screen_04.bg_info_box.description"); ?></h4>
+                                                                                <h4> <strong> <?php echo __("modul5Page.screens.screen_04.bg_info_box.title"); ?></strong></h4>
+                                                                                <h4> <?php echo __("modul5Page.screens.screen_04.bg_info_box.description"); ?></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
