@@ -83,8 +83,10 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                        <div class="step-slide-box-img">
-                                                                            <figure><img src="images/box-modul-1-img-2.svg" class="rounded"/></figure>
+                                                                        <div class="step-slide-box-img"> 
+                                                                            <figure class="battery-wrapper">
+                                                                                <?php include 'images/box-modul-1-img-2.svg'; ?>
+                                                                            </figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -106,7 +108,9 @@
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
                                                                         <div class="step-slide-box-img">
-                                                                            <figure><img src="images/box-modul-1-img-3.svg" class="rounded"/></figure>
+                                                                            <figure class="battery-wrapper">
+                                                                                <?php include 'images/box-modul-1-img-3.svg'; ?>
+                                                                            </figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -127,7 +131,11 @@
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
                                                                         <div class="step-slide-box-img">
-                                                                            <figure><img src="images/box-modul-1-img-4.svg" class="rounded"/></figure>
+                                                                            <figure class="seesaw-box">
+                                                                                <div class="seesaw state-center">
+                                                                                <?php include 'images/box-modul-1-img-4.svg'; ?>
+                                                                                </div>
+                                                                            </figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -148,7 +156,11 @@
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
                                                                         <div class="step-slide-box-img">
-                                                                            <figure><img src="images/box-modul-1-img-5.svg" class="rounded"/></figure>
+                                                                            <figure class="seesaw-box">
+                                                                                <div class="seesaw negative-slide">
+                                                                                    <?php include 'images/box-modul-1-img-4.svg'; ?>
+                                                                                </div>
+                                                                            </figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -171,7 +183,9 @@
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
                                                                         <div class="step-slide-box-img">
-                                                                            <figure><img src="images/box-modul-1-img-6.svg" class="rounded"/></figure>
+                                                                            <figure class="battery-wrapper">
+                                                                                <?php include 'images/box-modul-1-img-6.svg'; ?>
+                                                                            </figure>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12">
@@ -371,3 +385,51 @@
     </div>
 </section>
 <?php include 'commons/footer.php'; ?>
+<script>
+document.querySelectorAll('.sliderBoxDownArrow').forEach(btn => {
+ btn.addEventListener('click', function () {
+
+ let currentSlide = this.closest('.step-slide-box-item');
+ let nextSlide = currentSlide?.nextElementSibling;
+
+ if (!nextSlide) return;
+
+ let seesaw = nextSlide.querySelector('.seesaw');
+
+ if (!seesaw) return;
+
+ void seesaw.offsetWidth;
+
+ if (seesaw.classList.contains('negative-slide')) {
+
+ // already red hoy to skip
+ if (seesaw.classList.contains('state-negative')) return;
+
+ seesaw.classList.remove('state-center');
+ seesaw.classList.add('state-negative');
+
+ // 🔥 ADD THIS (IMPORTANT)
+ seesaw.classList.add('has-animated');
+ }
+ });
+});
+
+
+// ⬆️ PREV → ONLY ahi reset karvu
+document.querySelectorAll('.sliderBoxUpArrow').forEach(btn => {
+ btn.addEventListener('click', function () {
+
+ let currentSlide = this.closest('step-slide-box-item');
+
+ let seesaw = currentSlide.querySelector('.seesaw');
+
+ if (seesaw) {
+ seesaw.classList.remove('state-negative');
+ seesaw.classList.add('state-center');
+
+ // 🔥 ADD THIS (IMPORTANT)
+ seesaw.classList.add('has-animated');
+ }
+ });
+});
+</script>

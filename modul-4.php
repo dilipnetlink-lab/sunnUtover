@@ -26,7 +26,7 @@
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="step-slide-box-slider">
-                                                <div class="step-slide-box-item">
+                                                <!-- <div class="step-slide-box-item">
                                                     <div class="step-slide-box-description-con p-0">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -97,20 +97,56 @@
                                                         </div>
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
-                                                </div>
+                                                </div> 
                                                 <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-5">
                                                                     <div class="step-slide-box-caption">
                                                                         <h2>Selvmonitorering - Lær deg å kjenne kroppen din</h2>
                                                                         <p>Å følge med på kroppens signaler er noe av det viktigste du kan gjøre for å oppdage lav energitilgjengelighet og REDs tidlig. </p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-7">
                                                                     <div class="step-slide-box-img">
+                                                                        <div class="table-line-white-bg"> 
+                                                                            <div class="table-responsive">
+                                                                                <table>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <th class="w-35">Parameter</th>
+                                                                                            <th class="w-65">Tegn du kan se etter</th>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>🏃‍♀️ Treningsrespons</td>
+                                                                                            <td>Stagnasjon/fremgang stopper, lav energi på økter</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>😴 Søvnkvalitet</td>
+                                                                                            <td>Urolig søvn, vanskelig å sovne, våkner sliten</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🤕 Sykdom/skade</td>
+                                                                                            <td>Hyppige skader, treg heling, ofte forkjølet</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>⚖️ Hormonstatus</td>
+                                                                                            <td>Manglende/uregelmessig menstruasjon (jenter), manglende morgenereksjon (gutter)</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🧠 Humør/motivasjon</td>
+                                                                                            <td>Nedstemthet, uvanlig irritabel</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🍽️ Appetitt og matinntak</td>
+                                                                                            <td>Hopper over måltider, glemmer å spise etter trening, spiser mindre enn vanlig</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
@@ -135,7 +171,7 @@
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-5">
                                                                     <div class="step-slide-box-caption">
                                                                         <h2>Følg med på trender </h2>
                                                                         <p>Det er helt normalt å ha en dårlig dag eller uke. Det som er viktig, er å følge med på utviklingen over tid: </p>
@@ -147,8 +183,44 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-7">
                                                                     <div class="step-slide-box-img">
+                                                                        <div class="table-line-white-bg"> 
+                                                                            <div class="table-responsive">
+                                                                                <table>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <th class="w-35">Parameter</th>
+                                                                                            <th class="w-65">Tegn du kan se etter</th>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>🏃‍♀️ Treningsrespons</td>
+                                                                                            <td>Stagnasjon/fremgang stopper, lav energi på økter</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>😴 Søvnkvalitet</td>
+                                                                                            <td>Urolig søvn, vanskelig å sovne, våkner sliten</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🤕 Sykdom/skade</td>
+                                                                                            <td>Hyppige skader, treg heling, ofte forkjølet</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>⚖️ Hormonstatus</td>
+                                                                                            <td>Manglende/uregelmessig menstruasjon (jenter), manglende morgenereksjon (gutter)</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🧠 Humør/motivasjon</td>
+                                                                                            <td>Nedstemthet, uvanlig irritabel</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🍽️ Appetitt og matinntak</td>
+                                                                                            <td>Hopper over måltider, glemmer å spise etter trening, spiser mindre enn vanlig</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
@@ -274,13 +346,13 @@
                                                         </div>
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
-                                                </div>
+                                                </div>-->
                                                 <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
-                                                                <div class="col-sm-12 col-md-12 col-lg-5">
+                                                                <div class="col-sm-12 col-md-12 col-lg-5 col-xl-4">
                                                                     <div class="step-slide-box-caption">
                                                                         <h2>Øvelse - Trening og energibehov</h2>
                                                                         <p class="mb-1">Ta en titt på treningsuken din og spør deg selv:</p>
@@ -291,8 +363,52 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                    <div class="step-slide-box-caption">
+                                                                <div class="col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                                                                    <div class="step-slide-box-img">
+                                                                        <div class="table-line-white-bg"> 
+                                                                            <div class="table-responsive">
+                                                                                <table>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <th class="w-10">Mandag</th>
+                                                                                            <th class="w-10">Tirsdag</th>
+                                                                                            <th class="w-10">Onsdag</th>
+                                                                                            <th class="w-10">Torsdag</th>
+                                                                                            <th class="w-10">Fredag</th>
+                                                                                            <th class="w-10">Lørdag</th>
+                                                                                            <th class="w-10">Søndag</th>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>Lett jogg</td>
+                                                                                            <td>Intervaller</td>
+                                                                                            <td>Fri</td>
+                                                                                            <td>Intervaller</td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr> 
+                                                                                         <tr>
+                                                                                            <td>Styrke</td>
+                                                                                            <td>Intervaller</td>
+                                                                                            <td>Rolig langtur</td>
+                                                                                            <td>Intervaller</td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr> 
+                                                                                         <tr>
+                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Mellom</strong><br/><img class="mt-1" src="images/icon-battery-mellom.svg" /></div></td>
+                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Stort</strong><br/><img class="mt-1" src="images/icon-battery-stort.svg" /></div></td>
+                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Lavere</strong><br/><img class="mt-1" src="images/icon-battery-lavere.svg" /></div></td>
+                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Stort</strong><br/><img class="mt-1" src="images/icon-battery-stort.svg" /></div></td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr> 
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
