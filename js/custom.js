@@ -33,7 +33,20 @@ gsap.set(slideContent[0], { autoAlpha: 1, y: 0 });
 updateCounter();
 
 function changeSlide(i, dir) {
-    if (i < 0 || i >= slides.length || animating) return;
+    if (animating) return;
+
+    // 🔥 LAST SLIDE HANDLE
+    if (i >= slides.length) {
+        // OPTION 1 → redirect to index
+        window.location.href = "index.php";
+
+        // OPTION 2 → module 2 page (example)
+        // window.location.href = "module-2.php";
+
+        return;
+    }
+
+    if (i < 0) return;
 
     animating = true;
 
