@@ -13,7 +13,8 @@
     --successColor: #4caf50;
     --errorColor: #ef5350;
     --lavenderLightColor: #d7d3fa;
-    --lightBlue: #96C7ED;
+    --lightBlue: #96c7ed;
+    --grayColor :#6B7280;
     /* FontFamily */
     --primaryFontFamily: "Roboto", sans-serif;
     --secondaryFontFamily: "Inter", sans-serif;
@@ -22,107 +23,104 @@
     --sectionPadding: 55px;
     /* HeadingFont */
     --XXlHeadingFont: 40px;
-    --XlHeadingFont: 38px;
-    --lgHeadingFont: 28px;
+    --XlHeadingFont: 28px;
+    --lgHeadingFont: 26px;
     --mdHeadingFont: 24px;
     --smHeadingFont: 21px;
     --xsHeadingFont: 18px;
     /* TextFont */
-    --xxlTextFont: 21px;
-    --xlTextFont: 20px;
-    --lgTextFont: 19px;
-    --normalTextFont: 18px;
-    --mdTextFont: 17px;
-    --smTextFont: 16px;
+    --lgTextFont: 22px;
+    --normalTextFont: 21px;
+    --mdTextFont: 20px;
+    --smTextFont: 18px;
+    --xsTextFont: 16px;
+    --xxsTextFont: 14px;
     /* formFont */
     --btnFont: 16px;
-    --inputTextFont: 16px;
+    --inputTextFont: 18px;
     /* TagMargin */
-    --lgMargin: 22px;
-    --mdMargin: 20px;
-    --smMargin: 18px;
-}
-@media only screen and (max-width: 1399.98px) {
-    :root {
-        /* sectionPadding */
-        --sectionPadding: 52px;
-        /* HeadingFont */
-        --XXlHeadingFont: 37px;
-        --XlHeadingFont: 35px;
-        --lgHeadingFont: 27px;
-        --mdHeadingFont: 23px;
-        --smHeadingFont: 20px;
-        --xsHeadingFont: 18px;
-    }
+    --lgMargin: 20px;
+    --mdMargin: 18px;
+    --smMargin: 16px;
 }
 @media only screen and (max-width: 1199.98px) {
     :root {
         /* sectionPadding */
-        --sectionPadding: 48px;
+        --sectionPadding: 50px;
         /* HeadingFont */
-        --XXlHeadingFont: 34px;
-        --XlHeadingFont: 32px;
-        --lgHeadingFont: 26px;
-        --mdHeadingFont: 22px;
+        --XXlHeadingFont: 36px;
+        --XlHeadingFont: 27px;
+        --lgHeadingFont: 25px;
+        --mdHeadingFont: 23px;
         --smHeadingFont: 20px;
-        --xsHeadingFont: 18px;
+        --xsHeadingFont: 17px;
         /* TextFont */
-        --xxlTextFont: 20px;
-        --xlTextFont: 19px;
-        --lgTextFont: 18px;
-        --normalTextFont: 17px;
-        --mdTextFont: 16px;
-        --smTextFont: 15px;
+        --lgTextFont: 21px;
+        --normalTextFont: 20px;
+        --mdTextFont: 19px;
+        --smTextFont: 17px;
+        --xsTextFont: 15px;
+        --xxsTextFont: 13px;
+        /* formFont */
+        --btnFont: 16px;
+        --inputTextFont: 17px;
+        /* TagMargin */
+        --lgMargin: 19px;
+        --mdMargin: 18px;
+        --smMargin: 16px;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPadding: 45px;
+        /* HeadingFont */
+        --XXlHeadingFont: 32px;
+        --XlHeadingFont: 26px;
+        --lgHeadingFont: 24px;
+        --mdHeadingFont: 22px;
+        --smHeadingFont: 19px;
+        --xsHeadingFont: 16px;
+        /* TextFont */
+        --lgTextFont: 20px;
+        --normalTextFont: 19px;
+        --mdTextFont: 18px;
+        --smTextFont: 16px;
+        --xsTextFont: 14px;
+        --xxsTextFont: 12px;
         /* formFont */
         --btnFont: 15px;
-        --inputTextFont: 15px;
+        --inputTextFont: 16px;
         /* TagMargin */
-        --lgMargin: 21px;
-        --mdMargin: 19px;
-        --smMargin: 17px;
+        --lgMargin: 18px;
+        --mdMargin: 17px;
+        --smMargin: 15px;
     }
 }
 @media only screen and (max-width: 767.98px) {
     :root {
         /* sectionPadding */
-        --sectionPadding: 44px;
-        /* HeadingFont */
-        --XXlHeadingFont: 31px;
-        --XlHeadingFont: 29px;
-        --lgHeadingFont: 25px;
-        --mdHeadingFont: 21px;
-        --smHeadingFont: 19px;
-        --xsHeadingFont: 18px;
-        /* TextFont */
-        --xxlTextFont: 19px;
-        --xlTextFont: 18px;
-        --lgTextFont: 17px;
-        --normalTextFont: 16px;
-        --mdTextFont: 15px;
-        --smTextFont: 14px;
-        /* formFont */
-        --btnFont: 14px;
-        --inputTextFont: 14px;
-        /* TagMargin */
-        --lgMargin: 20px;
-        --mdMargin: 18px;
-        --smMargin: 16px;
-    }
-}
-@media only screen and (max-width: 575.98px) {
-    :root {
-        /* sectionPadding */
         --sectionPadding: 40px;
         /* HeadingFont */
         --XXlHeadingFont: 28px;
-        --XlHeadingFont: 26px;
-        --lgHeadingFont: 24px;
-        --mdHeadingFont: 20px;
-        --smHeadingFont: 19px;
-        --xsHeadingFont: 17px;
+        --XlHeadingFont: 25px;
+        --lgHeadingFont: 23px;
+        --mdHeadingFont: 21px;
+        --smHeadingFont: 18px;
+        --xsHeadingFont: 15px;
+        /* TextFont */
+        --lgTextFont: 19px;
+        --normalTextFont: 18px;
+        --mdTextFont: 17px;
+        --smTextFont: 15px;
+        --xsTextFont: 14px;
+        --xxsTextFont: 12px;
+        /* formFont */
+        --btnFont: 14px;
+        --inputTextFont: 15px;
         /* TagMargin */
-        --lgMargin: 19px;
-        --mdMargin: 17px;
+        --lgMargin: 17px;
+        --mdMargin: 16px;
         --smMargin: 15px;
     }
 }
@@ -177,14 +175,14 @@
 body {
     color: var(--textColor);
     font-size: var(--normalTextFont);
-    line-height: 1.5;
+    line-height: 1.3;
     font-weight: 400;
     font-family: var(--textFontFamily);
 }
 p {
     color: var(--textColor);
     font-size: var(--normalTextFont);
-    line-height: 1.5;
+    line-height: 1.3;
     font-weight: 400;
     font-family: var(--textFontFamily);
     margin-bottom: var(--smMargin);
@@ -193,7 +191,7 @@ h1,
 .h1 {
     color: var(--headingColor);
     font-size: var(--XXlHeadingFont);
-    line-height: 1.2;
+    line-height: 1.1;
     font-weight: 600;
     font-family: var(--primaryFontFamily);
     margin-bottom: var(--lgMargin);
@@ -202,7 +200,7 @@ h2,
 .h2 {
     color: var(--headingColor);
     font-size: var(--XlHeadingFont);
-    line-height: 1.2;
+    line-height: 1.1;
     font-weight: 600;
     font-family: var(--primaryFontFamily);
     margin-bottom: var(--lgMargin);
@@ -211,44 +209,44 @@ h3,
 .h3 {
     color: var(--headingColor);
     font-size: var(--lgHeadingFont);
-    line-height: 1.2;
+    line-height: 1.1;
     font-weight: 600;
     font-family: var(--primaryFontFamily);
-    margin-bottom: var(--mdMargin);
+    margin-bottom: var(--lgMargin);
 }
 h4,
 .h4 {
     color: var(--headingColor);
     font-size: var(--mdHeadingFont);
-    line-height: 1.2;
+    line-height: 1.1;
     font-weight: 600;
     font-family: var(--primaryFontFamily);
-    margin-bottom: var(--mdMargin);
+    margin-bottom: var(--lgMargin);
 }
 h5,
 .h5 {
     color: var(--headingColor);
     font-size: var(--smHeadingFont);
-    line-height: 1.2;
+    line-height: 1.1;
     font-weight: 600;
     font-family: var(--primaryFontFamily);
-    margin-bottom: var(--smMargin);
+    margin-bottom: var(--lgMargin);
 }
 h6,
 .h6 {
     color: var(--headingColor);
     font-size: var(--xsHeadingFont);
-    line-height: 1.2;
+    line-height: 1.1;
     font-weight: 600;
     font-family: var(--primaryFontFamily);
-    margin-bottom: var(--smMargin);
+    margin-bottom: var(--lgMargin);
 }
 .container-fluid {
     padding-left: 30px;
     padding-right: 30px;
 }
 .container {
-    max-width: 1320px;
+    max-width: 1350px;
 }
 @media only screen and (max-width: 1199.98px) {
     .container-fluid {
@@ -392,6 +390,73 @@ h6,
 .pb-10 {
     padding-bottom: 50px !important;
 }
+
+/* width */
+.w-0 {
+    width: 0%;
+}
+.w-5 {
+    width: 5%;
+}
+.w-10 {
+    width: 10%;
+}
+.w-15 {
+    width: 15%;
+}
+.w-20 {
+    width: 20%;
+}
+.w-25 {
+    width: 25%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-35 {
+    width: 35%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-45 {
+    width: 45%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-55 {
+    width: 55%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-65 {
+    width: 65%;
+}
+.w-70 {
+    width: 70%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-80 {
+    width: 80%;
+}
+.w-85 {
+    width: 85%;
+}
+.w-90 {
+    width: 90%;
+}
+.w-95 {
+    width: 95%;
+}
+.w-100 {
+    width: 100%;
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -420,6 +485,9 @@ strong {
 }
 .allWhiteColor * {
     color: var(--whiteColor);
+}
+.br-sm {
+    border-radius: 8px;
 }
 .same-box {
     display: flex !important;

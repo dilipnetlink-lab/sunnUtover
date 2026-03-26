@@ -8,63 +8,67 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="page-back-btn"> 
-                                    <a href="index.php" class="btn btn-light btn-exit-icon"> <span> Avslutt </span></a>
+                                    <a href="<?= base_url() ?>" class="btn btn-light btn-exit-icon"> <span> <?php echo __("common.exit"); ?> </span></a>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="page-title-del-box-full">
                                     <div class="page-title-del-box-left">
-                                        <h1>Modul 4 - Forebygging </h1>
+                                        <h1><?php echo __("modul4Page.main_title"); ?></h1>
                                     </div>
                                     <div class="page-title-del-box-right">
-                                        <p>Del 1 av 5</p>
+                                        <p id="slideCounter"><?php echo __("common.slide_part"); ?></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12">
-                                <div class="page-step-box">
+                                <div class="step-slide-box-con">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <div class="two-step-box-con dot-ul dot-ul-white slider-box-con">
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                            <div class="step-slide-box-slider">
+                                                <!-- <div class="step-slide-box-item">
+                                                    <div class="step-slide-box-description-con p-0">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Læringsmål</h3>
-                                                                        <p> <strong> Forebygging </strong> handler om alt som skjer før det har gått for langt, altså å: </p>
+                                                                    <div class="step-slide-box-caption top-slide-caption">
+                                                                        <h2><?php echo __("modul4Page.screens.screen_01.title"); ?></h2>
+                                                                        <p> <?php echo __("modul4Page.screens.screen_01.description1"); ?> </p>
                                                                         <ul>
-                                                                            <li>Forutse risiko</li>
-                                                                            <li> Kjenne igjen tidlige tegn på lav energitilgjengelighet og REDs</li>
-                                                                            <li> Legge til rette for gode vaner</li>
-                                                                            <li>Bidra til trygghet og åpenhet</li>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_01.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                                ?>
                                                                         </ul>
-                                                                        <p>Denne modulen vil gå gjennom viktige aspekter og gode praksiser knyttet til forebygging, slik at du som utøver, trener eler forelder stiller sterkere. </p>
+                                                                        <p><?php echo __("modul4Page.screens.screen_01.description2"); ?></p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-4-img-1.jpg" class="rounded"/></figure>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="step-box-btn-con text-center">
-                                                                        <a href="javascript:void(0)" class="btn btn-next-icon slider-box-down"> <span> Neste </span> </a>
+                                                                    <div class="step-slide-box-btn">
+                                                                        <a href="javascript:void(0)" class="btn btn-next-icon sliderBoxDownArrow"> <span> <?php echo __("common.next"); ?>  </span> </a>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Hvorfor forebygge LEA og REDs?</h3>
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Hvorfor forebygge LEA og REDs?</h2>
                                                                         <ul>
                                                                             <li>REDs utvikler seg ofte gradvis noe som kan gjøre det vanskelig å oppdage</li>
                                                                             <li>REDs ødelegger både helse og prestasjon </li>
@@ -74,7 +78,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img"> 
+                                                                    <div class="step-slide-box-img"> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
@@ -84,7 +88,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong> Å kontinuerlig jobbe forebyggende med REDs er avgjørende for å beskytte kroppens utvikling, helse og prestasjon.  </strong> </p>
+                                                                                <h4><strong> Å kontinuerlig jobbe forebyggende med REDs er avgjørende for å beskytte kroppens utvikling, helse og prestasjon. </strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -92,21 +96,57 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
-                                                </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                </div> 
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Selvmonitorering - Lær deg å kjenne kroppen din</h3>
+                                                                <div class="col-sm-12 col-md-12 col-lg-5">
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Selvmonitorering - Lær deg å kjenne kroppen din</h2>
                                                                         <p>Å følge med på kroppens signaler er noe av det viktigste du kan gjøre for å oppdage lav energitilgjengelighet og REDs tidlig. </p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                <div class="col-sm-12 col-md-12 col-lg-7">
+                                                                    <div class="step-slide-box-img">
+                                                                        <div class="table-line-white-bg"> 
+                                                                            <div class="table-responsive">
+                                                                                <table>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <th class="w-35">Parameter</th>
+                                                                                            <th class="w-65">Tegn du kan se etter</th>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>🏃‍♀️ Treningsrespons</td>
+                                                                                            <td>Stagnasjon/fremgang stopper, lav energi på økter</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>😴 Søvnkvalitet</td>
+                                                                                            <td>Urolig søvn, vanskelig å sovne, våkner sliten</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🤕 Sykdom/skade</td>
+                                                                                            <td>Hyppige skader, treg heling, ofte forkjølet</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>⚖️ Hormonstatus</td>
+                                                                                            <td>Manglende/uregelmessig menstruasjon (jenter), manglende morgenereksjon (gutter)</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🧠 Humør/motivasjon</td>
+                                                                                            <td>Nedstemthet, uvanlig irritabel</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🍽️ Appetitt og matinntak</td>
+                                                                                            <td>Hopper over måltider, glemmer å spise etter trening, spiser mindre enn vanlig</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
@@ -116,7 +156,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong> Følg gjerne med på de listede parametrene ukentlig (dette kan gjøres i en dagbok eller app) </strong> </p>
+                                                                                <h4><strong> Følg gjerne med på de listede parametrene ukentlig (dette kan gjøres i en dagbok eller app) </strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -124,16 +164,16 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Følg med på trender </h3>
+                                                                <div class="col-sm-12 col-md-12 col-lg-5">
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Følg med på trender </h2>
                                                                         <p>Det er helt normalt å ha en dårlig dag eller uke. Det som er viktig, er å følge med på utviklingen over tid: </p>
                                                                         <ul>
                                                                             <li>Blir søvnen gradvis dårligere?</li>
@@ -143,8 +183,44 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                <div class="col-sm-12 col-md-12 col-lg-7">
+                                                                    <div class="step-slide-box-img">
+                                                                        <div class="table-line-white-bg"> 
+                                                                            <div class="table-responsive">
+                                                                                <table>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <th class="w-35">Parameter</th>
+                                                                                            <th class="w-65">Tegn du kan se etter</th>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>🏃‍♀️ Treningsrespons</td>
+                                                                                            <td>Stagnasjon/fremgang stopper, lav energi på økter</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>😴 Søvnkvalitet</td>
+                                                                                            <td>Urolig søvn, vanskelig å sovne, våkner sliten</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🤕 Sykdom/skade</td>
+                                                                                            <td>Hyppige skader, treg heling, ofte forkjølet</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>⚖️ Hormonstatus</td>
+                                                                                            <td>Manglende/uregelmessig menstruasjon (jenter), manglende morgenereksjon (gutter)</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🧠 Humør/motivasjon</td>
+                                                                                            <td>Nedstemthet, uvanlig irritabel</td>
+                                                                                        </tr>
+                                                                                         <tr>
+                                                                                            <td>🍽️ Appetitt og matinntak</td>
+                                                                                            <td>Hopper over måltider, glemmer å spise etter trening, spiser mindre enn vanlig</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
@@ -154,7 +230,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong> Hvis negative trender vedvarer over mange uker bør det tas på alvor.  </strong> </p>
+                                                                                <h4><strong> Hvis negative trender vedvarer over mange uker bør det tas på alvor.</strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -162,33 +238,60 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Observer og tørr å stille spørsmål</h3>
-                                                                        <p>Trenere og foreldre har en viktig oppgave for å fange opp lav energitilgjengelighet. <br/> Sjekklisten under kan være et bra startpunkt for samtale. </p>
+                                                                    <div class="step-slide-box-caption chackbox-list-ul">
+                                                                        <h2>Observer og tørr å stille spørsmål</h2>
+                                                                        <h4>Trenere og foreldre har en viktig oppgave for å fange opp lav energitilgjengelighet. <br/> Sjekklisten under kan være et bra startpunkt for samtale. </h4>
                                                                         <ul>
-                                                                            <li>Er jeg trøtt hele tiden til tross for tilstrekkelig mengde søvn?</li>
-                                                                            <li>Er jeg mer støl enn vanlig og klarer ikke helt å restituere meg mellom treningsøktene?</li>
-                                                                            <li>Har prestasjonsutviklingen min stagnert uten klare grunner?</li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check1">
+                                                                                <label for="check1">Er jeg trøtt hele tiden til tross for tilstrekkelig mengde søvn?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check2">
+                                                                                <label for="check2">Er jeg mer støl enn vanlig og klarer ikke helt å restituere meg mellom treningsøktene?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check3">
+                                                                                <label for="check3">Har prestasjonsutviklingen min stagnert uten klare grunner?</label>
+                                                                            </li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
+                                                                    <div class="step-slide-box-caption chackbox-list-ul">
                                                                         <ul>
-                                                                            <li>Er jeg ofte lei meg eller har dårlig humør og/eller store humørsvingninger?</li>
-                                                                            <li>Har jeg hatt gjentatte skader det siste året?</li>
-                                                                            <li>Har jeg hatt tretthetsbrudd eller stressreaksjon?</li>
-                                                                            <li>Er jeg ofte syk?</li>
-                                                                            <li>Kvinner: Er menstruasjonen uregelemessig eller borte?</li>
-                                                                            <li>Menn: Har jeg lavere sexlyst enn vanlig? Har morgenereksjon blitt sjeldnere?</li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check4">
+                                                                                <label class="form-check-label" for="check4">Er jeg ofte lei meg eller har dårlig humør og/eller store humørsvingninger?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check5">
+                                                                                <label class="form-check-label" for="check5">Har jeg hatt gjentatte skader det siste året?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check6">
+                                                                                <label class="form-check-label" for="check6">Har jeg hatt tretthetsbrudd eller stressreaksjon?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check7">
+                                                                                <label class="form-check-label" for="check7">Er jeg ofte syk?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check8">
+                                                                                <label class="form-check-label" for="check8">Kvinner: Er menstruasjonen uregelemessig eller borte?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check9">
+                                                                                <label class="form-check-label" for="check9">Menn: Har jeg lavere sexlyst enn vanlig? Har morgenereksjon blitt sjeldnere?</label>
+                                                                            </li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -199,7 +302,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong> NB! Hvert tegn kan ha andre årsaker enn REDs.</strong> </p>
+                                                                                <h4><strong> NB! Hvert tegn kan ha andre årsaker enn REDs.</strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -207,23 +310,23 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Ernæring - det handler om å fylle batteriet</h3>
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Ernæring - det handler om å fylle batteriet</h2>
                                                                         <p>Trener du mye vil du ha et større batteri du må fylle opp.</p>
-                                                                        <p>For å fylle dette batteriet er det viktig at vi starter med de næringsrike matvarene; som inneholder byggeklossene vi trenger for et godt fundament.  </p>
+                                                                        <p>For å fylle dette batteriet er det viktig at vi starter med de næringsrike matvarene; som inneholder byggeklossene vi trenger for et godt fundament. </p>
                                                                         <p>For en som trener mye og har et stort energibehov er det i perioder også viktig å legge til ekstra, for eksempel i form av bakst, barer, sportsdrikke, sjokolade, brus også videre.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-4-img-6.png"/></figure>
                                                                     </div>
                                                                 </div>
@@ -234,7 +337,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong> Mat med mye energi er ikke “usunt” for deg som trener mye, det er nødvendig for å raskt få fylt på.</strong> </p>
+                                                                                <h4><strong> Mat med mye energi er ikke “usunt” for deg som trener mye, det er nødvendig for å raskt få fylt på.</strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -242,17 +345,17 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
-                                                </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                </div>-->
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
-                                                                <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Øvelse - Trening og energibehov</h3>
-                                                                        <p>Ta en titt på treningsuken din og spør deg selv:</p>
+                                                                <div class="col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Øvelse - Trening og energibehov</h2>
+                                                                        <p class="mb-1">Ta en titt på treningsuken din og spør deg selv:</p>
                                                                         <ul>
                                                                             <li>Hvilke dager er harde / med mye trening?</li>
                                                                             <li>Hvilke dager er rolige?</li>
@@ -260,8 +363,52 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                    <div class="two-step-box-col two-step-box-caption">
+                                                                <div class="col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                                                                    <div class="step-slide-box-img">
+                                                                        <div class="table-line-white-bg"> 
+                                                                            <div class="table-responsive">
+                                                                                <table>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <th class="w-10">Mandag</th>
+                                                                                            <th class="w-10">Tirsdag</th>
+                                                                                            <th class="w-10">Onsdag</th>
+                                                                                            <th class="w-10">Torsdag</th>
+                                                                                            <th class="w-10">Fredag</th>
+                                                                                            <th class="w-10">Lørdag</th>
+                                                                                            <th class="w-10">Søndag</th>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>Lett jogg</td>
+                                                                                            <td>Intervaller</td>
+                                                                                            <td>Fri</td>
+                                                                                            <td>Intervaller</td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr> 
+                                                                                         <tr>
+                                                                                            <td>Styrke</td>
+                                                                                            <td>Intervaller</td>
+                                                                                            <td>Rolig langtur</td>
+                                                                                            <td>Intervaller</td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr> 
+                                                                                         <tr>
+                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Mellom</strong><br/><img class="mt-1" src="images/icon-battery-mellom.svg" /></div></td>
+                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Stort</strong><br/><img class="mt-1" src="images/icon-battery-stort.svg" /></div></td>
+                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Lavere</strong><br/><img class="mt-1" src="images/icon-battery-lavere.svg" /></div></td>
+                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Stort</strong><br/><img class="mt-1" src="images/icon-battery-stort.svg" /></div></td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr> 
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
@@ -271,7 +418,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong> Denne øvelsen er det fint om utøver gjør sammen med forelder og trener .</strong> </p>
+                                                                                <h4><strong> Denne øvelsen er det fint om utøver gjør sammen med forelder og trener .</strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -279,17 +426,17 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
-                                                                <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Spis nok gjennom hele dagen</h3>
-                                                                        <p>Mange unge utøvere </p>
+                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Spis nok gjennom hele dagen</h2>
+                                                                        <p class="mb-1">Mange unge utøvere </p>
                                                                         <ul>
                                                                             <li>Spiser for lite totalt</li>
                                                                             <li>Fordeler matinntaket dårlig i løpet av dagen</li>
@@ -297,12 +444,12 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                    <div class="two-step-box-col two-step-box-caption">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                    <div class="step-slide-box-caption icon-text-ul">
                                                                         <ul>
-                                                                            <li>Spis noe hver 3. - 4. time - ikke vent for lenge mellom måltidene</li>
-                                                                            <li>Ha alltid et lite måltid klar til etter trening</li>
-                                                                            <li>Ikke kutt ut karbohydrater - kroppen trenger dem, særlig under trening!</li>
+                                                                            <li><span class="icon-text-img"><img src="images/icon-clock-countdown.svg"></span><span class="icon-text-title">Spis noe hver 3. - 4. time - ikke vent for lenge mellom måltidene</span></li>
+                                                                            <li><span class="icon-text-img"><img src="images/icon-battery-charging-vertical.svg"></span><span class="icon-text-title">Ha alltid et lite måltid klar til etter trening</span></li>
+                                                                            <li><span class="icon-text-img"><img src="images/icon-bread.svg"></span><span class="icon-text-title">Ikke kutt ut karbohydrater - kroppen trenger dem, særlig under trening!</span></li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -313,7 +460,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong> Er det vanskelig å få i seg mat om morgenen, eller rett etter trening? <br/> Da kan ulike typer drikke eller flytende måltider som smoothie og drikkeyoghurt være gode alternativ.</strong> </p>
+                                                                                <h4><strong> Er det vanskelig å få i seg mat om morgenen, eller rett etter trening? <br/> Da kan ulike typer drikke eller flytende måltider som smoothie og drikkeyoghurt være gode alternativ.</strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -321,16 +468,16 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
-                                                                <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Karbohydrater = viktig treningsdrivstoff </h3>
+                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Karbohydrater = viktig treningsdrivstoff </h2>
                                                                         <ul>
                                                                             <li>Jo høyere intensitet - jo viktigere blir karbohydrat som drivstoff</li>
                                                                             <li>Ved <strong> lav karbohydrattilgang over tid </strong> kan kroppen komme i <strong>"energisparingsmodus"</strong>, med mange av de samme symptomene som ved REDs</li>
@@ -345,9 +492,9 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                    <div class="two-step-box-col two-step-box-img">
-                                                                        <figure><img src="images/box-modul-4-img-9.jpg"/></figure>
+                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                    <div class="step-slide-box-img">
+                                                                        <figure><img class="rounded" src="images/box-modul-4-img-9.jpg"/></figure>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
@@ -357,7 +504,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong> Selv om du får i deg nok kalorier, kan for lite karbohydrater fremskynde utviklingen av REDs. </strong> </p>
+                                                                                <h4><strong> Selv om du får i deg nok kalorier, kan for lite karbohydrater fremskynde utviklingen av REDs. </strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -365,51 +512,49 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Praktiske tips å ta med seg i hverdagen</h3>
-                                                                        <p><strong>Trykk på sirkelen med rollen som beskriver deg best for å få enkle tips til små valg, rutiner og tanker det er viktig å ha med seg i det daglige forebyggende arbeidet mot energimangel.</strong></p>
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Praktiske tips å ta med seg i hverdagen</h2>
+                                                                        <h3 class="fw-normal">Trykk på sirkelen med rollen som beskriver deg best for å få enkle tips til små valg, rutiner og tanker det er viktig å ha med seg i det daglige forebyggende arbeidet mot energimangel.</h3>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <div class="row align-items-center justify-content-around">
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down">
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-4-img-10-a.jpg"/>                                                                                        
                                                                                     </figure>
                                                                                     <div class="circle-img-caption-box-caption">
-                                                                                        <h4>UTØVER</h4>
+                                                                                        <h3>UTØVER</h3>
                                                                                         <p>(trykk for å se tips)</p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down">
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-4-img-10-b.jpg"/>                                                                                        
                                                                                     </figure>
                                                                                     <div class="circle-img-caption-box-caption">
-                                                                                        <h4>TRENER</h4>
+                                                                                        <h3>TRENER</h3>
                                                                                         <p>(trykk for å se tips)</p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con slider-box-down circle-img-caption-img-not">
-                                                                                    <!-- <figure class="circle-img-caption-box-img">
-                                                                                        <img src="images/box-modul-4-img-10-c.jpg"/>                                                                                        
-                                                                                        </figure> -->
+                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow circle-img-caption-img-not">
+                                                                                    <figure class="circle-img-caption-box-img"> </figure>
                                                                                     <div class="circle-img-caption-box-caption">
-                                                                                        <h4>FORELDER</h4>
+                                                                                        <h3>FORELDER</h3>
                                                                                         <p>(trykk for å se tips)</p>
                                                                                     </div>
                                                                                 </div>
@@ -421,14 +566,14 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>UTØVER</h3>
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>UTØVER</h2>
                                                                         <ul>
                                                                             <li>Spis noe hver 3. - 4. time - i tillegg til etter trening</li>
                                                                             <li>Vanskelig å spise rett etter trening? Bruk smoothie, energibar eller drikkeyoghurt</li>
@@ -439,7 +584,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure class="circle-img-box"><img src="images/box-modul-4-img-10-a.jpg"></figure>
                                                                     </div>
                                                                 </div>
@@ -450,7 +595,8 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong>Sett opp treningsuken din: <br/> </strong> Marker hvilke dager som er harde og hvilke som er rolige. På harde dager trenger du ekstra påfyll - planlegg ekstra måltider på forhånd.</p>
+                                                                                <h4><strong>Sett opp treningsuken din:</strong></h4>
+                                                                                <h4> Marker hvilke dager som er harde og hvilke som er rolige. På harde dager trenger du ekstra påfyll - planlegg ekstra måltider på forhånd.</h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -458,17 +604,17 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>TRENER</h3>
-                                                                        <p><i>Du er en nøkkelperson for forebygging - ikke bare i treningsplanen, men i miljøet du bygger rundt utøverne</i></p>
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2 class="mb-1">TRENER</h2>
+                                                                        <h4><i>Du er en nøkkelperson for forebygging - ikke bare i treningsplanen, men i miljøet du bygger rundt utøverne</i></h4>
                                                                         <ul>
                                                                             <li> <strong> Etabler fast praksis for påfyll </strong> rett etter trening (f.eks. oppfordre til å ha med banan, smoothie, brødmat el.) </li>
                                                                             <li> Oppmuntre utøvere til å <strong> registrere hvordan kroppen har det </strong> - f.eks. gjennom dagbok: søvn, mat, humør og prestasjon </li>
@@ -478,7 +624,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure class="circle-img-box"><img src="images/box-modul-4-img-10-b.jpg"></figure>
                                                                     </div>
                                                                 </div>
@@ -489,7 +635,8 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong>Gå gjennom treningsplanen med utøveren: <br/> </strong> Hvilke dager er tyngst? Hvor er det ekstra viktig å få det ekstra påfyllet? Hjelp dem å koble belastning med behov for mat og hvile.  </p>
+                                                                                <h4><strong>Gå gjennom treningsplanen med utøveren:</strong></h4>
+                                                                                <h4> Hvilke dager er tyngst? Hvor er det ekstra viktig å få det ekstra påfyllet? Hjelp dem å koble belastning med behov for mat og hvile.  </h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -497,17 +644,17 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-arrow slider-box-up"><i class="bi bi-chevron-up"></i></div>
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
-                                                                <div class="col-sm-12 col-md-12 col-lg-7">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>FORELDER</h3>
-                                                                        <p><strong> <i> Du er en nøkkelperson for forebygging - du trenger ikke være ekspert, det viktigste er at du følger med og støtter </i> </strong></p>
+                                                                <div class="col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2 class="mb-1">FORELDER</h2>
+                                                                        <h4> <i> Du er en nøkkelperson for forebygging - du trenger ikke være ekspert, det viktigste er at du følger med og støtter </i> </h4>
                                                                         <ul>
                                                                             <li><strong>Sørg for at matmengden justeres etter alder, vekst og treningsmengde</strong> - mange fortsetter med samme matpakke som da de var yngre selv om kroppen trenger mer</li>
                                                                             <li>Ha faste rutiner for måltider, søvn og hvile</li>
@@ -517,8 +664,8 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-5">
-                                                                    <div class="two-step-box-col two-step-box-img">
+                                                                <div class="col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                                                                    <div class="step-slide-box-img">
                                                                         <figure class="circle-img-box"></figure>
                                                                     </div>
                                                                 </div>
@@ -529,7 +676,8 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <p> <strong>Sett dere ned og se på treningsuken sammen: <br/> </strong> Når trener du mest? Hvilke typer mellommåltidsmat er det lurt å ha tilgjengelig på disse dagene?</p>
+                                                                                <h4><strong>Sett dere ned og se på treningsuken sammen:</strong></h4>
+                                                                                <h4> Når trener du mest? Hvilke typer mellommåltidsmat er det lurt å ha tilgjengelig på disse dagene?</h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -537,16 +685,16 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow slider-box-down"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Quiz</h3>
-                                                                        <h4>Hva trenger kroppen mer av på dager med høy treningsbelastning?</h4>
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Quiz</h2>
+                                                                        <p>Hva trenger kroppen mer av på dager med høy treningsbelastning?</p>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio1">
@@ -574,94 +722,94 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="step-box-btn-con step-box-btn-form text-center"> 
-                                                                        <button type="submit" class="btn btn-next-icon slider-box-down"><span> Neste </span></button>
+                                                                    <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Quiz</h3>
-                                                                        <h4>Hvorfor er det viktig å tenke på når på dagen du spiser?</h4>
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Quiz</h2>
+                                                                        <p>Hvorfor er det viktig å tenke på når på dagen du spiser?</p>
                                                                         <div class="radio-label-grop">
-                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio1">
-                                                                            <label class="radio-label" for="sliderBoxSlide1Radio1">
+                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio1">
+                                                                            <label class="radio-label" for="sliderBoxSlide2Radio1">
                                                                             Kroppen tåler mer mat om kvelden
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
-                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio2">
-                                                                            <label class="radio-label" for="sliderBoxSlide1Radio2">
+                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio2">
+                                                                            <label class="radio-label" for="sliderBoxSlide2Radio2">
                                                                             Det er best å spise mest før du legger deg
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
-                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio3">
-                                                                            <label class="radio-label" for="sliderBoxSlide1Radio3">
+                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio3">
+                                                                            <label class="radio-label" for="sliderBoxSlide2Radio3">
                                                                             Tidlig og jevnt matinntak gir bedre overskudd og prestasjon
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
-                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio4">
-                                                                            <label class="radio-label" for="sliderBoxSlide1Radio4">
+                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio4">
+                                                                            <label class="radio-label" for="sliderBoxSlide2Radio4">
                                                                             Det spiller ingen rolle - bare du får i deg nok totalt
                                                                             </label>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="step-box-btn-con step-box-btn-form text-center"> 
-                                                                        <button type="submit" class="btn btn-next-icon slider-box-down"><span> Neste </span></button>
+                                                                    <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="slider-box-col">
-                                                    <div class="slider-box-caption-con">
-                                                        <div class="slider-box-caption">
+                                                <div class="step-slide-box-item">
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
-                                                                    <div class="two-step-box-col two-step-box-caption allWhiteColor">
-                                                                        <h3>Quiz</h3>
-                                                                        <h4>Hva kan være en nyttig øvelse for å sikre godt energiinntak i hverdagen?</h4>
+                                                                    <div class="step-slide-box-caption">
+                                                                        <h2>Quiz</h2>
+                                                                        <p>Hva kan være en nyttig øvelse for å sikre godt energiinntak i hverdagen?</p>
                                                                         <div class="radio-label-grop radio-error">
-                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio1">
-                                                                            <label class="radio-label" for="sliderBoxSlide2Radio1">
+                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide3Radio" id="sliderBoxSlide3Radio1">
+                                                                            <label class="radio-label" for="sliderBoxSlide3Radio1">
                                                                             Planlegge ukens måltider kun rundt middag
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-success">
-                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio2">
-                                                                            <label class="radio-label" for="sliderBoxSlide2Radio2">
+                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide3Radio" id="sliderBoxSlide3Radio2">
+                                                                            <label class="radio-label" for="sliderBoxSlide3Radio2">
                                                                             Registrere humør og søvn hver dag
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-error">
-                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio3">
-                                                                            <label class="radio-label" for="sliderBoxSlide2Radio3">
+                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide3Radio" id="sliderBoxSlide3Radio3">
+                                                                            <label class="radio-label" for="sliderBoxSlide3Radio3">
                                                                             Telle kalorier og justere ukentlig
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-error">
-                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio4">
-                                                                            <label class="radio-label" for="sliderBoxSlide2Radio4">
+                                                                            <input class="radio-input" type="radio" name="sliderBoxSlide3Radio" id="sliderBoxSlide3Radio4">
+                                                                            <label class="radio-label" for="sliderBoxSlide3Radio4">
                                                                             Se på treningsuka og vurdere hvilke dager som krever ekstra mat
                                                                             </label>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                    <div class="step-box-btn-con step-box-btn-form text-center"> 
-                                                                        <button type="submit" class="btn btn-next-icon slider-box-down"><span> Neste </span></button>
+                                                                    <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>

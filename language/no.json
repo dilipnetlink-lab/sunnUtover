@@ -1,0 +1,505 @@
+{
+  "common": {
+    "try_again": "Ta på nytt",
+    "start_now": "Start nå",
+    "locked": "Låst",
+    "next": "Neste",
+    "back": "Tilbake",
+    "home": "Hjem",
+    "exit": "Avslutt",
+    "slide_part": "Del {current} av {total}",
+    "click_to_see": "Trykk for å se"
+  },
+  "homePage": {
+    "title": "Lær mer om kropp og helse med Sunn Utøver",
+    "description": "Sunn Utøver er en plattform som gjør informasjon knyttet til tilstanden Relativ energimangel i idrett (REDs) mer tilgjengelig for både utøvere, trenere og foreldre. Her vil du lære hva REDs er, hva som er typiske tegn på denne tilstandeng, og hva man kan gjøre for både å håndtere og forebygge REDs.",
+    "module_section_title": "Læringsmoduler",
+    "module_1_title": "Modul 1 - Hva er REDs?",
+    "module_2_title": "Modul 2 - Konsekvenser",
+    "module_3_title": "Modul 3 - Symptomer på REDs",
+    "module_4_title": "Modul 4 - Forebygging",
+    "module_5_title": "Modul 5 - Hvordan håndtere REDs?"
+  },
+  "modul1Page": {
+    "main_title": "Modul 1 - Hva er REDs?",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "Etter denne modulen skal du kunne:",
+        "description1": "",
+        "list_items1": [
+          "Forklare hva relativ energimangel i idrett (REDs) er.",
+          "Definere begrepet lav energitilgjengelighet (LEA) og vite at LEA er hovedårsaken til REDs",
+          "Skille mellom <strong>kortvarig LEA og langvarig/problematisk LEA</strong>",
+          "Nevne hvilke kroppssystemer og funksjoner som kan påvirkes når kroppen får for lite energi"
+        ]
+      },
+      "screen_02": {
+        "title": "Kroppen trenger energi til mer enn trening",
+        "description1": "For at kroppen skal fungere optimalt, trenger den nok energi - ikke bare til trening, men til å opprettholde viktige, daglige funksjoner. Energi brukes blant annet til:",
+        "list_items1": [
+          "<strong>Hjernefunksjon og nervesystem</strong>",
+          "<strong>Hjerte- og sirkulasjonssystem</strong>",
+          "<strong>Hormonproduksjon</strong>",
+          "<strong>Immunforsvar</strong>",
+          "<strong>Beinhelse</strong>",
+          "<strong>Fordøyelse og metabolisme</strong>"
+        ]
+      },
+      "screen_03": {
+        "title": "Energitilgjengelighet",
+        "description1": "Energitilgjengelighet handler om hvor mye energi (mat og drikke) kroppen har igjen til å drive alle kroppens funksjoner etter at energien brukt på fysisk aktivitet er trukket fra.",
+        "description2": "Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket."
+      },
+      "screen_04": {
+        "title": "Energibalanse",
+        "description1": "Energibalanse er et annet begrep det er viktig å ha et forhold til når man snakker om energitilgjengelighet, og kan ganske enkelt forklares som en tilstand hvor energiinntak er like stort som energiforbruket."
+      },
+      "screen_05": {
+        "title": "Negativ energibalanse",
+        "description1": "Ethvert unntak fra denne balansen, bevisst eller ubevisst, kan lede til <strong> lav energitilgjengelighet </strong> lettere enn many av oss tror."
+      },
+      "screen_06": {
+        "title": "Lav energitilgjengelighet",
+        "description1": "Lav energitilgjengelighet oppstår når kroppen får for lite energi til å dekke både treningsbehov og de grunnleggende behovene som å puste, sirkulere blod, bygge opp bein og vev, produsere hormoner, osv.",
+        "subtitle": "🪫 Tenk på det som et batteri i spareblussmodus:",
+        "description2": "Når kroppen får for lite energi, må den prioritere hva den bruker energien på. Da vil den redusere “ikke-essensielle” funksjoner for å spare på ressursene.",
+        "bg_info_box": {
+          "title": "<strong> Forskjell fra energibalanse:</strong> Du kan være i energibalanse (altså ikke gå opp eller ned i vekt), men likevel ha lav energitilgjengelighet hvis treningsmengden er høy og matinntaket ikke dekker kroppens behov etter trening."
+        }
+      },
+      "screen_07": {
+        "title": "Adaptiv vs. problematisk LEA",
+        "description1": "Det er normalt at kroppen tilpasser seg kortvarige perioder med lav energitilgjengelighet. Det kalles <strong>adaptiv LEA,</strong> og utgjør ikke nødvendigvis et problem. Dersom slike energiunderskudd skjer ofte nok (flere dager i uka, over flere uker), kan kroppen begynne å spare på energien og nedprioritere funksjoner som eksempelvis hormonproduksjon og restitusjon.",
+        "description2": "Det er stor forskjell på ha en “sliten uke” og en kropp som over tid mangler energi til å fungere som den skal."
+      },
+      "screen_08": {
+        "title": "Fra lav energitilgjengelighet (LEA) til relativ energimangel i idrett (REDs)",
+        "description1": "REDs oppstår altså når kroppen over tid har for <strong> lav energi-tilgjengelighet </strong> til å fungere normalt. Da reduseres evnen til å regulere viktige systemer, noe som kan føre til helseproblemer.",
+        "description2": "REDs handler ikke bare om kroppsstørrelse eller vekt, men om <strong> ubalanse mellom energiinntak og forbruk.</strong> Man kan ha normal eller høy kroppsvekt og likevel være i lav energitilgjengelighet - særlig hvis energiforbruket gjennom trening er høyt.",
+        "description3": "REDs rammer både gutter og jenter - og gjelder ikke bare toppidrettsutøvere. Mosjonister kan også utvikle REDs hvis energibehovet ikke dekkes."
+      },
+      "screen_09": {
+        "title": "Lav energitilgjengelighet selv i energibalanse?",
+        "description1": "Du kan være i energibalanse totalt sett i løpet av en dag - og likevel risikere lav energitilgjengelighet.",
+        "description2": "Tenk deg at du trener tidlig og spiser lite før og etter. Da havner kroppen i underskudd i mange timer, selv om totalen på dagen er tilstrekkelig.",
+        "description3": "Det er altså ikke bare mengden energi det kommer an på - tidspunkt og jevn energitilførsel er avgjørende. Spiser du for lite rundt treningsøktene er du i risikosonen for å kunne utvikle problematisk energitilgjengelighet og REDs.",
+        "table_info": {
+          "title": "Eksempel på måltidsmønster:",
+          "tr1_td1": "07:00",
+          "tr1_td2": "<strong>Frokost</strong>",
+          "tr2_td1": "08:00 - 10:00",
+          "tr2_td2": "Trening",
+          "tr3_td1": "10:00",
+          "tr3_td2": "Restitusjonsinntak",
+          "tr4_td1": "10:30",
+          "tr4_td2": "<strong>Lunsj</strong>",
+          "tr5_td1": "13:00",
+          "tr5_td2": "Mellommåltid",
+          "tr6_td1": "15:30",
+          "tr6_td2": "<strong>Middag</strong>",
+          "tr7_td1": "17:00 - 19:00",
+          "tr7_td2": "Trening",
+          "tr8_td1": "19:00",
+          "tr8_td2": "Restitusjonsinntak",
+          "tr9_td1": "20:00",
+          "tr9_td2": "<strong>Kveldsmat</strong>"
+        }
+      },
+      "screen_10": {
+        "title": "Quiz",
+        "question": "Hva betyr det at kroppen er i lav energitilgjengelighet (LEA)?",
+        "options1": "At man spiser for lite fett",
+        "options2": "At kroppen bruker mer energi enn den får til overs etter trening",
+        "options3": "At man er overtrent",
+        "options4": "At man ikke har sovet nok"
+      },
+      "screen_11": {
+        "title": "Quiz",
+        "question": "Hvilken av disse påstandene er sanne?",
+        "options1": "REDs oppstår bare hos utøvere som har veldig lav kroppsvekt",
+        "options2": "REDs kan både ramme gutter og jenter",
+        "options3": "REDs handler først og fremst om dårlig form",
+        "options4": "REDs er kun et problem i toppidrett"
+      }
+    }
+  },
+  "modul2Page": {
+    "main_title": "Modul 2 - Konsekvenser",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "Etter denne modulen skal du kunne:",
+        "list_items1": [
+          "Identifisere både helsemessige og prestasjonsmessige konsekvenser av REDs.",
+          "Forklare hvordan REDs kan påvirke forskjellige kroppslige systemer på sikt",
+          "Være klar over psykologiske konsekvenser"
+        ]
+      },
+      "screen_02": {
+        "title": "Kroppen må prioritere",
+        "description1": "Som vi lærte i forrige delmodul: når kroppen over tid ikke får nok energi, må den begynne å prioritere hvilke funksjoner som er viktigst. Det betyr at funksjoner som ikke er livsnødvendige i øyeblikket, skrus ned. ",
+        "subtitle": "Dette får konsekvenser for både helse og prestasjon."
+      },
+      "screen_03": {
+        "title": "Hindret vekst, pubertet og hormonfunksjon",
+        "description1": "Når kroppen får for lite energi, skrur den ned signaler som styrer vekst, pubertet og hormonproduksjon, noe som kan forsinke puberteten. Jenter kan miste menstruasjonen, gutter får lavere testosteronnivå, og også hormoner for stoffskifte, humør og appetitt påvirkes.  ",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Hormoner er avgjørende for vekst, beinhelse og fruktbarhet. Uten nok energi får ikke kroppen bygge seg sterk nok, men med tidlig hjelp og riktig ernæring kan utviklingen ofte tas igjen."
+      },
+      "screen_04": {
+        "title": "Svekket beinhelse",
+        "description1": "Når kroppen får for lite energi, reduseres viktige hormoner som bygger bein. Det gjør skjelettet svakere, og risikoen for belastningsbrudd og beinskjørhet øker. ",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "<strong> Rundt 90 % av beinmassen bygges før fylte 18 år for jenter, og 20 år for gutter. </strong> Bygger man ikke nok beinmasse i ungdomsårene, øker risikoen for beinskjørhet og belastningsbrudd - både i dag og som voksen.",
+        "bg_info_box": {
+          "title": "<strong> Visste du at...<br/> Rundt 90 % av den maksimale beinmassen bygges innen man når 20-årene? Dette legger grunnlaget for sterke bein livet ut - og kroppen trenger nok energi i ungdomsårene for å klare det.</strong> "
+        }
+      },
+      "screen_05": {
+        "title": "Nedsatt mage- og tarmfunksjon",
+        "description1": "Når kroppen får for lite energi, nedprioriteres fordøyelsen. Det betyr at magen jobber saktere, og det kan føre til <strong> nedsatt appetitt, forstoppelse, oppblåsthet </strong> og <strong> ubehag. </strong> Mange opplever også mageplager som ligner irritabel tarm (IBS).",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "God fordøyelse er viktig for å ta opp næring, holde energinivået oppe og ha det bra i hverdagen. Langvarige fordøyelsesplager kan gi redusert livskvalitet, dårligere restitusjon og mindre matlyst."
+      },
+      "screen_06": {
+        "title": "Svekket energimetabolisme",
+        "description1": "Når kroppen får for lite energi over tid, senker den stoffskiftet for å spare på kreftene. ",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Lavt stoffskifte gjør at kroppen bruker mindre energi i hvile. Dette kan føre til økt <strong> tretthet, frysninger, vektendringer </strong> og <strong> hormonforstyrrelser.</strong>  "
+      },
+      "screen_07": {
+        "title": "Nedsatt blodfunksjon",
+        "description1": "Ved lav energitilgjengelighet kan kroppen få for lite av jern og andre viktige næringsstoffer. Jern er nødvendig for å lage røde blodceller, som frakter oksygen rundt i kroppen. Når jernlagrene er lave (vanlig hos unge, kvinnelige utøvere) reduseres blodets evne til å levere oksygen effektivt.",
+        "subtitle": "Hvorfor er det viktig ",
+        "description2": "Jernmangel kan forverre energimangelen fordi det påvirker stoffskiftet og gjør at kroppen bruker energi mindre effektivt, både i hvile og under aktivitet. Jernmangel ved REDs kan også svekke hormonbalansen og påvirke beinhelse, fertilitet og psykisk helse."
+      },
+      "screen_08": {
+        "title": "Urinlekkasje",
+        "description1": "REDs reduserer energitilførselen til muskler, inkludert bekkenbunnen, som er ansvarlig for å holde urinblæren tett under fysisk belastning. Hormonendringer - spesielt lavt østrogen hos jenter - kan også svekke støttevevet i urinveiene.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Svake bekkenbunnsmuskler og endret bindevevsfunksjon kan føre til urinlekkasje under løping, hopping eller styrketrening."
+      },
+      "screen_09": {
+        "title": "Nedsatt regulering av blodsukker og fettstoffer ",
+        "description1": "For lite energi gjør at hormoner som styrer blodsukker og forbrenning (blant annet insulin, kortisol og leptin) kommer i ubalanse.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Når disse hormonene kommer i ubalanse, kan det føre til ustabilt blodsukker, energisvigninger, svimmelhet og hodepine. Dette påvirker både prestasjon og humør, og gjør det vanskeligere for kroppen å bruke mat effektivt."
+      },
+      "screen_10": {
+        "title": "Psykiske helseplager ",
+        "description1": "REDs påvirker hjernen gjennom energimangel og hormonforstyrrelser. Dette kan endre kjemien i hjernen og gjøre det vanskeligere å regulere humør.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Man kan oppleve nedstemthet, angst eller irritabilitet. Psykiske plager kan oppstå selv uten kroppspress eller bevisst matkontroll, og gjør det vanskeligere å ha overskudd i hverdagen, trene godt og føle seg som seg selv."
+      },
+      "screen_11": {
+        "title": "Nedsatt hjernefunksjon ",
+        "description1": "Ved REDs får hjernen for lite energi, og hormonene som påvirker konsentrasjon, læring og reaksjonsevne kommer i ubalanse.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Dette kan gjøre det vanskeligere å fokusere, huske informasjon og ta raske beslutninger – både i idrett og skole. Man kan føle seg uklar i hodet og «ute av det», selv uten å være sliten fysisk."
+      },
+      "screen_12": {
+        "title": "Søvnproblemer ",
+        "description1": "Forskning viser at utøvere som får for lite energi i forhold til hvor mye de trener, også sover dårligere. De våkner oftere i løpet av natta, har lavere søvneffektivitet og sover mindre i den dype, viktige søvnfasen. Forskerne tror dette kan henge sammen med hvordan kroppen reagerer på lite energi - for eksempel gjennom hormoner som påvirker søvn og våkenhet. ",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Søvn er helt avgjørende for å restituere, prestere og unngå skader. Dårlig søvn kan være et tegn på at kroppen ikke får nok energi, særlig når du trener mye"
+      },
+      "screen_13": {
+        "title": "Svekket hjertefunksjon",
+        "description1": "Alvorlig REDs er assosiert med lavere blodtrykk og hvilepuls.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Redusert hjerteaktivitet kan være en følge av energimangel, og kan øke risikoen for hjerterytmeforstyrrelser."
+      },
+      "screen_14": {
+        "title": "Redusert skjelettmuskelfunksjon",
+        "description1": "Lav energitilgjengelighet reduserer muskelproteinsyntesen. Dette skyldes hormonelle endringer og utilstrekkelig tilførsel av både energi og næringsstoffer som protein og karbohydrat. Samtidig reduseres muskelens lagring av glykogen, som er en viktig energikilde under trening. Resultatet er svekket muskelstyrke, dårligere restitusjon og redusert evne til å tilpasse seg treningsbelastning over tid.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Man føler seg svakere og orker mindre, noe som svekker prestasjon og øker risikoen for skader som strekk og overbelastning."
+      },
+      "screen_15": {
+        "title": "Svekket immunforsvar",
+        "description1": "Kroppen trenger energi og næringsstoffer for å lage immunceller og bekjempe sykdom. Ved REDs settes immunforsvaret i sparebluss.",
+        "subtitle": "Hvorfor er det viktig",
+        "description2": "Man blir oftere syk, får lengre sykdomsforløp og tåler mindre trening før kroppen sier stopp. Infeksjoner og betennelser kan også vare lenger enn normalt."
+      },
+      "screen_16": {
+        "title": "Hvordan påvirker REDs prestasjonen? ",
+        "description1": "Du har nå lært hvordan kroppen prioriterer bort viktige funksjoner når energien ikke strekker til. Disse funksjonene får naturligvis også konsekvenser for prestasjonen. ",
+        "subtitle": "Vanlige prestasjonsmessige konsekvenser av REDs er:",
+        "list_items1": [
+          "Stagnasjon - fremgangen stopper opp",
+          "Økt treningsslitasje - treningen føles tyngre",
+          "Dårligere restitusjon",
+          "Mer sykdom og skader"
+        ]
+      },
+      "screen_17": {
+        "title": "Quiz",
+        "question": "Når i livet er omtrent 90 % av den maksimale beinmassen bygd opp?",
+        "options1": "Etter at man er ferdig å vokse",
+        "options2": "Rundt 18 års alder",
+        "options3": "Rundt 25 års alder",
+        "options4": "Rundt 30 års alder"
+      },
+      "screen_18": {
+        "title": "Quiz",
+        "question": "Hvilken av disse er ikke en vanlig helsemessig konsekvens av REDs?",
+        "options1": "Økt beinstyrke",
+        "options2": "Forstyrret hormonbalanse",
+        "options3": "Økt risiko for belastningsskader",
+        "options4": "Forsinket pubertetsutvikling"
+      }
+    }
+  },
+  "modul3Page": {
+    "main_title": "Modul 3 - Hva er symptomene på REDs?",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "Etter denne modulen skal du kunne:",
+        "description1": "",
+        "list_items1": [
+          "Gjenkjenne fysiske og psykiske symptomer som kan oppstå ved REDs",
+          "Forstå hvordan symptomer kan variere fra person til person",
+          "Vite hvilke tegn du kan være oppmerksom på hos deg selv eller andre",
+          "Være tryggere på når det kan være lurt å ta symptomer på alvor og søke hjelp"
+        ],
+        "description2": ""
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "description2": ""
+      }
+    }
+  },
+  "modul4Page": {
+    "main_title": "Modul 4 - Forebygging",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "",
+        "description1": "<strong>Forebygging</strong> handler om alt som skjer før det har gått for langt, altså å:",
+        "list_items1": [
+          "Forutse risiko",
+          "Kjenne igjen tidlige tegn på lav energitilgjengelighet og REDs",
+          "Legge til rette for gode vaner",
+          "Bidra til trygghet og åpenhet"
+        ],
+        "description2": "Denne modulen vil gå gjennom viktige aspekter og gode praksiser knyttet til forebygging, slik at du som utøver, trener eller forelder stiller sterkere."
+      },
+      "screen_02": {
+        "title": "",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "description2": ""
+      }
+    }
+  },
+  "modul5Page": {
+    "main_title": "Modul 5 - Hvordan håndtere REDs?",
+    "screens": {
+      "screen_01": {
+        "title": "Læringsmål",
+        "subtitle": "Mål for modulen:",
+        "list_items1": [
+          "Forstå hvordan man identifiserer og håndterer REDs",
+          "Lære hvordan utøvere, trenere og foreldre kan samarbeide",
+          "Bli kjent med tilgjengelige ressurser og behandlingsmuligheter"
+        ]
+      },
+      "screen_02": {
+        "title": "Hva nå?",
+        "subtitle": "Hvis du tenker at noe kanskje ikke stemmer - enten hos deg selv eller noen du følger opp - er det lurt å vite hva du kan gjøre.  Velg rollen din:",
+        "cir_text_img_list": {
+          "title1": "UTØVER",
+          "title2": "TRENER",
+          "title3": "FORELDER"
+        }
+      },
+      "screen_03": {
+        "title": "UTØVER",
+        "subtitle1": "Steg 1: Lytt til kroppen og ta tegnene under på alvor",
+        "list_items1": [
+          "Unormalt sliten?",
+          "Sover dårlig?",
+          "Fravær eller uregelmessig menstruasjon?",
+          "Færre morgenereksjoner, styrke og “drive” borte?",
+          "Nedfor/dårlig humør"
+        ],
+        "subtitle2": "Steg 2: Snakk med noen",
+        "list_items2": [
+          "Snakk med noen du føler deg komfortabel med",
+          "Sover dårlig?",
+          "Vær åpen om symptom"
+        ]
+      },
+      "screen_04": {
+        "title": "TRENER",
+        "subtitle1": "Vær observant",
+        "list_items1": [
+          "Utøvere med stagnasjon? Lavt overskudd?"
+        ],
+        "subtitle2": "Still de riktige spørsmålene",
+        "list_items2": [
+          "Snakk om søvn, overskudd, respons, normal mensen (hvis kvinne)"
+        ],
+        "subtitle3": "Samarbeid",
+        "list_items3": [
+          "Informer foreldre - oppfølging skjer best i fellesskap"
+        ],
+        "subtitle4": "Tilrettelegg",
+        "list_items4": [
+          "Reduser treningsbelastningen hvis du er bekymret"
+        ],
+        "bg_info_box": {
+          "title": "Visste du at:",
+          "description": "Lav laktatrespons - særlig ved terskel og hard trening - kan tyde på REDs. Lav karbohydrattilgang og lav energitilgjengelighet (LEA) påvirker evnen til å produsere laktat normalt. Det er ikke et sikkert tegn alene, men bør vekke oppmerksomhet - spesielt sammen med andre symptomer. "
+        }
+      },
+      "screen_05": {
+        "title": "FORELDER",
+        "description": "Du er en nøkkelperson for forebygging - du trenger ikke være ekspert, det viktigste er at du følger med og støtter",
+        "subtitle1": "Ser du endringer",
+        "list_items1": [
+          "Nedstemt, sliten, dårlig søvn?",
+          "piser mindre og trener mer enn før?"
+        ],
+        "subtitle2": "Snakk om kroppen",
+        "list_items2": [
+          "For jenter - Har du mensen? Er den regelmessig?",
+          "For gutter - Har det vært endringer i morgenereksjon?"
+        ],
+        "subtitle3": "Søk hjelp",
+        "list_items3": [
+          "Ta kontakt med fastlege eller spesialist, f.eks. ernæringsfysiolog",
+          "Ta kontakt med trener"
+        ],
+        "subtitle4": "Tilrettelegg hjemme",
+        "list_items4": [
+          "Sørg for mellommåltider.",
+          "Berik maten: bruk smør, olje og sauser i maten. Unngå lettprodukter",
+          "Snacks, godteri og bakst er ofte nødvendig for tilstrekkelig energiinntak."
+        ]
+      },
+      "screen_06": {
+        "title": "REDs finnes på et spekter",
+        "description": "Trafiklyset for energibalanse og helse i idrett"
+      },
+      "screen_07": {
+        "title": "REDs finnes på et spekter",
+        "description": "Trafiklyset for energibalanse og helse i idrett"
+      },
+      "screen_08": {
+        "title": "Hvordan foregår behandling?",
+        "subtitle": "Behandling av REDs handler om å hjelpe kroppen tilbake i balanse. Det skjer ofte i samarbeid med flere fagpersoner:",
+        "cir_text_img_list": {
+          "title1": "FASTLEGE",
+          "title2": "KLINISK ERNÆRINGS-FYSIOLOG",
+          "title3": "PSYKOLOG",
+          "title4": "FORELDRE <br/> OG TRENER"
+        }
+      },
+      "screen_09": {
+        "title": "FASTLEGE",
+        "list_items1": [
+          "Vurderer medisinske forhold",
+          "Bestiller blodprøver",
+          "Kan henvise til spesialist",
+          "Kan rekvidere DEXA (bentetthetsmåling) ved mistanke om redusert beinhelse"
+        ]
+      },
+      "screen_10": {
+        "title": "KLINISK ERNÆRINGSFYSIOLOG",
+        "list_items1": [
+          "Hjelper til med å øke energiinntaket og tilpasse måltidsrytme",
+          "Gir konkrete råd for å få i seg nok mat - både på vanlige og mer krevende dager",
+          "Kan initiere behov for videre utredning, f.eks. DEXA-måling (bentetthetsmåling)"
+        ]
+      },
+      "screen_11": {
+        "title": "PSYKOLOG ELLER RÅDGIVER",
+        "sub_list_items1": [
+          {
+            "text": "Kan støtte med håndtering av:",
+            "sub_items": [
+              "Kroppsbilde",
+              "Stress",
+              "Matrelaterte utfordringer",
+              "Mental belastning"
+            ]
+          }
+        ]
+      },
+      "screen_12": {
+        "title": "TRENER OG FORELDRE",
+        "subtitle1": "Trenerens rolle i behandlingsfasen:",
+        "list_items1": [
+          "Følg opp og hold kontakten",
+          "Bidra med tilrettelegging av trening",
+          "Delta i samtaler med ernæringsfysiolog hvis ønskelig",
+          "Skap trygghet og forutsigbarhet - utøveren er fortsatt en del av laget"
+        ],
+        "subtitle2": "Foreldrenes rolle i behandlingsfasen:",
+        "sub_list_items1": [
+          {
+            "text": "Kan inkluderes i samtaler med fagpersoner (lege, ernæringsfysiolog), dersom utøveren ønsker det",
+            "sub_items": [
+              "Økt innsikt kan gi bedre støtte i hverdagen og bidra til bedre mat- og hvilerutiner hjemme"
+            ]
+          },
+          {
+            "text": "Viktig støttespiller som følger opp signaler og tilpasninger over tid"
+          }
+        ]
+      },
+      "screen_13": {
+        "title": "Ressurser du kan utforske",
+        "subtitle1": "Idrettens skadetelefon",
+        "description": "Utøvere med lisens gjennom et særforbund kan ringe Skadetelefonen (Idrettens Helsesenter) for rask og riktig hjelp:",
+        "list_items1": [
+          "Tilgang til kvalitetssikret behandlingsnettverk",
+          "Spesialkompetanse på idrettsmedisin",
+          "Gir råd uavhengig av om skaden dekkes av forsikringen"
+        ],
+        "subtitle2": "Sunn Idrett",
+        "list_items2": [
+          "Mange gode artikler, tips og webinarer for både utøvere, trenere og foreldre"
+        ],
+        "subtitle3": "Olympiatoppen - idrettsernæring",
+        "list_items3": [
+          "Faktaark og veiledning om mat og måltider for idrettsutøvere"
+        ]
+      },
+      "screen_14": {
+        "title": "Quiz",
+        "question": "En utøver viser disse tegnene: manglende fremgang, ofte syk, lavt energinivå, tretthetsbrudd i foten og dårlig konsentrasjon. Hva er riktig tiltak?",
+        "options1": "Vente og se - det går sikkert over",
+        "options2": "Gi råd om mer søvn og mindre trening i noen uker",
+        "options3": "Oppsøke fastlege og/eller klinisk ernæringsfysiolog",
+        "options4": "Be utøveren trene lettere og loggføre egen fremgang"
+      },
+      "screen_15": {
+        "title": "Quiz",
+        "question": "Hva bør en utøver gjøre ved mistanke om REDs?",
+        "options1": "Holde det for seg selv og se an situasjonen",
+        "options2": "Snakke med en voksen og oppsøke profesjonell hjelp",
+        "options3": "Trene litt roligere, men ikke gjøre noe mer",
+        "options4": "Søke på nettet og prøve å løse det selv"
+      }
+    }
+  }
+}
