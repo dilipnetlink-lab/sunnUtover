@@ -17,7 +17,7 @@
                                         <h1><?php echo __("modul5Page.main_title"); ?></h1>
                                     </div>
                                     <div class="page-title-del-box-right">
-                                         <p id="slideCounter"><?php echo __("common.slide_part"); ?></p>
+                                        <p id="slideCounter"><?php echo __("common.slide_part"); ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -92,16 +92,16 @@
                                                                                     </figure>
                                                                                     <div class="circle-img-caption-box-caption">
                                                                                         <h3><?php echo __("modul5Page.screens.screen_02.cir_text_img_list.title2"); ?></h3>
-                                                                                         <p><?php echo __("common.click_to_see"); ?></p>
+                                                                                        <p><?php echo __("common.click_to_see"); ?></p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
                                                                                 <div class="circle-img-caption-box-con sliderBoxDownArrow circle-img-caption-img-not">
-                                                                                    <figure class="circle-img-caption-box-img"> </figure> 
+                                                                                    <figure class="circle-img-caption-box-img"> </figure>
                                                                                     <div class="circle-img-caption-box-caption">
                                                                                         <h3><?php echo __("modul5Page.screens.screen_02.cir_text_img_list.title3"); ?></h3>
-                                                                                         <p><?php echo __("common.click_to_see"); ?></p>
+                                                                                        <p><?php echo __("common.click_to_see"); ?></p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -129,9 +129,9 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
-                                                                         <h4 class="mb-1 mt-3"><?php echo __("modul5Page.screens.screen_03.subtitle2"); ?></h4>
+                                                                        <h4 class="mb-1 mt-3"><?php echo __("modul5Page.screens.screen_03.subtitle2"); ?></h4>
                                                                         <ul>
                                                                             <?php
                                                                                 $list = __("modul5Page.screens.screen_03.list_items2");
@@ -140,7 +140,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -171,7 +171,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                         <h4 class="mb-1 mt-3"><?php echo __("modul5Page.screens.screen_04.subtitle2"); ?></h4>
                                                                         <ul>
@@ -182,7 +182,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -197,7 +197,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                         <h4 class="mb-1 mt-3"><?php echo __("modul5Page.screens.screen_04.subtitle4"); ?></h4>
                                                                         <ul>
@@ -208,7 +208,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -248,7 +248,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                         <h4 class="mb-1 mt-3"><?php echo __("modul5Page.screens.screen_05.subtitle2"); ?></h4>
                                                                         <ul>
@@ -259,14 +259,14 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
                                                                         <h4 class="mb-1 mt-3"><?php echo __("modul5Page.screens.screen_05.subtitle3"); ?></h4>
-                                                                       <ul>
+                                                                        <ul>
                                                                             <?php
                                                                                 $list = __("modul5Page.screens.screen_05.list_items3");
                                                                                 if(is_array($list)){
@@ -274,7 +274,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                         <h4 class="mb-1 mt-3"><?php echo __("modul5Page.screens.screen_05.subtitle4"); ?></h4>
                                                                         <ul>
@@ -285,7 +285,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -306,35 +306,35 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                     <div class="step-slide-box-img img-top-fixed">
+                                                                    <div class="step-slide-box-img img-top-fixed">
                                                                         <figure><img src="images/box-modul-5-img-3.svg" class="rounded"/></figure>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                      <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                               <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-caption">
-                                                                         <h2><?php echo __("modul5Page.screens.screen_07.title"); ?></h2>
+                                                                        <h2><?php echo __("modul5Page.screens.screen_07.title"); ?></h2>
                                                                         <p><?php echo __("modul5Page.screens.screen_07.description"); ?></p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
-                                                                     <div class="step-slide-box-img img-top-fixed">
+                                                                    <div class="step-slide-box-img img-top-fixed">
                                                                         <figure><img src="images/box-modul-5-img-4.svg" class="rounded"/></figure>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                      <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
                                                 <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
@@ -367,7 +367,7 @@
                                                                                         <img src="images/box-modul-5-img-6-b.jpg"/>                                                                                        
                                                                                     </figure>
                                                                                     <div class="circle-img-caption-box-caption">
-                                                                                         <h3><?php echo __("modul5Page.screens.screen_08.cir_text_img_list.title2"); ?></h3>
+                                                                                        <h3><?php echo __("modul5Page.screens.screen_08.cir_text_img_list.title2"); ?></h3>
                                                                                         <p><?php echo __("common.click_to_see"); ?></p>
                                                                                     </div>
                                                                                 </div>
@@ -378,16 +378,16 @@
                                                                                         <img src="images/box-modul-5-img-6-c.jpg"/>                                                                                        
                                                                                     </figure>
                                                                                     <div class="circle-img-caption-box-caption">
-                                                                                         <h3><?php echo __("modul5Page.screens.screen_08.cir_text_img_list.title3"); ?></h3>
+                                                                                        <h3><?php echo __("modul5Page.screens.screen_08.cir_text_img_list.title3"); ?></h3>
                                                                                         <p><?php echo __("common.click_to_see"); ?></p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
                                                                                 <div class="circle-img-caption-box-con sliderBoxDownArrow circle-img-caption-img-not">
-                                                                                    <figure class="circle-img-caption-box-img"> </figure>  
+                                                                                    <figure class="circle-img-caption-box-img"> </figure>
                                                                                     <div class="circle-img-caption-box-caption">
-                                                                                         <h3><?php echo __("modul5Page.screens.screen_08.cir_text_img_list.title4"); ?></h3>
+                                                                                        <h3><?php echo __("modul5Page.screens.screen_08.cir_text_img_list.title4"); ?></h3>
                                                                                         <p><?php echo __("common.click_to_see"); ?></p>
                                                                                     </div>
                                                                                 </div>
@@ -415,7 +415,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -436,7 +436,7 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                       <h2><?php echo __("modul5Page.screens.screen_10.title"); ?></h2>
+                                                                        <h2><?php echo __("modul5Page.screens.screen_10.title"); ?></h2>
                                                                         <ul>
                                                                             <?php
                                                                                 $list = __("modul5Page.screens.screen_10.list_items1");
@@ -445,7 +445,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -469,30 +469,30 @@
                                                                         <h2><?php echo __("modul5Page.screens.screen_11.title"); ?></h2>
                                                                         <ul>
                                                                             <?php
-                                                                            $list = __("modul5Page.screens.screen_11.sub_list_items1");
-
-                                                                            foreach($list as $item){
-
-                                                                                if(is_string($item)){
-                                                                                    echo "<li>$item</li>";
-                                                                                }
-
-                                                                                if(is_array($item)){
-                                                                                    echo "<li>{$item['text']}";
-
-                                                                                    if(isset($item['sub_items'])){
-                                                                                        echo "<ul>";
-                                                                                        foreach($item['sub_items'] as $sub){
-                                                                                            echo "<li>$sub</li>";
-                                                                                        }
-                                                                                        echo "</ul>";
+                                                                                $list = __("modul5Page.screens.screen_11.sub_list_items1");
+                                                                                
+                                                                                foreach($list as $item){
+                                                                                
+                                                                                    if(is_string($item)){
+                                                                                        echo "<li>$item</li>";
                                                                                     }
-
-                                                                                    echo "</li>";
+                                                                                
+                                                                                    if(is_array($item)){
+                                                                                        echo "<li>{$item['text']}";
+                                                                                
+                                                                                        if(isset($item['sub_items'])){
+                                                                                            echo "<ul>";
+                                                                                            foreach($item['sub_items'] as $sub){
+                                                                                                echo "<li>$sub</li>";
+                                                                                            }
+                                                                                            echo "</ul>";
+                                                                                        }
+                                                                                
+                                                                                        echo "</li>";
+                                                                                    }
                                                                                 }
-                                                                            }
-                                                                            ?>
-                                                                        </ul> 
+                                                                                ?>
+                                                                        </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -522,7 +522,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -532,17 +532,17 @@
                                                                         <ul>
                                                                             <?php
                                                                                 $parentList = __("modul5Page.screens.screen_12.sub_list_items1");
-
+                                                                                
                                                                                 if (is_array($parentList)) {
                                                                                     foreach ($parentList as $item) {
-
+                                                                                
                                                                                         echo "<li>";
-
+                                                                                
                                                                                         // Main text
                                                                                         if (isset($item['text'])) {
                                                                                             echo $item['text'];
                                                                                         }
-
+                                                                                
                                                                                         // Sub list (if exists)
                                                                                         if (!empty($item['sub_items']) && is_array($item['sub_items'])) {
                                                                                             echo "<ul>";
@@ -551,11 +551,11 @@
                                                                                             }
                                                                                             echo "</ul>";
                                                                                         }
-
+                                                                                
                                                                                         echo "</li>";
                                                                                     }
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -582,13 +582,13 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                       <h4 class="mb-1"><?php echo __("modul5Page.screens.screen_13.subtitle2"); ?></h4>
+                                                                        <h4 class="mb-1"><?php echo __("modul5Page.screens.screen_13.subtitle2"); ?></h4>
                                                                         <ul>
                                                                             <?php
                                                                                 $list = __("modul5Page.screens.screen_13.list_items2");
@@ -597,7 +597,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                         <h4 class="mb-1"><?php echo __("modul5Page.screens.screen_13.subtitle3"); ?></h4>
                                                                         <ul>
@@ -608,7 +608,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -643,25 +643,25 @@
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio1">
-                                                                                <?php echo __("modul5Page.screens.screen_14.options1"); ?>
+                                                                            <?php echo __("modul5Page.screens.screen_14.options1"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio2">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio2">
-                                                                                 <?php echo __("modul5Page.screens.screen_14.options2"); ?>
+                                                                            <?php echo __("modul5Page.screens.screen_14.options2"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio3">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio3">
-                                                                                <?php echo __("modul5Page.screens.screen_14.options3"); ?>
+                                                                            <?php echo __("modul5Page.screens.screen_14.options3"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio4">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio4">
-                                                                                <?php echo __("modul5Page.screens.screen_14.options4"); ?>
+                                                                            <?php echo __("modul5Page.screens.screen_14.options4"); ?>
                                                                             </label>
                                                                         </div>
                                                                     </div>
@@ -686,25 +686,25 @@
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio1">
-                                                                                <?php echo __("modul5Page.screens.screen_15.options1"); ?>
+                                                                            <?php echo __("modul5Page.screens.screen_15.options1"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-success">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio2">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio2">
-                                                                                <?php echo __("modul5Page.screens.screen_15.options2"); ?>
+                                                                            <?php echo __("modul5Page.screens.screen_15.options2"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio3">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio3">
-                                                                                <?php echo __("modul5Page.screens.screen_15.options3"); ?>
+                                                                            <?php echo __("modul5Page.screens.screen_15.options3"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio4">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio4">
-                                                                                <?php echo __("modul5Page.screens.screen_15.options4"); ?>
+                                                                            <?php echo __("modul5Page.screens.screen_15.options4"); ?>
                                                                             </label>
                                                                         </div>
                                                                     </div>

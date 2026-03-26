@@ -17,7 +17,7 @@
                                         <h1><?php echo __("modul4Page.main_title"); ?></h1>
                                     </div>
                                     <div class="page-title-del-box-right">
-                                         <p id="slideCounter"><?php echo __("common.slide_part"); ?></p>
+                                        <p id="slideCounter"><?php echo __("common.slide_part"); ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption top-slide-caption">
-                                                                        <h2><?php echo __("modul4Page.screens.screen_01.title"); ?></h2> 
+                                                                        <h2><?php echo __("modul4Page.screens.screen_01.title"); ?></h2>
                                                                         <p> <?php echo __("modul4Page.screens.screen_01.description1"); ?> </p>
                                                                         <ul>
                                                                             <?php
@@ -42,7 +42,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                         <p><?php echo __("modul4Page.screens.screen_01.description2"); ?></p>
                                                                     </div>
@@ -97,7 +97,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
-                                                </div> 
+                                                </div>
                                                 <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
@@ -130,7 +130,7 @@
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                               <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -167,32 +167,59 @@
                                                         </div>
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
-                                                </div> 
+                                                </div>
                                                 <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="step-slide-box-caption">
+                                                                    <div class="step-slide-box-caption chackbox-list-ul">
                                                                         <h2>Observer og tørr å stille spørsmål</h2>
                                                                         <h4>Trenere og foreldre har en viktig oppgave for å fange opp lav energitilgjengelighet. <br/> Sjekklisten under kan være et bra startpunkt for samtale. </h4>
                                                                         <ul>
-                                                                            <li>Er jeg trøtt hele tiden til tross for tilstrekkelig mengde søvn?</li>
-                                                                            <li>Er jeg mer støl enn vanlig og klarer ikke helt å restituere meg mellom treningsøktene?</li>
-                                                                            <li>Har prestasjonsutviklingen min stagnert uten klare grunner?</li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check1">
+                                                                                <label for="check1">Er jeg trøtt hele tiden til tross for tilstrekkelig mengde søvn?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check2">
+                                                                                <label for="check2">Er jeg mer støl enn vanlig og klarer ikke helt å restituere meg mellom treningsøktene?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check3">
+                                                                                <label for="check3">Har prestasjonsutviklingen min stagnert uten klare grunner?</label>
+                                                                            </li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="step-slide-box-caption">
+                                                                    <div class="step-slide-box-caption chackbox-list-ul">
                                                                         <ul>
-                                                                            <li>Er jeg ofte lei meg eller har dårlig humør og/eller store humørsvingninger?</li>
-                                                                            <li>Har jeg hatt gjentatte skader det siste året?</li>
-                                                                            <li>Har jeg hatt tretthetsbrudd eller stressreaksjon?</li>
-                                                                            <li>Er jeg ofte syk?</li>
-                                                                            <li>Kvinner: Er menstruasjonen uregelemessig eller borte?</li>
-                                                                            <li>Menn: Har jeg lavere sexlyst enn vanlig? Har morgenereksjon blitt sjeldnere?</li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check4">
+                                                                                <label class="form-check-label" for="check4">Er jeg ofte lei meg eller har dårlig humør og/eller store humørsvingninger?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check5">
+                                                                                <label class="form-check-label" for="check5">Har jeg hatt gjentatte skader det siste året?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check6">
+                                                                                <label class="form-check-label" for="check6">Har jeg hatt tretthetsbrudd eller stressreaksjon?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check7">
+                                                                                <label class="form-check-label" for="check7">Er jeg ofte syk?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check8">
+                                                                                <label class="form-check-label" for="check8">Kvinner: Er menstruasjonen uregelemessig eller borte?</label>
+                                                                            </li>
+                                                                            <li class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="check9">
+                                                                                <label class="form-check-label" for="check9">Menn: Har jeg lavere sexlyst enn vanlig? Har morgenereksjon blitt sjeldnere?</label>
+                                                                            </li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -275,7 +302,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                               <h4><strong> Denne øvelsen er det fint om utøver gjør sammen med forelder og trener .</strong></h4>
+                                                                                <h4><strong> Denne øvelsen er det fint om utøver gjør sammen med forelder og trener .</strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -284,8 +311,8 @@
                                                         </div>
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
-                                                </div> 
-                                                 <div class="step-slide-box-item">
+                                                </div>
+                                                <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -302,11 +329,11 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="step-slide-box-caption">
+                                                                    <div class="step-slide-box-caption icon-text-ul">
                                                                         <ul>
-                                                                            <li>Spis noe hver 3. - 4. time - ikke vent for lenge mellom måltidene</li>
-                                                                            <li>Ha alltid et lite måltid klar til etter trening</li>
-                                                                            <li>Ikke kutt ut karbohydrater - kroppen trenger dem, særlig under trening!</li>
+                                                                            <li><span class="icon-text-img"><img src="images/icon-clock-countdown.svg"></span><span class="icon-text-title">Spis noe hver 3. - 4. time - ikke vent for lenge mellom måltidene</span></li>
+                                                                            <li><span class="icon-text-img"><img src="images/icon-battery-charging-vertical.svg"></span><span class="icon-text-title">Ha alltid et lite måltid klar til etter trening</span></li>
+                                                                            <li><span class="icon-text-img"><img src="images/icon-bread.svg"></span><span class="icon-text-title">Ikke kutt ut karbohydrater - kroppen trenger dem, særlig under trening!</span></li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -422,7 +449,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div> 
+                                                </div>
                                                 <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
@@ -502,7 +529,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
-                                                </div> 
+                                                </div>
                                                 <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">

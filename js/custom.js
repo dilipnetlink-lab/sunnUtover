@@ -15,13 +15,11 @@ function updateCounter() {
         let textTemplate = counter.dataset.template;
 
         if (!textTemplate) {
-            textTemplate = counter.textContent; 
+            textTemplate = counter.textContent;
             counter.dataset.template = textTemplate;
         }
 
-        let finalText = textTemplate
-            .replace("{current}", currentNum)
-            .replace("{total}", total);
+        let finalText = textTemplate.replace("{current}", currentNum).replace("{total}", total);
 
         counter.textContent = finalText;
     }
@@ -48,7 +46,7 @@ function changeSlide(i, dir) {
     const tl = gsap.timeline({
         onComplete: () => {
             animating = false;
-            updateCounter(); 
+            updateCounter();
         },
     });
 
@@ -93,17 +91,17 @@ document.addEventListener("click", function (e) {
 /* end-slide Screen */
 
 /* Language-Logo */
-$(function() {
-    $("#languageDropdown").click(function() {
-        var img = $(this).find('img');
+$(function () {
+    $("#languageDropdown").click(function () {
+        var img = $(this).find("img");
         if (!img.length) return; // element na male to stop
-        var src = img.attr('src');
-        if (src.includes('language-norwegian-icon')) {
-            img.attr('src', 'images/language-english-icon.svg');
-            img.attr('alt', 'English');
+        var src = img.attr("src");
+        if (src.includes("language-norwegian-icon")) {
+            img.attr("src", "images/language-english-icon.svg");
+            img.attr("alt", "English");
         } else {
-            img.attr('src', 'images/language-norwegian-icon.svg');
-            img.attr('alt', 'Norwegian');
+            img.attr("src", "images/language-norwegian-icon.svg");
+            img.attr("alt", "Norwegian");
         }
     });
 });

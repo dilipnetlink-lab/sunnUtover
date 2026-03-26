@@ -13,7 +13,7 @@
     --successColor: #4caf50;
     --errorColor: #ef5350;
     --lavenderLightColor: #d7d3fa;
-    --lightBlue: #96C7ED;
+    --lightBlue: #96c7ed;
     /* FontFamily */
     --primaryFontFamily: "Roboto", sans-serif;
     --secondaryFontFamily: "Inter", sans-serif;
@@ -27,13 +27,13 @@
     --mdHeadingFont: 24px;
     --smHeadingFont: 21px;
     --xsHeadingFont: 18px;
-    /* TextFont */ 
-    --lgTextFont: 22px; 
-    --normalTextFont: 21px; 
+    /* TextFont */
+    --lgTextFont: 22px;
+    --normalTextFont: 21px;
     --mdTextFont: 20px;
-    --smTextFont: 18px; 
-    --xsTextFont: 16px; 
-    --xxsTextFont: 14px; 
+    --smTextFont: 18px;
+    --xsTextFont: 16px;
+    --xxsTextFont: 14px;
     /* formFont */
     --btnFont: 16px;
     --inputTextFont: 18px;
@@ -53,13 +53,13 @@
         --mdHeadingFont: 23px;
         --smHeadingFont: 20px;
         --xsHeadingFont: 17px;
-        /* TextFont */ 
-        --lgTextFont: 21px; 
-        --normalTextFont: 20px; 
+        /* TextFont */
+        --lgTextFont: 21px;
+        --normalTextFont: 20px;
         --mdTextFont: 19px;
-        --smTextFont: 17px; 
-        --xsTextFont: 15px; 
-        --xxsTextFont: 13px; 
+        --smTextFont: 17px;
+        --xsTextFont: 15px;
+        --xxsTextFont: 13px;
         /* formFont */
         --btnFont: 16px;
         --inputTextFont: 17px;
@@ -80,17 +80,17 @@
         --mdHeadingFont: 22px;
         --smHeadingFont: 19px;
         --xsHeadingFont: 16px;
-        /* TextFont */ 
-        --lgTextFont: 20px; 
-        --normalTextFont: 19px; 
+        /* TextFont */
+        --lgTextFont: 20px;
+        --normalTextFont: 19px;
         --mdTextFont: 18px;
-        --smTextFont: 16px; 
-        --xsTextFont: 14px; 
-        --xxsTextFont: 12px; 
-         /* formFont */
+        --smTextFont: 16px;
+        --xsTextFont: 14px;
+        --xxsTextFont: 12px;
+        /* formFont */
         --btnFont: 15px;
         --inputTextFont: 16px;
-         /* TagMargin */
+        /* TagMargin */
         --lgMargin: 18px;
         --mdMargin: 17px;
         --smMargin: 15px;
@@ -107,22 +107,22 @@
         --mdHeadingFont: 21px;
         --smHeadingFont: 18px;
         --xsHeadingFont: 15px;
-          /* TextFont */ 
-        --lgTextFont: 19px; 
-        --normalTextFont: 18px; 
+        /* TextFont */
+        --lgTextFont: 19px;
+        --normalTextFont: 18px;
         --mdTextFont: 17px;
-        --smTextFont: 15px; 
-        --xsTextFont: 14px; 
-        --xxsTextFont: 12px; 
-         /* formFont */ 
+        --smTextFont: 15px;
+        --xsTextFont: 14px;
+        --xxsTextFont: 12px;
+        /* formFont */
         --btnFont: 14px;
         --inputTextFont: 15px;
-         /* TagMargin */
+        /* TagMargin */
         --lgMargin: 17px;
         --mdMargin: 16px;
         --smMargin: 15px;
     }
-} 
+}
 /* Text Colors */
 .primaryColor {
     color: var(--primaryColor) !important;
@@ -176,7 +176,7 @@ body {
     font-size: var(--normalTextFont);
     line-height: 1.3;
     font-weight: 400;
-    font-family: var(--textFontFamily); 
+    font-family: var(--textFontFamily);
 }
 p {
     color: var(--textColor);
@@ -417,8 +417,8 @@ strong {
 }
 .allWhiteColor * {
     color: var(--whiteColor);
-} 
-.br-sm{
+}
+.br-sm {
     border-radius: 8px;
 }
 .same-box {

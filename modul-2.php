@@ -34,7 +34,7 @@
                                                                     <div class="step-slide-box-caption top-slide-caption">
                                                                         <h2><?php echo __("modul2Page.screens.screen_01.title"); ?></h2>
                                                                         <h6><?php echo __("modul2Page.screens.screen_01.subtitle"); ?> </h6>
-                                                                         <ul>
+                                                                        <ul>
                                                                             <?php
                                                                                 $list = __("modul2Page.screens.screen_01.list_items1");
                                                                                 if(is_array($list)){
@@ -42,7 +42,7 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
+                                                                                ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -94,9 +94,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_03.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_03.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_03.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_03.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_03.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_03.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -117,9 +124,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_04.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_04.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_04.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_04.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_04.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_04.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -152,9 +166,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_05.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_05.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_05.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_05.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_05.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_05.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -175,9 +196,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_06.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_06.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_06.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_06.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_06.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_06.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -198,9 +226,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_07.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_07.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_07.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_07.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_07.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_07.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -221,9 +256,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_08.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_08.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_08.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_08.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_08.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_08.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -244,9 +286,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_09.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_09.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_09.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_09.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_09.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_09.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -267,9 +316,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_10.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_10.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_10.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_10.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_10.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_10.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -290,9 +346,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_11.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_11.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_11.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_11.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_11.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_11.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -313,9 +376,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_12.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_12.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_12.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_12.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_12.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_12.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -336,9 +406,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_13.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_13.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_13.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_13.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_13.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_13.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -359,9 +436,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_14.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_14.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_14.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_14.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_14.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_14.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -382,9 +466,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_15.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_15.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_15.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_15.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_15.subtitle"); ?> </h4>
                                                                         <p><?php echo __("modul2Page.screens.screen_15.description2"); ?></p>
                                                                     </div>
                                                                 </div>
@@ -405,9 +496,16 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2><?php echo __("modul2Page.screens.screen_16.title"); ?></h2>
+                                                                        <div class="icon-title-con">
+                                                                            <div class="icon-title-left">
+                                                                                <img src="images/icon-dyman.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-title-right">
+                                                                                <h2><?php echo __("modul2Page.screens.screen_16.title"); ?></h2>
+                                                                            </div>
+                                                                        </div>
                                                                         <p><?php echo __("modul2Page.screens.screen_16.description1"); ?></p>
-                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_16.subtitle"); ?> </h4> 
+                                                                        <h4 class="mb-0"><?php echo __("modul2Page.screens.screen_16.subtitle"); ?> </h4>
                                                                         <ul>
                                                                             <?php
                                                                                 $list = __("modul2Page.screens.screen_16.list_items1");
@@ -416,8 +514,8 @@
                                                                                         echo "<li>$item</li>";
                                                                                     }   
                                                                                 }
-                                                                            ?>
-                                                                        </ul> 
+                                                                                ?>
+                                                                        </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -441,25 +539,25 @@
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio1">
-                                                                                <?php echo __("modul2Page.screens.screen_17.options1"); ?>
+                                                                            <?php echo __("modul2Page.screens.screen_17.options1"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio2">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio2">
-                                                                                <?php echo __("modul2Page.screens.screen_17.options2"); ?>
+                                                                            <?php echo __("modul2Page.screens.screen_17.options2"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio3">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio3">
-                                                                                <?php echo __("modul2Page.screens.screen_17.options3"); ?>
+                                                                            <?php echo __("modul2Page.screens.screen_17.options3"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio4">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio4">
-                                                                                <?php echo __("modul2Page.screens.screen_17.options4"); ?>
+                                                                            <?php echo __("modul2Page.screens.screen_17.options4"); ?>
                                                                             </label>
                                                                         </div>
                                                                     </div>
@@ -484,25 +582,25 @@
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio1">
-                                                                                <?php echo __("modul2Page.screens.screen_18.options1"); ?>
+                                                                            <?php echo __("modul2Page.screens.screen_18.options1"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-success">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio2">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio2">
-                                                                                <?php echo __("modul2Page.screens.screen_18.options2"); ?>
+                                                                            <?php echo __("modul2Page.screens.screen_18.options2"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio3">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio3">
-                                                                                <?php echo __("modul2Page.screens.screen_18.options3"); ?>
+                                                                            <?php echo __("modul2Page.screens.screen_18.options3"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio4">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio4">
-                                                                                <?php echo __("modul2Page.screens.screen_18.options4"); ?>
+                                                                            <?php echo __("modul2Page.screens.screen_18.options4"); ?>
                                                                             </label>
                                                                         </div>
                                                                     </div>

@@ -25,7 +25,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
-    <body> 
+    <body>
         <?php include_once 'language/language_helper.php'; ?>
         <header class="sticky-top">
             <div class="container-fluid header-con">
@@ -54,16 +54,16 @@
                                 </ul>
                             </div>
                             </div> -->
-                        <div class="header-icon-list"> 
+                        <div class="header-icon-list">
                             <div class="language-box-con">
                                 <?php if ($lang == 'no'): ?>
-                                    <a href="<?= base_url('en/' . $current_page) ?>" class="language-box-img">
-                                        <img src="images/language-english-icon.svg" alt="English" title="English" />
-                                    </a>
+                                <a href="<?= base_url('en/' . $current_page) ?>" class="language-box-img">
+                                <img src="images/language-english-icon.svg" alt="English" title="English" />
+                                </a>
                                 <?php else: ?>
-                                    <a href="<?= base_url('no/' . $current_page) ?>" class="language-box-img">
-                                        <img src="images/language-norwegian-icon.svg" alt="Norwegian" title="Norwegian" />
-                                    </a>
+                                <a href="<?= base_url('no/' . $current_page) ?>" class="language-box-img">
+                                <img src="images/language-norwegian-icon.svg" alt="Norwegian" title="Norwegian" />
+                                </a>
                                 <?php endif; ?>
                             </div>
                             <!-- <div class="profile-menu-box">

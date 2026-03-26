@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="page-top-caption"> 
+                    <div class="page-top-caption">
                         <h1><?php echo __("homePage.title"); ?></h1>
                         <p><?php echo __("homePage.description"); ?></p>
                     </div>
@@ -73,7 +73,9 @@
                                                 <figure><img src="images/box-modul-4-img-1.jpg"/></figure>
                                                 <div class="step-box-list-caption">
                                                     <div class="step-box-list-title">
-                                                        <h5><h5><?php echo __("homePage.module_4_title"); ?></h5></h5>
+                                                        <h5>
+                                                            <h5><?php echo __("homePage.module_4_title"); ?></h5>
+                                                        </h5>
                                                         <p><?php echo __("common.locked"); ?></p>
                                                     </div>
                                                     <div class="step-box-list-btn">
@@ -87,7 +89,9 @@
                                                 <figure><img src="images/box-modul-5-img-1.jpg"/></figure>
                                                 <div class="step-box-list-caption">
                                                     <div class="step-box-list-title">
-                                                        <h5><h5><?php echo __("homePage.module_5_title"); ?></h5></h5>
+                                                        <h5>
+                                                            <h5><?php echo __("homePage.module_5_title"); ?></h5>
+                                                        </h5>
                                                         <p><?php echo __("common.locked"); ?></p>
                                                     </div>
                                                     <div class="step-box-list-btn">

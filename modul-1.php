@@ -43,8 +43,8 @@
                                                                                             echo "<li>$item</li>";
                                                                                         }   
                                                                                     }
-                                                                                ?>
-                                                                            </ul> 
+                                                                                    ?>
+                                                                            </ul>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-6">
@@ -78,8 +78,8 @@
                                                                                             echo "<li>$item</li>";
                                                                                         }   
                                                                                     }
-                                                                                ?>
-                                                                            </ul> 
+                                                                                    ?>
+                                                                            </ul>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
@@ -101,7 +101,7 @@
                                                                         <div class="step-slide-box-caption">
                                                                             <h2><?php echo __("modul1Page.screens.screen_03.title"); ?></h2>
                                                                             <p><?php echo __("modul1Page.screens.screen_03.description1"); ?></p>
-                                                                            <p><?php echo __("modul1Page.screens.screen_03.description2"); ?></p>                                                                            
+                                                                            <p><?php echo __("modul1Page.screens.screen_03.description2"); ?></p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
@@ -252,14 +252,14 @@
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
                                                                         <div class="step-slide-box-img">
                                                                             <div class="bg-text-con">
-                                                                                <h5><?php echo __("modul1Page.screens.screen_09.table_info.title"); ?></h5> 
+                                                                                <h5><?php echo __("modul1Page.screens.screen_09.table_info.title"); ?></h5>
                                                                                 <div class="table-responsive">
                                                                                     <table>
                                                                                         <?php for ($i = 1; $i <= 9; $i++) { ?>
-                                                                                            <tr> 
-                                                                                                <td><?php echo __("modul1Page.screens.screen_09.table_info.tr{$i}_td1"); ?></td>
-                                                                                                <td><?php echo __("modul1Page.screens.screen_09.table_info.tr{$i}_td2"); ?></td>
-                                                                                            </tr>
+                                                                                        <tr>
+                                                                                            <td><?php echo __("modul1Page.screens.screen_09.table_info.tr{$i}_td1"); ?></td>
+                                                                                            <td><?php echo __("modul1Page.screens.screen_09.table_info.tr{$i}_td2"); ?></td>
+                                                                                        </tr>
                                                                                         <?php } ?>
                                                                                     </table>
                                                                                 </div>
@@ -282,32 +282,32 @@
                                                                             <div class="radio-label-grop">
                                                                                 <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio1">
                                                                                 <label class="radio-label" for="sliderBoxSlide1Radio1">
-                                                                                    <?php echo __("modul1Page.screens.screen_10.options1"); ?>
+                                                                                <?php echo __("modul1Page.screens.screen_10.options1"); ?>
                                                                                 </label>
                                                                             </div>
                                                                             <div class="radio-label-grop">
                                                                                 <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio2">
                                                                                 <label class="radio-label" for="sliderBoxSlide1Radio2">
-                                                                                    <?php echo __("modul1Page.screens.screen_10.options2"); ?>
+                                                                                <?php echo __("modul1Page.screens.screen_10.options2"); ?>
                                                                                 </label>
                                                                             </div>
                                                                             <div class="radio-label-grop">
                                                                                 <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio3">
                                                                                 <label class="radio-label" for="sliderBoxSlide1Radio3">
-                                                                                    <?php echo __("modul1Page.screens.screen_10.options3"); ?>
+                                                                                <?php echo __("modul1Page.screens.screen_10.options3"); ?>
                                                                                 </label>
                                                                             </div>
                                                                             <div class="radio-label-grop">
                                                                                 <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio4">
                                                                                 <label class="radio-label" for="sliderBoxSlide1Radio4">
-                                                                                    <?php echo __("modul1Page.screens.screen_10.options4"); ?>
+                                                                                <?php echo __("modul1Page.screens.screen_10.options4"); ?>
                                                                                 </label>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-12">
                                                                         <div class="step-slide-box-btn step-box-btn-form text-center"> 
-                                                                             <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> <?php echo __("common.next"); ?> </span></button>
+                                                                            <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> <?php echo __("common.next"); ?> </span></button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -325,25 +325,25 @@
                                                                             <div class="radio-label-grop radio-error">
                                                                                 <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio1">
                                                                                 <label class="radio-label" for="sliderBoxSlide2Radio1">
-                                                                                    <?php echo __("modul1Page.screens.screen_11.options1"); ?>
+                                                                                <?php echo __("modul1Page.screens.screen_11.options1"); ?>
                                                                                 </label>
                                                                             </div>
                                                                             <div class="radio-label-grop radio-success">
                                                                                 <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio2">
                                                                                 <label class="radio-label" for="sliderBoxSlide2Radio2">
-                                                                                    <?php echo __("modul1Page.screens.screen_11.options2"); ?>
+                                                                                <?php echo __("modul1Page.screens.screen_11.options2"); ?>
                                                                                 </label>
                                                                             </div>
                                                                             <div class="radio-label-grop radio-error">
                                                                                 <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio3">
                                                                                 <label class="radio-label" for="sliderBoxSlide2Radio3">
-                                                                                    <?php echo __("modul1Page.screens.screen_11.options3"); ?>
+                                                                                <?php echo __("modul1Page.screens.screen_11.options3"); ?>
                                                                                 </label>
                                                                             </div>
                                                                             <div class="radio-label-grop radio-error">
                                                                                 <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio4">
                                                                                 <label class="radio-label" for="sliderBoxSlide2Radio4">
-                                                                                    <?php echo __("modul1Page.screens.screen_11.options4"); ?>
+                                                                                <?php echo __("modul1Page.screens.screen_11.options4"); ?>
                                                                                 </label>
                                                                             </div>
                                                                         </div>
