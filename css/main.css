@@ -974,12 +974,19 @@
 /*end-step-slide-box-caption*/
 /* inner-step-box */
 .inner-step-box {
-    display: none;
-    position: relative;
+    position: absolute;
     width: 100%;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.4s ease;
+    pointer-events: none;
 }
+
 .inner-step-box.active {
-    display: inline-block;
+    position: relative;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 /* end-inner-step-box */
 

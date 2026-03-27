@@ -1,4 +1,4 @@
-<?php include 'commons/header.php'; ?>
+ <?php include 'commons/header.php'; ?>
 <section>
     <div class="container-fluid section-padding page-box-con">
         <div class="container">
@@ -419,7 +419,7 @@ document.querySelectorAll('.sliderBoxDownArrow').forEach(btn => {
 document.querySelectorAll('.sliderBoxUpArrow').forEach(btn => {
  btn.addEventListener('click', function () {
 
- let currentSlide = this.closest('step-slide-box-item');
+ let currentSlide = this.closest('.step-slide-box-item');
 
  let seesaw = currentSlide.querySelector('.seesaw');
 

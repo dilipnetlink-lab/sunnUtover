@@ -891,3 +891,62 @@
     </div>
 </section>
 <?php include 'commons/footer.php'; ?>
+
+
+<script>
+
+let innerIndex = 0;
+
+document.addEventListener("click", function(e){
+
+    if(e.target.closest(".sliderBoxDownArrow")){
+
+        let currentSlide = document.querySelectorAll('.step-slide-box-item')[current];
+        let innerBoxes = currentSlide.querySelectorAll('.inner-step-box');
+
+        if(innerBoxes.length){
+
+            if(innerIndex < innerBoxes.length - 1){
+
+                e.stopImmediatePropagation(); // 🔥 MAIN FIX
+
+                innerBoxes[innerIndex].classList.remove("active");
+                innerIndex++;
+
+                innerBoxes[innerIndex].classList.add("active");
+                return;
+            }
+
+            innerIndex = 0;
+        }
+    }
+
+});
+
+
+document.addEventListener("click", function(e){
+
+    if(e.target.closest(".sliderBoxUpArrow")){
+
+        let currentSlide = document.querySelectorAll('.step-slide-box-item')[current];
+        let innerBoxes = currentSlide.querySelectorAll('.inner-step-box');
+
+        if(innerBoxes.length){
+
+            if(innerIndex > 0){
+
+                e.stopImmediatePropagation(); // 🔥 MAIN FIX
+
+                innerBoxes[innerIndex].classList.remove("active");
+                innerIndex--;
+
+                innerBoxes[innerIndex].classList.add("active");
+                return;
+            }
+
+            innerIndex = 0;
+        }
+    }
+
+});
+</script>

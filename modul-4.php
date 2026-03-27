@@ -541,7 +541,7 @@
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item" id="role-selection-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -556,7 +556,7 @@
                                                                     <div class="step-slide-box-img">
                                                                         <div class="row align-items-center justify-content-around">
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
+                                                                                <div class="circle-img-caption-box-con open-utover">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-4-img-10-a.jpg"/>                                                                                        
                                                                                     </figure>
@@ -567,7 +567,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
+                                                                                <div class="circle-img-caption-box-con open-trener">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-4-img-10-b.jpg"/>                                                                                        
                                                                                     </figure>
@@ -578,7 +578,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow circle-img-caption-img-not">
+                                                                                <div class="circle-img-caption-box-con open-forelder circle-img-caption-img-not">
                                                                                     <figure class="circle-img-caption-box-img"> </figure>
                                                                                     <div class="circle-img-caption-box-caption">
                                                                                         <h3><?php echo __("modul4Page.screens.screen_10.cir_text_img_list.title3"); ?></h3>
@@ -593,8 +593,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="step-slide-box-item">
-                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                <div class="step-slide-box-item" id="utover-slide">
+                                                    <div class="slider-box-arrow go-to-role"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -634,10 +634,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow go-to-quiz"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
-                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                <div class="step-slide-box-item" id="trener-slide">
+                                                    <div class="slider-box-arrow go-to-role"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -678,10 +678,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow go-to-quiz"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
-                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                <div class="step-slide-box-item" id="forelder-slide">
+                                                    <div class="slider-box-arrow go-to-role"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -722,9 +722,9 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow go-to-quiz"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item" id="quiz-slide-1">
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -760,6 +760,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                        <button type="button" class="btn quiz-next"><span> Neste </span></button>
                                                                         <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span>  <?php echo __("common.next"); ?> </span></button>
                                                                     </div>
                                                                 </div>
@@ -803,6 +804,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                        <button type="button" class="btn quiz-next"><span> Neste </span></button>
                                                                         <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span>  <?php echo __("common.next"); ?> </span></button>
                                                                     </div>
                                                                 </div>
@@ -810,7 +812,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item" >
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -846,6 +848,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn step-box-btn-form text-center"> 
+                                                                        <button type="button" class="btn quiz-next"><span> Neste </span></button>
                                                                         <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span>  <?php echo __("common.next"); ?> </span></button>
                                                                     </div>
                                                                 </div>
@@ -866,3 +869,66 @@
     </div>
 </section>
 <?php include 'commons/footer.php'; ?>
+
+<script>
+$(document).ready(function(){
+
+    function showSlide(index){
+        $('.step-slide-box-item').hide();
+        $('.step-slide-box-item').eq(index).show();
+
+        $('html, body').animate({
+            scrollTop: $('.step-slide-box-slider').offset().top
+        }, 60);
+    }
+
+    // IMAGE CLICK
+    $('.open-utover').click(function(){
+        showSlide($('#utover-slide').index());
+    });
+
+    $('.open-trener').click(function(){
+        showSlide($('#trener-slide').index());
+    });
+
+    $('.open-forelder').click(function(){
+        showSlide($('#forelder-slide').index());
+    });
+
+    // 🔼 BACK TO ROLE
+    $('.go-to-role').click(function(){
+        showSlide($('#role-selection-slide').index());
+    });
+
+    // 🔽 GO TO QUIZ
+    $('.go-to-quiz').click(function(){
+        showSlide($('#quiz-slide-1').index());
+    });
+
+    $('.quiz-next').click(function(){
+
+        let totalSlides = $('.step-slide-box-item').length;
+        let current = $(this).closest('.step-slide-box-item').index();
+
+        if (current === totalSlides - 1) {
+
+            // 🔥 detect language from URL
+            let path = window.location.pathname;
+
+            if (path.includes('/no/')) {
+                window.location.href = "/sunnUtover/no/";
+            } else if (path.includes('/en/')) {
+                window.location.href = "/sunnUtover/en/";
+            } else {
+                // fallback
+                window.location.href = "/sunnUtover/";
+            }
+
+            return;
+        }
+
+        showSlide(current + 1);
+    });
+
+});
+</script>
