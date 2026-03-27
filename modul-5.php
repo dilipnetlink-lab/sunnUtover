@@ -60,7 +60,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item" id="role-selection-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -75,7 +75,7 @@
                                                                     <div class="step-slide-box-img">
                                                                         <div class="row align-items-center justify-content-around">
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
+                                                                                <div class="circle-img-caption-box-con open-box-1">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-2-a.jpg"/>                                                                                        
                                                                                     </figure>
@@ -86,7 +86,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
+                                                                                <div class="circle-img-caption-box-con open-box-2">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-2-b.jpg"/>                                                                                        
                                                                                     </figure>
@@ -97,7 +97,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow circle-img-caption-img-not">
+                                                                                <div class="circle-img-caption-box-con open-box-3 circle-img-caption-img-not">
                                                                                     <figure class="circle-img-caption-box-img"> </figure>
                                                                                     <div class="circle-img-caption-box-caption">
                                                                                         <h3><?php echo __("modul5Page.screens.screen_02.cir_text_img_list.title3"); ?></h3>
@@ -112,7 +112,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item box-slide" id="box-1-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -154,7 +154,7 @@
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item box-slide" id="box-2-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -230,7 +230,7 @@
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item box-slide" id="box-3-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -336,7 +336,7 @@
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item" id="role-selection-slide-2">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -351,7 +351,7 @@
                                                                     <div class="step-slide-box-img">
                                                                         <div class="row align-items-center">
                                                                             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
+                                                                                <div class="circle-img-caption-box-con open-box-4">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-6-a.jpg"/>                                                                                        
                                                                                     </figure>
@@ -362,7 +362,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
+                                                                                <div class="circle-img-caption-box-con open-box-5">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-6-b.jpg"/>                                                                                        
                                                                                     </figure>
@@ -373,7 +373,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
+                                                                                <div class="circle-img-caption-box-con open-box-6">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-5-img-6-c.jpg"/>                                                                                        
                                                                                     </figure>
@@ -384,7 +384,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow circle-img-caption-img-not">
+                                                                                <div class="circle-img-caption-box-con open-box-7  circle-img-caption-img-not">
                                                                                     <figure class="circle-img-caption-box-img"> </figure>
                                                                                     <div class="circle-img-caption-box-caption">
                                                                                         <h3><?php echo __("modul5Page.screens.screen_08.cir_text_img_list.title4"); ?></h3>
@@ -399,7 +399,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item box-slide" id="box-4-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -429,7 +429,7 @@
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item box-slide" id="box-5-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -459,7 +459,7 @@
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item box-slide" id="box-6-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -505,7 +505,7 @@
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item box-slide" id="box-7-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
@@ -731,3 +731,99 @@
     </div>
 </section>
 <?php include 'commons/footer.php'; ?>
+
+
+<script>
+let lastSelectedBox = null;
+
+document.addEventListener("click", function(e){
+
+    if(e.target.closest('.open-box-1')){
+        lastSelectedBox = 'box-1-slide';
+        goToSlideById('box-1-slide');
+    }
+    if(e.target.closest('.open-box-2')){
+        lastSelectedBox = 'box-2-slide';
+        goToSlideById('box-2-slide');
+    }
+    if(e.target.closest('.open-box-3')){
+        lastSelectedBox = 'box-3-slide';
+        goToSlideById('box-3-slide');
+    }
+
+    if(e.target.closest('.open-box-4')){
+        lastSelectedBox = 'box-4-slide';
+        goToSlideById('box-4-slide');
+    }
+    if(e.target.closest('.open-box-5')){
+        lastSelectedBox = 'box-5-slide';
+        goToSlideById('box-5-slide');
+    }
+    if(e.target.closest('.open-box-6')){
+        lastSelectedBox = 'box-6-slide';
+        goToSlideById('box-6-slide');
+    }
+    if(e.target.closest('.open-box-7')){
+        lastSelectedBox = 'box-7-slide';
+        goToSlideById('box-7-slide');
+    }
+
+});
+
+function goToSlideById(id){
+    let slides = document.querySelectorAll('.step-slide-box-item');
+    slides.forEach((slide, index) => {
+        if(slide.id === id){
+            changeSlide(index, 1);
+        }
+    });
+}
+
+document.addEventListener("click", function(e){
+    if (e.target.closest(".sliderBoxDownArrow")) {
+        let slides = document.querySelectorAll('.step-slide-box-item');
+        let currentSlide = slides[current];
+
+        if (currentSlide.classList.contains('box-slide')) {
+            let nextIndex = current + 1;
+
+            while (slides[nextIndex] && slides[nextIndex].classList.contains('box-slide')) {
+                nextIndex++;
+            }
+
+            changeSlide(nextIndex, 1);
+            return;
+        }
+    }
+});
+
+document.addEventListener("click", function(e){
+    if (e.target.closest(".sliderBoxUpArrow")) {
+        let slides = document.querySelectorAll('.step-slide-box-item');
+        let currentSlide = slides[current];
+
+        if (currentSlide.classList.contains('box-slide')) {
+
+            let id = currentSlide.id;
+
+            if (id === 'box-1-slide' || id === 'box-2-slide' || id === 'box-3-slide') {
+                goToSlideById('role-selection-slide');
+                return;
+            }
+
+            if (id === 'box-4-slide' || id === 'box-5-slide' || id === 'box-6-slide' || id === 'box-7-slide') {
+                goToSlideById('role-selection-slide-2');
+                return;
+            }
+        }
+
+        let prevSlide = slides[current - 1];
+
+        if (prevSlide && prevSlide.classList.contains('box-slide') && lastSelectedBox) {
+            goToSlideById(lastSelectedBox);
+            lastSelectedBox = null;
+            return;
+        }
+    }
+});
+</script>
