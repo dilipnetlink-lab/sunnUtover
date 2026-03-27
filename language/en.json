@@ -8,7 +8,8 @@
     "home": "Home",
     "exit": "Exit",
     "slide_part": "Part {current} of {total}",
-    "click_to_see": "Click to see"
+    "click_to_see": "Click to see",
+    "tap_to_see_tips": "Tap to see tips"
   },
   "homePage": {
     "title": "Learn more about body and health with Sunn Utøver",
@@ -267,16 +268,240 @@
         "description2": ""
       },
       "screen_02": {
-        "title": "",
-        "subtitle": "",
-        "description1": "",
-        "list_items1": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "description2": ""
+        "title": "The body speaks out",
+        "description1": "When the body gets too little energy over time, it tries to adapt, which can have several consequences. We learned about many of these in the previous module. These will manifest themselves as bodily symptoms to a greater or lesser degree.",
+        "description2": "Symptoms are the body's way of speaking out. Taking them seriously is important.",
+        "description3": "In this module we will go through various <strong>physical and psychological symptoms</strong> of REDs.",
+        "bg_info_box": {
+          "title": "<strong>Why is it important to understand the symptoms?</strong>",
+          "subtitle": "REDs can develop gradually without you noticing. Therefore, it's important to be aware of which parameters you should monitor regularly. That way:",
+          "list_items": [
+            "You can <strong> take action early </strong>",
+            "You can <strong> protect both health and performance </strong>"
+          ]
+        }
+      },
+      "screen_03": {
+        "title": "Unexplained fatigue / low energy levels",
+        "description1": "If you feel tired without understanding why, or notice that your surplus energy disappears, it can be a sign that your body isn't getting enough energy to cover what you use.",
+        "description2": "This can be an early signal that the body is out of balance. Logging training, sleep, mood, and energy levels regularly can make it easier to spot patterns.",
+        "bg_info_box": {
+          "title": "<strong>Tips:</strong>",
+          "list_items": [
+            "Use a diary to monitor both training load and energy levels.",
+            "For long-lasting fatigue, consider speaking with someone you feel comfortable with.",
+            "Also monitor sleep and mood - they are often linked to energy levels."
+          ]
+        }
+      },
+      "screen_04": {
+        "title": "Are you often sick / does it take a long time to get well?",
+        "description1": "If the body gets too little energy over time, the immune system is deprioritized. This means you can get sick more easily, and it takes longer to fully recover.",
+        "description2": "Tracking how often you're sick and how quickly you recover can provide important hints about energy balance and recovery.",
+        "bg_info_box": {
+          "title": "<strong>Tips:</strong>",
+          "list_items": [
+            "Use a diary to monitor both training load and energy levels.",
+            "For long-lasting fatigue, consider speaking with someone you feel comfortable with.",
+            "Also monitor sleep and mood - they are often linked to energy levels."
+          ]
+        }
+      },
+      "screen_05": {
+        "title": "Training stagnation - do you train more than you recover?",
+        "description1": "If you feel your fitness is at a standstill, it may be because the body isn't getting enough energy to absorb the training you're putting in.",
+        "subtitle": "Why is it important to monitor?",
+        "description2": "An imbalance between training, food, and rest means the body cannot recover. Then both progress and performance are absent. It can also make you more prone to injuries.",
+        "bg_info_box": {
+          "title": "<strong>Tips - what you can monitor:</strong>",
+          "list_items": [
+            "How does training feel (heavy / light)?",
+            "Are you able to complete what you planned?",
+            "Are you making progress over time, or standing still?"
+          ]
+        }
+      },
+      "screen_06": {
+        "title": "Vulnerable to injuries - do you experience minor pains or recurring injuries?",
+        "description1": "With REDs, the body's ability to build and repair tissue can be reduced. This makes muscles, tendons, and bones more prone to overuse injuries.",
+        "subtitle": "Why is it important to monitor?",
+        "description2": "Persistent or recurring injuries can be a signal that the body isn't getting what it needs to handle the training. Early insights can prevent serious problems.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "Increase intensity and duration gradually",
+            "Ensure regular food intake - especially after training",
+            "Do you often experience pain, do you often have to adjust training due to pain?"
+          ]
+        }
+      },
+      "screen_07": {
+        "title": "Hormonal imbalances",
+        "description1": "Low energy availability can lead to hormonal imbalances. For girls, this can mean irregular or absent menstruation. For boys, it can manifest as lower testosterone levels – fewer morning erections, reduced libido, and low energy.",
+        "subtitle": "Why is it important to monitor?",
+        "description2": "Hormonal imbalances can have long-term consequences for bone health and development.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "For girls: keep an eye on changes in the menstrual cycle",
+            "For boys: fewer than 3 morning erections per week can be a sign of REDs",
+            "Take changes in the body seriously – seek help if you are unsure"
+          ]
+        }
+      },
+      "screen_08": {
+        "title": "Feeling cold - do you get cold easier than before?",
+        "description1": "The body lowers its core temperature as an <strong>energy-saving strategy</strong> when it doesn't get enough nutrition. This can make you feel cold, especially in your hands and feet – even when it isn't cold around you.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "Notice if you feel abnormally cold often",
+            "Look at your food intake - the body needs fuel to stay warm"
+          ]
+        }
+      },
+      "screen_09": {
+        "title": "Sleep problems - do you struggle to fall asleep or sleep through the night?",
+        "description1": "An energy deficit can cause the body stress - which can disrupt sleep. It's not uncommon to wake up early, sleep restlessly, or feel unrefreshed even after many hours in bed.",
+        "subtitle": "Why is it important to monitor?",
+        "description2": "Sleep is absolutely crucial for recovery, hormone balance, and performance. Without good sleep, the body cannot recover - which can worsen other symptoms.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "Notice your perceived sleep quality",
+            "Notice if you often wake up during the night",
+            "Notice if you feel rested in the morning"
+          ]
+        }
+      },
+      "screen_10": {
+        "title": "Iron deficiency",
+        "description1": "Low energy intake and menstruation (in girls) can affect iron stores in the body. This can cause you to feel extra tired, short of breath, and perform worse.",
+        "subtitle": "Why is it important to monitor?",
+        "description2": "Iron deficiency can cause symptoms similar to normal fatigue – but has a completely different cause. It should be taken seriously and possibly followed up with blood tests.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "Note if you experience a lot of dizziness or headaches",
+            "Eat iron-rich food together with vitamin C (e.g., orange juice) for better absorption",
+            "Avoid coffee and tea right before and after meals if you suspect iron deficiency"
+          ]
+        }
+      },
+      "screen_11": {
+        "title": "Stomach and intestinal issues - Bloated? Gas? Upset stomach?",
+        "description1": "Many experience changes in the stomach with REDs - such as sluggish or loose stools, pain, or general unrest. This can be due to both low energy intake and stress around food and the body.",
+        "subtitle": "Why is it important to monitor?",
+        "description2": "Stomach problems can be a reaction to stress and deficiency. When digestion slows down, nutrient absorption is also affected.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "Notice stomach pain, bloating, nausea or gas",
+            "Bowel function (frequency, consistency, discomfort)",
+            "Connection with stress, meals or training?"
+          ]
+        }
+      },
+      "screen_12": {
+        "title": "Mood swings, depression and irritability",
+        "description1": "When the body lacks energy over time, it affects the nervous system and hormone balance - which can lead to being easily irritated, losing motivation, or feeling down for no obvious reason.",
+        "subtitle": "Why is it important to monitor?",
+        "description2": "Mental health is closely linked to physical surplus energy, and it is important to take feelings seriously - especially when it affects training, school, or everyday joy.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "Notice patterns - e.g. if you are often irritated, or feel down without anything special having happened.",
+            "Compare mood with sleep, energy, and training in a diary - it can provide useful insights.",
+            "Talk to someone you trust - it could be parents, a coach, friend, or school nurse."
+          ]
+        }
+      },
+      "screen_13": {
+        "title": "Poor concentration and reduced mental sharpness",
+        "description1": "The brain needs a lot of energy to function optimally. When the energy supply is too low over time, the body deprioritizes cognitive functions like focus, memory, and problem solving.",
+        "description2": "Concentration difficulties make it harder to perform at school, in training, and in social situations. It can feel frustrating not to be 'oneself' mentally, and it is often an early signal that something is out of balance.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "Notice patterns - e.g. if you are often irritated, or feel down without anything special having happened.",
+            "Compare mood with sleep, energy, and training in a diary - it can provide useful insights.",
+            "Talk to someone you trust - it could be parents, a coach, friend, or school nurse."
+          ]
+        }
+      },
+      "screen_14": {
+        "title": "Anxiety or unrest around food and eating",
+        "description1": "Some may experience stress around food - either because they feel they have to eat “perfectly”, they feel they have to “earn” food, they feel guilty if they eat more than usual, or they avoid certain types of food.",
+        "subtitle": "When food creates unrest in everyday life, it is a sign that something is out of balance.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "Try to tune in: do you eat when you're hungry - and until you're full?",
+            "Ask yourself: Do I think about food more than before? Do I feel stressed eating certain things?",
+            "It can be useful to talk to a safe adult or professional - especially if thoughts affect everyday life."
+          ]
+        }
+      },
+      "screen_15": {
+        "title": "Compulsive exercise habits",
+        "description1": "Some feel unrest or a bad conscience if they don't train. This can lead to training even when the body needs rest, and ignoring signals like fatigue, pains/injuries, or illness.",
+        "subtitle": "Why is it important:",
+        "description2": "Rest is crucial to handle the training load and avoid injuries. If training always “has to be done”, even when the body says no, the risk of overload, injuries, and energy deficiency increases.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "It can be smart to take a break and tune in - do I have energy and desire, or do I feel that I “have to”?"
+          ]
+        }
+      },
+      "screen_16": {
+        "title": "Social withdrawal",
+        "description1": "Withdrawing from friends, shared meals, and activities not related to training. It can become difficult to find energy for socializing - or one feels it \"gets in the way\" of training routines, food plans, or control needs.",
+        "description2": "Being with others provides joy, support, and a break from performance focus. When one isolates oneself, it becomes easier to get caught in negative thoughts and destructive patterns.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>",
+          "list_items": [
+            "Be aware of how often you say no to social things.",
+            "Make room for activities that are not just about training."
+          ]
+        }
+      },
+      "screen_17": {
+        "title": "Body dissatisfaction, perfectionism and low self-esteem",
+        "description1": "Body focus, comparison, and perfectionism can make you feel never good enough.",
+        "description2": "These are thoughts that can take up a lot of space and drain energy. They can also push you towards unhealthy choices and overriding the body's signals. It's easy to believe that \"more is better\" in sports – but the body needs enough energy to build itself stronger. REDs often affects highly goal-oriented athletes, who may not have learned how best to support the body with food, rest, and recovery.",
+        "bg_info_box": {
+          "title": "<strong>Tips and what you can monitor:</strong>"
+        }
+      },
+      "screen_18": {
+        "title": "Experienced symptoms vary from person to person",
+        "description1": "Symptoms of REDs vary significantly from person to person. This is because the body's response to low energy availability (LEA) is affected by several individual factors such as:",
+        "inner_box1": {
+          "title": "Biological variation",
+          "list_items": [
+            "<strong>Gender:</strong> Women and men have different hormone systems",
+            "<strong>Hormonal status:</strong> Some have more sensitive hormone systems - even a small energy deficit can cause large effects",
+            "<strong>Genetics:</strong> Some have “robust” biology that handles low energy better, while others can develop symptoms quickly",
+            "<strong>Previous health conditions:</strong> someone who has had eating disorders, osteoporosis, or prior hormone problems is more vulnerable to developing symptoms"
+          ]
+        },
+        "inner_box2": {
+          "title": "Duration and severity of energy deficiency",
+          "list_items": [
+            "<strong>Gender:</strong> Women and men have different hormone systems",
+            "<strong>Hormonal status:</strong> Some have more sensitive hormone systems - even a small energy deficit can cause large effects",
+            "<strong>Genetics:</strong> Some have “robust” biology that handles low energy better, while others can develop symptoms quickly",
+            "<strong>Previous health conditions:</strong> someone who has had eating disorders, osteoporosis, or prior hormone problems is more vulnerable to developing symptoms"
+          ]
+        },
+        "inner_box3": {
+          "title": "Social factors",
+          "list_items": [
+            "<strong>Normalization of warning signs:</strong> Athletes may overlook symptoms like sleep problems, hormone disturbances (like loss of period in girls) because they think it's “normal” in the sport",
+            "<strong>Role of the environment:</strong> Coaches, teammates, and the surrounding culture can affect how the athlete interprets and manages signals from the body"
+          ]
+        }
       }
     }
   },
@@ -286,18 +511,287 @@
       "screen_01": {
         "title": "Learning Objectives",
         "subtitle": "",
-        "description1": "<strong>Prevention</strong> is about everything that happens before it has gone too far, namely:",
+        "description1": "<strong>Prevention</strong> is about everything that happens before things go too far, meaning to:",
         "list_items1": [
-          "Anticipating risk",
-          "Recognizing early signs of low energy availability and REDs",
-          "Facilitating good habits",
-          "Contributing to safety and openness"
+          "Anticipate risks",
+          "Recognize early signs of low energy availability and REDs",
+          "Facilitate good habits",
+          "Promote safety and openness"
         ],
-        "description2": "This module will go through important aspects and good practices related to prevention, so that you as an athlete, coach, or parent are better prepared."
+        "description2": "This module will go through key aspects and best practices related to prevention, so that you as an athlete, coach, or parent are better equipped."
       },
       "screen_02": {
-        "title": "",
+        "title": "Why prevent LEA and REDs?",
+        "list_items1": [
+          "REDs often develops gradually, making it difficult to detect",
+          "REDs negatively affects both health and performance",
+          "Early intervention is more effective than treatment later",
+          "Many young athletes, coaches, and parents are unaware of the signals – this needs to change"
+        ],
+        "bg_info_box": {
+          "title": "Continuously working preventively with REDs is crucial to protect the body’s development, health, and performance."
+        }
+      },
+      "screen_03": {
+        "title": "Self-monitoring - Learn to understand your body",
+        "description1": "Paying attention to your body's signals is one of the most important things you can do to detect low energy availability and REDs early.",
+        "table": {
+          "headers": [
+            "Parameter",
+            "What to look for"
+          ],
+          "rows": [
+            {
+              "col1": "🏃‍♀️ Training response",
+              "col2": "Stagnation/progress stops, low energy during sessions"
+            },
+            {
+              "col1": "😴 Sleep quality",
+              "col2": "Restless sleep, difficulty falling asleep, waking up tired"
+            },
+            {
+              "col1": "🤕 Illness/injury",
+              "col2": "Frequent injuries, slow recovery, often sick"
+            },
+            {
+              "col1": "⚖️ Hormonal status",
+              "col2": "Missing/irregular menstruation (girls), reduced morning erections (boys)"
+            },
+            {
+              "col1": "🧠 Mood/motivation",
+              "col2": "Low mood, unusual irritability"
+            },
+            {
+              "col1": "🍽️ Appetite and food intake",
+              "col2": "Skipping meals, forgetting to eat after training, eating less than usual"
+            }
+          ]
+        },
+        "bg_info_box": {
+          "title": "Try to monitor these parameters weekly (this can be done in a diary or app)."
+        }
+      },
+      "screen_04": {
+        "title": "Follow trends",
+        "description1": "It is completely normal to have a bad day or week. What matters is tracking changes over time:",
+        "list_items1": [
+          "Is your sleep gradually getting worse?",
+          "Do you feel tired week after week?",
+          "Has your mood been low for a long time?",
+          "Has menstruation been absent for several months?"
+        ],
+        "table": {
+          "headers": [
+            "Parameter",
+            "What to look for"
+          ],
+          "rows": [
+            {
+              "col1": "🏃‍♀️ Training response",
+              "col2": "Stagnation/progress stops, low energy during sessions"
+            },
+            {
+              "col1": "😴 Sleep quality",
+              "col2": "Restless sleep, difficulty falling asleep, waking up tired"
+            },
+            {
+              "col1": "🤕 Illness/injury",
+              "col2": "Frequent injuries, slow recovery, often sick"
+            },
+            {
+              "col1": "⚖️ Hormonal status",
+              "col2": "Missing/irregular menstruation (girls), reduced morning erections (boys)"
+            },
+            {
+              "col1": "🧠 Mood/motivation",
+              "col2": "Low mood, unusual irritability"
+            },
+            {
+              "col1": "🍽️ Appetite and food intake",
+              "col2": "Skipping meals, forgetting to eat after training, eating less than usual"
+            }
+          ]
+        },
+        "bg_info_box": {
+          "title": "If negative trends persist over several weeks, they should be taken seriously."
+        }
+      },
+      "screen_05": {
+        "title": "Observe and dare to ask questions",
+        "subtitle": "Coaches and parents play an important role in identifying low energy availability.",
+        "checkbox_list": {
+          "left": [
+            "Am I constantly tired despite getting enough sleep?",
+            "Am I more sore than usual and struggling to recover between sessions?",
+            "Has my performance stopped improving without clear reason?"
+          ],
+          "right": [
+            "Do I often feel low or have mood swings?",
+            "Have I had repeated injuries this past year?",
+            "Have I had stress fractures or fatigue injuries?",
+            "Am I often sick?",
+            "Women: Is my menstrual cycle irregular or absent?",
+            "Men: Do I have lower libido or fewer morning erections?"
+          ]
+        },
+        "bg_info_box": {
+          "title": "Note: Each sign may have causes other than REDs.",
+          "description": ""
+        },
+        "list_items1": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "screen_07": {
+        "title": "Exercise - Training and energy needs",
+        "description1": "Take a look at your training week and ask yourself:",
+        "list_items1": [
+          "Which days are hard / high training load?",
+          "Which days are easy?",
+          "Which days require extra fueling?"
+        ],
+        "weekly_table": {
+          "headers": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "rows": [
+            [
+              "Easy jog",
+              "Intervals",
+              "Rest",
+              "Intervals",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Strength",
+              "Intervals",
+              "Long easy run",
+              "Intervals",
+              "",
+              "",
+              ""
+            ],
+            [
+              {
+                "text": "Medium",
+                "icon": "images/icon-battery-mellom.svg"
+              },
+              {
+                "text": "High",
+                "icon": "images/icon-battery-stort.svg"
+              },
+              {
+                "text": "Low",
+                "icon": "images/icon-battery-lavere.svg"
+              },
+              {
+                "text": "High",
+                "icon": "images/icon-battery-stort.svg"
+              },
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        "bg_info_box": {
+          "title": "This exercise is best done together with a parent and coach.",
+          "description": ""
+        },
+        "subtitle": ""
+      },
+      "screen_08": {
+        "title": "Eat enough throughout the day",
+        "description1": "Many young athletes:",
+        "list_items1": [
+          "Eat too little overall",
+          "Distribute food intake poorly throughout the day",
+          "Lack proper nutrition around training"
+        ],
+        "icon_list_items": [
+          {
+            "icon": "images/icon-clock-countdown.svg",
+            "text": "Eat something every 3–4 hours"
+          },
+          {
+            "icon": "images/icon-battery-charging-vertical.svg",
+            "text": "Have food ready after training"
+          },
+          {
+            "icon": "images/icon-bread.svg",
+            "text": "Do not cut carbohydrates – your body needs them"
+          }
+        ],
         "subtitle": "",
+        "bg_info_box": {
+          "title": "Is it difficult to eat something in the morning or right after training? <br/> Then different types of drinks or liquid meals like smoothies and drinking yogurt can be good alternatives.",
+          "description": ""
+        }
+      },
+      "screen_14": {
+        "title": "Quiz",
+        "question": "Why is it important to consider when you eat?",
+        "options1": "The body tolerates more food in the evening",
+        "options2": "It is best to eat the most before bed",
+        "options3": "Early and evenly distributed meals improve energy and performance",
+        "options4": "It doesn’t matter as long as total intake is enough"
+      },
+      "screen_06": {
+        "title": "Nutrition - it's about filling the battery",
+        "subtitle": "",
+        "description1": "If you train heavily, you have a <strong>larger battery</strong> that you must fill up.",
+        "description2": "To fill this battery, it is important that we start with nutritious foods; which contain the building blocks we need for a solid foundation.",
+        "description3": "For someone who trains a lot and has high energy needs, it is sometimes also important to add extra, for example in the form of pastries, bars, sports drinks, chocolate, soda, and so on.",
+        "list_items1": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bg_info_box": {
+          "title": "High-energy food is not \"unhealthy\" for you when you train a lot, it is necessary to quickly refuel.",
+          "description": ""
+        }
+      },
+      "screen_09": {
+        "title": "Carbohydrates = important training fuel",
+        "subtitle": "",
+        "description1": "",
+        "sub_list_items1": [
+          {
+            "text": "The higher the intensity - the more important carbohydrates become as fuel"
+          },
+          {
+            "text": "With <strong>low carbohydrate access over time</strong>, the body can enter <strong>'power-saving mode'</strong>, with many of the same symptoms as REDs"
+          },
+          {
+            "text": "Good habits with carbohydrates before, during, and after training are protective regarding:",
+            "sub_items": [
+              "Stress reactions",
+              "Bone density",
+              "Bones"
+            ]
+          }
+        ],
+        "bg_info_box": {
+          "title": "Even if you consume enough calories, too little carbohydrates can accelerate the development of REDs.",
+          "description": ""
+        }
+      },
+      "screen_10": {
+        "title": "Practical tips to take with you in everyday life",
+        "subtitle": "Tap the circle with the role that best describes you to get simple tips on small choices, routines, and thoughts that are important to have with you in daily preventive work against energy deficiency.",
         "description1": "",
         "list_items1": [
           "",
@@ -305,7 +799,78 @@
           "",
           ""
         ],
-        "description2": ""
+        "cir_text_img_list": {
+          "title1": "ATHLETE",
+          "title2": "COACH",
+          "title3": "PARENT"
+        },
+        "bg_info_box": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "screen_11": {
+        "title": "ATHLETE",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": [
+          "Eat something every 3 - 4 hours - in addition to after training",
+          "Hard to eat right after training? Use a smoothie, energy bar, or drinking yogurt",
+          "Note bodily patterns: sleep, energy level, mood, training response, etc.",
+          "Speak up if something worries you",
+          "Be extras conscious of eating more on the days you train hard"
+        ],
+        "bg_info_box": {
+          "title": "Set up your training week:",
+          "description": "Mark which days are hard and which are easy. On hard days you need extra refueling - plan extra meals in advance."
+        }
+      },
+      "screen_12": {
+        "title": "COACH",
+        "subtitle": "You are a key person for prevention - not just in the training plan, but in the environment you build around the athletes",
+        "description1": "",
+        "list_items1": [
+          "<strong>Establish a firm practice for refueling</strong> right after training (e.g., encourage bringing a banana, smoothie, bread, etc.)",
+          "Encourage athletes to <strong>register how their body feels</strong> - e.g., through a diary: sleep, food, mood, and performance",
+          "Focus on questions that are not only related to performance but also <strong>energy levels and response</strong> to training",
+          "If concerned: collaborate with parents early"
+        ],
+        "bg_info_box": {
+          "title": "Go through the training plan with the athlete:",
+          "description": "Which days are heaviest? Where is it extra important to get that extra refueling? Help them connect load with the need for food and rest."
+        }
+      },
+      "screen_13": {
+        "title": "PARENT",
+        "subtitle": "You are a key person for prevention - you don't need to be an expert, the most important thing is that you pay attention and support",
+        "description1": "",
+        "list_items1": [
+          "<strong>Ensure the food amount is adjusted by age, growth, and training volume</strong> - many continue with the same lunch box as when they were younger even if the body needs more",
+          "Have fixed routines for meals, sleep, and rest",
+          "Register changes in mood, sleep patterns, surplus energy, and appetite",
+          "Have an open conversation about bodily signals: energy level, sleep, menstrual cycle, morning erections - explain why this says something about health",
+          "React early if something feels off - <strong>it is easier to adjust than to repair</strong>"
+        ],
+        "bg_info_box": {
+          "title": "Sit down and look at the training week together:",
+          "description": "When do you train the most? What types of snack foods is it wise to have available on these days?"
+        }
+      },
+      "screen_15": {
+        "title": "Quiz",
+        "question": "What can be a useful exercise to ensure good energy intake in everyday life?",
+        "options1": "Planning the week's meals only around dinner",
+        "options2": "Registering mood and sleep every day",
+        "options3": "Counting calories and adjusting weekly",
+        "options4": "Looking at the training week and evaluating which days require extra food"
+      },
+      "screen_16": {
+        "title": "Quiz",
+        "question": "Which of these is not a common health consequence of REDs?",
+        "options1": "Increased bone strength",
+        "options2": "Disturbed hormone balance",
+        "options3": "Increased risk of stress injuries",
+        "options4": "Delayed pubertal development"
       }
     }
   },
