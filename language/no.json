@@ -8,7 +8,8 @@
     "home": "Hjem",
     "exit": "Avslutt",
     "slide_part": "Del {current} av {total}",
-    "click_to_see": "Trykk for å se"
+    "click_to_see": "Trykk for å se",
+    "tap_to_see_tips": "trykk for å se tips"
   },
   "homePage": {
     "title": "Lær mer om kropp og helse med Sunn Utøver",
@@ -256,27 +257,249 @@
     "screens": {
       "screen_01": {
         "title": "Læringsmål",
-        "subtitle": "Etter denne modulen skal du kunne:",
-        "description1": "",
+        "subtitle": "Etter denne modulen skal du kunne:", 
         "list_items1": [
           "Gjenkjenne fysiske og psykiske symptomer som kan oppstå ved REDs",
           "Forstå hvordan symptomer kan variere fra person til person",
           "Vite hvilke tegn du kan være oppmerksom på hos deg selv eller andre",
           "Være tryggere på når det kan være lurt å ta symptomer på alvor og søke hjelp"
-        ],
-        "description2": ""
+        ]
       },
       "screen_02": {
-        "title": "",
-        "subtitle": "",
-        "description1": "",
-        "list_items1": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "description2": ""
+        "title": "Kroppen sier ifra",
+        "description1": "Når kroppen får for lite energi over tid, prøver den å tilpasse seg, noe som kan få en rekke konsekvenser. Mange av konsekvensene gjorde vi oss kjent med i forrige modul. Disse vil i større eller mindre grad vise seg som kroppslige symptomer.",
+        "description2": "Symptomer er kroppens måte å si fra på. Å ta dem på alvor er viktig.",
+        "description3": "I denne modulen skal vi gå gjennom diverse <strong>fysiske og psykiske symptomer</strong> på REDs.",
+        "bg_info_box": {
+          "title": "<strong>Hvorfor er det viktig å forstå symptomene?</strong>",
+          "subtitle": "REDs kan utvikle seg gradvis uten at man merker det. Derfor er det viktig å være bevisst på hvilke parametere man bør følge med på jevnlig. På den måten:",
+          "list_items": [
+            "Kan du <strong> ta grep tidlig </strong>",
+            "Kan du <strong> beskytte både helse og prestasjon </strong>"
+          ]
+        }
+      },
+      "screen_03": {
+        "title": "Uforklarlig tretthet / lave energinivå",
+        "description1": "Kjenner du deg sliten uten å skjønne hvorfor, eller merker du at overskuddet forsvinner, kan det være et tegn på at kroppen ikke får nok energi til å dekke det du forbruker.",
+        "description2": "Dette kan være et tidlig signal på at kroppen er i ubalanse. Å loggføre trening, søvn, humør og energinivå regelmessig kan gjøre det lettere å oppdage mønstre.",
+        "bg_info_box": {
+          "title": "<strong>Tips:</strong>",
+          "list_items": [
+            "Bruk en dagbok til å følge med på både treningsbelastning og energinivå.",
+            "Ved langvarig tretthet, vurder å snakk med noen du følger deg komfortabel med.",
+            "Følg også med på søvn og humør - det henger ofte sammen med energinivå."
+          ]
+        }
+      },
+      "screen_04": {
+        "title": "Blir du ofte syk / tar det ofte lang tid å bli frisk?",
+        "description1": "Hvis kroppen får for lite energi over tid, nedprioriteres immunsystemet. Det betyr at du lettere kan bli syk, og at det tar lengre tid før du blir helt frisk.",
+        "description2": "Å følge med på hvor ofte du er syk, og hvor raskt du henter deg inn igjen, kan gi viktige hint om energibalanse og restitusjon.",
+        "bg_info_box": {
+          "title": "<strong>Tips:</strong>",
+          "list_items": [
+            "Bruk en dagbok til å følge med på både treningsbelastning og energinivå.",
+            "Ved langvarig tretthet, vurder å snakk med noen du følger deg komfortabel med.",
+            "Følg også med på søvn og humør - det henger ofte sammen med energinivå."
+          ]
+        }
+      },
+      "screen_05": {
+        "title": "Stagnasjon i trening - trener du mer enn du restituerer?",
+        "description1": "Hvis du opplever at formen står stille, kan det skyldes at kroppen ikke får nok energi til å ta til seg treningen du legger ned.",
+        "subtitle": "Hvorfor er det viktig å følge med på?",
+        "description2": "Ubalanse mellom trening, mat og hvile gjør at kroppen ikke klarer å restituere. Da uteblir både fremgang og prestasjon. Det kan også gjøre deg mer utsatt for skader.",
+        "bg_info_box": {
+          "title": "<strong>Tips - hva du kan følge med på:</strong>",
+          "list_items": [
+            "Hvordan oppleves trening (tungt / lett)?",
+            "Klarer du å gjennomføre det du har planlagt?",
+            "Får du fremgang over tid, eller står du stille?"
+          ]
+        }
+      },
+      "screen_06": {
+        "title": "Sårbar for skader - opplever du småvondter eller tilbakevendende skader?",
+        "description1": "Ved REDs kan kroppen få redusert evne til å bygge og reparere vev. Det gjør at både muskler, sener og bein blir mer utsatt for belastningsskader.",
+        "subtitle": "Hvorfor er det viktig å følge med på?",
+        "description2": "Vedvarende eller repeterende skader kan være et signal om at kroppen ikke får det den trenger for å tåle treningen. Tidlig innsikt kan forebygge alvorlige problemer.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Øk intensitet og varighet gradvis",
+            "Sørg for jevnlig inntak av mat - spesielt etter trening",
+            "Opplever du ofte vondter, må du ofte justere trening på grunn av smerter?"
+          ]
+        }
+      },
+      "screen_07": {
+        "title": "Hormonforstyrrelser",
+        "description1": "Lav energitilgjengelighet kan føre til hormonforstyrrelser. For jenter kan det bety uregelmessig eller uteblitt menstruasjon. For gutter kan det vise seg som lavere testosteronnivå – færre morgenereksjoner, nedsatt sexlyst og lite overskudd.",
+        "subtitle": "Hvorfor er det viktig å følge med på?",
+        "description2": "Hormonforstyrrelser kan på lang sikt få konsekvenser for beinhelse og utvikling.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "For jenter: følg med på endringer i menstruasjonssyklusen",
+            "For gutter: færre enn 3 morgenereksjoner per uke kan være et tegn på REDs",
+            "Ta endringer i kroppen på alvor – søk hjelp hvis du er usikker"
+          ]
+        }
+      },
+      "screen_08": {
+        "title": "Kuldefølelse - fryser du lettere enn før?",
+        "description1": "Kroppen senker kroppstemperaturen som en <strong> energisparingsstrategi</strong> når den ikke får nok næring. Dette kan gjøre at du føler deg kald, særlig på hender og føtter – selv når det ikke er kaldt rundt deg.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Legg merke til om du fryser unormalt ofte",
+            "Se på matinntaket ditt - kroppen trenger drivstoff for å holde varmen"
+          ]
+        }
+      },
+      "screen_09": {
+        "title": "Søvnproblemer - sliter du med å sovne eller sove gjennom natten?",
+        "description1": "Energiunderskudd kan gjøre kroppen stresset - og det kan forstyrre søvnen. Det er ikke uvanlig å våkne tidlig, sove urolig eller kjenne seg uopplagt selv etter mange timer i senga.",
+        "subtitle": "Hvorfor er det viktig å følge med på?",
+        "description2": "Søvn er helt avgjørende for restitusjon, hormonbalanse og prestasjon. Uten god søvn klarer ikke kroppen å hente seg inn - og det kan forverre andre symptomer.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Legg merke til opplevd søvnkvalitet",
+            "Legg merke til om du ofte våkner om natten",
+            "Legg merke til om du føler deg uthvilt om morgenen"
+          ]
+        }
+      },
+      "screen_10": {
+        "title": "Jernmangel",
+        "description1": "Lavt energiinntak og menstruasjon (hos jenter) kan påvirke jernlagrene i kroppen. Dette kan gjøre at du føler deg ekstra sliten, tungpustet og presterer dårligere.",
+        "subtitle": "Hvorfor er det viktig å følge med på?",
+        "description2": "Jernmangel kan gi symptomer som ligner på vanlig tretthet – men har en helt annen årsak. Det bør tas på alvor og eventuelt følges opp med blodprøver.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Følg med på om du opplever mye svimmelhet eller hodepine",
+            "Spis jerninnholdig mat sammen med C-vitamin (f.eks. appelsinjuice) for bedre opptak",
+            "Unngå kaffe og te rett før og etter måltider hvis du mistenker jernmangel"
+          ]
+        }
+      },
+      "screen_11": {
+        "title": "Mage- og tarmplager - Oppblåst? Luft? Urolig mage?",
+        "description1": "Mange opplever endringer i magen ved REDs - som treg eller løs avføring, smerter, eller generell uro. Det kan skyldes både lavt energiinntak og stress rundt mat og kropp.",
+        "subtitle": "Hvorfor er det viktig å følge med på?",
+        "description2": "Mageproblemer kan være en reaksjon på stress og underskudd. Når fordøyelsen går tregere, påvirkes også næringsopptaket.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Legg merke til magesmerter, oppblåsthet, kvalme eller luft",
+            "Tarmfunksjon (hyppighet, konsistens, ubehag)",
+            "Sammenheng med stress, måltider eller trening?"
+          ]
+        }
+      },
+      "screen_12": {
+        "title": "Humørsvingninger, nedstemthet og irritabilitet",
+        "description1": "Når kroppen mangler energi over tid, påvirker det nervesystem og hormonbalanse - noe som kan føre til at man blir lettere irritert, mister motivasjon, eller føler seg nedfor uten noen åpenbar grunn.",
+        "subtitle": "Hvorfor er det viktig å følge med på?",
+        "description2": "Psykisk helse henger tett sammen med fysisk overskudd, og det er viktig å ta følelsene på alvor - spesielt når det går utover trening, skole eller hverdagsglede.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Legg merke til mønstre - f.eks. hvis du ofte er irritert, eller føler deg nedfor uten at noe spesielt har skjedd.",
+            "Sammenlign humør med søvn, energi og trening i en dagbok - det kan gi nyttig innsikt.",
+            "Snakk med noen du stoler på - det kan være foreldre, trener, venn eller helsesykepleier."
+          ]
+        }
+      },
+      "screen_13": {
+        "title": "Dårlig konsentrasjon og nedsatt mental skarphet",
+        "description1": "Hjernen trenger mye energi for å fungere optimalt. Når energitilførselen er for lav over tid, nedprioriterer kroppen kognitive funksjoner som fokus, hukommelse og problemløsning.",
+        "description2": "Konsentrasjonsvansker gjør det vanskeligere å prestere både på skole, trening og i sosiale situasjoner. Det kan føles frustrerende å ikke være \"seg selv\" mentalt, og det er ofte et tidlig signal om at noe er i ubalanse.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Legg merke til mønstre - f.eks. hvis du ofte er irritert, eller føler deg nedfor uten at noe spesielt har skjedd.",
+            "Sammenlign humør med søvn, energi og trening i en dagbok - det kan gi nyttig innsikt.",
+            "Snakk med noen du stoler på - det kan være foreldre, trener, venn eller helsesykepleier."
+          ]
+        }
+      },
+      "screen_14": {
+        "title": "Angst eller uro rundt mat og spising",
+        "description1": "Noen kan kjenne på stress rundt mat - enten fordi de føler at de må spise “perfekt”, de føler de må gjøre seg “fortjente” til mat, de får dårlig samvittighet hvis de spiser mer enn vanlig, eller de kan unngå visse typer mat.",
+        "subtitle": "Når mat skaper uro i hverdagen, er det et tegn på at noe er i ubalanse.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Prøv å kjenne etter: spiser du når du er sulten - og til du er mett?",
+            "Still deg spørsmålet: Tenker jeg mer på mat enn før? Føler jeg meg stresset av å spise visse ting?",
+            "Det kan være nyttig å snakke med en trygg voksen eller fagperson - spesielt hvis tankene påvirker hverdagen."
+          ]
+        }
+      },
+      "screen_15": {
+        "title": "Tvangspregede treningsvaner",
+        "description1": "Noen kjenner på uro eller dårlig samvittighet dersom de ikke trener. Dette kan føre til at man trener selv når kroppen trenger hvile, og ikke lytter til signaler som tretthet, vondter/skader eller sykdom.",
+        "subtitle": "Hvorfor er det viktig:",
+        "description2": "Hvile er avgjørende for å tåle treningsbelastningen og unngå skader. Hvis trening alltid “må bli gjort”, selv når kroppen sier nei, øker risikoen for overbelastning, skader og energimangel.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Det kan være lurt å ta en pause og kjenne etter - har jeg energi og lyst, eller føler jeg at jeg “må”?"
+          ]
+        }
+      },
+      "screen_16": {
+        "title": "Sosial tilbaketrekning",
+        "description1": "Man trekker seg unna venner, felles måltider og aktiviteter som ikke handler om trening. Det kan bli vanskelig å finne energi til det sosiale - eller man føler at det \"kommer i veien\" for treningsrutiner, matplaner eller kontrollbehov.",
+        "description2": "Å være med andre gir både glede, støtte og en pause fra prestasjonsfokus. Når man isolerer seg, blir det lettere å bli fanget i negative tanker og destruktive mønstre.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>",
+          "list_items": [
+            "Vær bevisst på hvor ofte du sier nei til sosiale ting.",
+            "Lag plass også til aktiviteter som ikke bare handler om trening."
+          ]
+        }
+      },
+      "screen_17": {
+        "title": "Kroppsmisnøye, perfeksjonisme og lavt selvbilde",
+        "description1": "Kroppsfokus, sammenligning og perfeksjonisme kan gjøre at du føler deg aldri god nok.",
+        "description2": "Dette er tanker som kan ta mye plass og tappe energi. De kan også bidra til å skyve deg mot usunne valg og at du overstyrer kroppens signaler. Det er lett å tro at \"mer er bedre\" i idrett – men kroppen trenger nok energi for å bygge seg sterkere. REDs rammer ofte utøvere som er svært målrettede, men som kanskje ikke har lært hvordan de best støtter kroppen med mat, hvile og restitusjon.",
+        "bg_info_box": {
+          "title": "<strong>Tips og hva du kan følge med på:</strong>"
+        }
+      },
+      "screen_18": {
+        "title": "Opplevde symptomer varierer fra person til person",
+        "description1": "Symptomer på REDs varierer betydelig fra person til person. Dette skyldes at kroppens respons på lav energitilgjengelighet (LEA) påvirkes av en rekke individuelle faktorer som:",
+        "inner_box1": {
+          "title": "Biologisk variasjon",
+          "list_items": [
+            "<strong>Kjønn:</strong> Kvinner og menn har ulike hormon-systemer",
+            "<strong>Hormonell status:</strong> Noen har mer følsomme hormonsystemer - selv en liten energimangel kan gi store utslag",
+            "<strong>Genetikk:</strong> Noen har “robust” biologi som tåler lav energi bedre, mens andre kan utvikle symptomer raskt",
+            "<strong>Tidligere helsetilstand:</strong> en som har hatt spise-forstyrrelser, benskjørhet eller hormonproblemer tidligere er mer sårbar for å utvikle symptomer"
+          ]
+        },
+        "inner_box2": {
+          "title": "Varighet og alvorlighetsgrad av energimangel",
+          "list_items": [
+            "<strong>Kjønn:</strong> Kvinner og menn har ulike hormon-systemer",
+            "<strong>Hormonell status:</strong> Noen har mer følsomme hormonsystemer - selv en liten energimangel kan gi store utslag",
+            "<strong>Genetikk:</strong> Noen har “robust” biologi som tåler lav energi bedre, mens andre kan utvikle symptomer raskt",
+            "<strong>Tidligere helsetilstand:</strong> en som har hatt spise-forstyrrelser, benskjørhet eller hormonproblemer tidligere er mer sårbar for å utvikle symptomer"
+          ]
+        },
+        "inner_box3": {
+          "title": "Sosiale faktorer",
+          "list_items": [
+            "<strong>Normalisering av faresignaler:</strong> Utøvere kan overse symptomer som søvnproblemer, hormonforstyrrelser (som menstruasjonstap hos jenter) fordi de tror det er “normalt” i idretten",
+            "<strong>Miljøets rolle:</strong> Trenere, lagkamerater og kulturen rundt kan påvirke hvordan utøveren tolker og håndterer signaler fra kroppen"
+          ]
+        }
       }
     }
   },
@@ -296,8 +519,269 @@
         "description2": "Denne modulen vil gå gjennom viktige aspekter og gode praksiser knyttet til forebygging, slik at du som utøver, trener eller forelder stiller sterkere."
       },
       "screen_02": {
-        "title": "",
+        "title": "Hvorfor forebygge LEA og REDs?",
+        "list_items1": [
+          "REDs utvikler seg ofte gradvis noe som kan gjøre det vanskelig å oppdage",
+          "REDs ødelegger både helse og prestasjon",
+          "Tidlig innsats gir bedre effekt enn behandling i etterkant",
+          "Mange unge utøvere, trenere og foreldre kjenner ikke signalene - det må vi endre "
+        ],
+        "bg_info_box": {
+          "title": "Å kontinuerlig jobbe forebyggende med REDs er avgjørende for å beskytte kroppens utvikling, helse og prestasjon."
+        }
+      },
+      "screen_03": {
+        "title": "Selvmonitorering - Lær deg å kjenne kroppen din",
+        "description1": "Å følge med på kroppens signaler...",
+        "table": {
+          "headers": [
+            "Parameter",
+            "Tegn du kan se etter"
+          ],
+          "rows": [
+            {
+              "col1": "🏃‍♀️ Treningsrespons",
+              "col2": "Stagnasjon/fremgang stopper, lav energi på økter"
+            },
+            {
+              "col1": "😴 Søvnkvalitet",
+              "col2": "Urolig søvn, vanskelig å sovne, våkner sliten"
+            },
+            {
+              "col1": "🤕 Sykdom/skade",
+              "col2": "Hyppige skader, treg heling, ofte forkjølet"
+            },
+            {
+              "col1": "⚖️ Hormonstatus",
+              "col2": "Manglende/uregelmessig menstruasjon (jenter), manglende morgenereksjon (gutter)"
+            },
+            {
+              "col1": "🧠 Humør/motivasjon",
+              "col2": "Nedstemthet, uvanlig irritabel"
+            },
+            {
+              "col1": "🍽️ Appetitt og matinntak",
+              "col2": "Hopper over måltider, glemmer å spise etter trening, spiser mindre enn vanlig"
+            }
+          ]
+        },
+        "bg_info_box": {
+          "title": "Følg gjerne med på de listede parametrene ukentlig..."
+        }
+      },
+      "screen_04": {
+        "title": "Følg med på trender",
+        "description1": "Det er helt normalt å ha en dårlig dag eller uke. Det som er viktig, er å følge med på utviklingen over tid: ",
+        "list_items1": [
+          "Blir søvnen gradvis dårligere?",
+          "Føler du deg sliten uke etter uke?",
+          "Har humøret vært nede lenge?",
+          "Har  menstruasjon uteblitt i flere måneder?"
+        ],
+        "table": {
+          "headers": [
+            "Parameter",
+            "Tegn du kan se etter"
+          ],
+          "rows": [
+            {
+              "col1": "🏃‍♀️ Treningsrespons",
+              "col2": "Stagnasjon/fremgang stopper, lav energi på økter"
+            },
+            {
+              "col1": "😴 Søvnkvalitet",
+              "col2": "Urolig søvn, vanskelig å sovne, våkner sliten"
+            },
+            {
+              "col1": "🤕 Sykdom/skade",
+              "col2": "Hyppige skader, treg heling, ofte forkjølet"
+            },
+            {
+              "col1": "⚖️ Hormonstatus",
+              "col2": "Manglende/uregelmessig menstruasjon (jenter), manglende morgenereksjon (gutter)"
+            },
+            {
+              "col1": "🧠 Humør/motivasjon",
+              "col2": "Nedstemthet, uvanlig irritabel"
+            },
+            {
+              "col1": "🍽️ Appetitt og matinntak",
+              "col2": "Hopper over måltider, glemmer å spise etter trening, spiser mindre enn vanlig"
+            }
+          ]
+        },
+        "bg_info_box": {
+          "title": "Hvis negative trender vedvarer over mange uker bør det tas på alvor."
+        }
+      },
+      "screen_05": {
+        "title": "Observer og tørr å stille spørsmål",
+        "subtitle": "Trenere og foreldre har en viktig oppgave for å fange opp lav energitilgjengelighet. <br/> Sjekklisten under kan være et bra startpunkt for samtale. ",
+        "checkbox_list": {
+          "left": [
+            "Er jeg trøtt hele tiden til tross for tilstrekkelig mengde søvn?",
+            "Er jeg mer støl enn vanlig og klarer ikke helt å restituere meg mellom treningsøktene?",
+            "Har prestasjonsutviklingen min stagnert uten klare grunner?"
+          ],
+          "right": [
+            "Er jeg ofte lei meg eller har dårlig humør og/eller store humørsvingninger?",
+            "Har jeg hatt gjentatte skader det siste året?",
+            "Har jeg hatt tretthetsbrudd eller stressreaksjon?",
+            "Er jeg ofte syk?",
+            "Kvinner: Er menstruasjonen uregelemessig eller borte?",
+            "Menn: Har jeg lavere sexlyst enn vanlig? Har morgenereksjon blitt sjeldnere?"
+          ]
+        },
+        "list_items1": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bg_info_box": {
+          "title": "NB! Hvert tegn kan ha andre årsaker enn REDs.",
+          "description": ""
+        }
+      },
+      "screen_06": {
+        "title": "Ernæring - det handler om å fylle batteriet",
         "subtitle": "",
+        "description1": "Trener du mye vil du ha et <strong> større batteri </strong> du må fylle opp.",
+        "description2": "For å fylle dette batteriet er det viktig at vi starter med de næringsrike matvarene; som inneholder byggeklossene vi trenger for et godt fundament. ",
+        "description3": "For en som trener mye og har et stort energibehov er det i perioder også viktig å legge til ekstra, for eksempel i form av bakst, barer, sportsdrikke, sjokolade, brus også videre.",
+        "list_items1": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bg_info_box": {
+          "title": "Mat med mye energi er ikke “usunt” for deg som trener mye, det er nødvendig for å raskt få fylt på.",
+          "description": ""
+        }
+      },
+      "screen_07": {
+        "title": "Øvelse - Trening og energibehov",
+        "subtitle": "",
+        "description1": "Ta en titt på treningsuken din og spør deg selv:",
+        "list_items1": [
+          "Hvilke dager er harde / med mye trening?",
+          "Hvilke dager er rolige?",
+          "Hvilke dager er det viktigst å være bevisst på å fylle på ekstra?"
+        ],
+        "weekly_table": {
+          "headers": [
+            "Mandag",
+            "Tirsdag",
+            "Onsdag",
+            "Torsdag",
+            "Fredag",
+            "Lørdag",
+            "Søndag"
+          ],
+          "rows": [
+            [
+              "Lett jogg",
+              "Intervaller",
+              "Fri",
+              "Intervaller",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Styrke",
+              "Intervaller",
+              "Rolig langtur",
+              "Intervaller",
+              "",
+              "",
+              ""
+            ],
+            [
+              {
+                "text": "Mellom",
+                "icon": "images/icon-battery-mellom.svg"
+              },
+              {
+                "text": "Stort",
+                "icon": "images/icon-battery-stort.svg"
+              },
+              {
+                "text": "Lavere",
+                "icon": "images/icon-battery-lavere.svg"
+              },
+              {
+                "text": "Stort",
+                "icon": "images/icon-battery-stort.svg"
+              },
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        "bg_info_box": {
+          "title": "Denne øvelsen er det fint om utøver gjør sammen med forelder og trener.",
+          "description": ""
+        }
+      },
+      "screen_08": {
+        "title": "Spis nok gjennom hele dagen",
+        "subtitle": "",
+        "description1": "Mange unge utøvere",
+        "list_items1": [
+          "Spiser for lite totalt",
+          "Fordeler matinntaket dårlig i løpet av dagen",
+          "Mangler riktig type næring rundt trening"
+        ],
+        "icon_list_items": [
+          {
+            "icon": "images/icon-clock-countdown.svg",
+            "text": "Spis noe hver 3. - 4. time - ikke vent for lenge mellom måltidene"
+          },
+          {
+            "icon": "images/icon-battery-charging-vertical.svg",
+            "text": "Ha alltid et lite måltid klar til etter trening"
+          },
+          {
+            "icon": "images/icon-bread.svg",
+            "text": "Ikke kutt ut karbohydrater - kroppen trenger dem, særlig under trening!"
+          }
+        ],
+        "bg_info_box": {
+          "title": "Er det vanskelig å få i seg mat om morgenen, eller rett etter trening? <br/> Da kan ulike typer drikke eller flytende måltider som smoothie og drikkeyoghurt være gode alternativ.",
+          "description": ""
+        }
+      },
+      "screen_09": {
+        "title": "Karbohydrater = viktig treningsdrivstoff",
+        "subtitle": "",
+        "description1": "",
+        "sub_list_items1": [
+          {
+            "text": "Jo høyere intensitet - jo viktigere blir karbohydrat som drivstoff"
+          },
+          {
+            "text": "Ved <strong> lav karbohydrattilgang over tid </strong> kan kroppen komme i <strong>'energisparingsmodus'</strong>, med mange av de samme symptomene som ved REDs"
+          },
+          {
+            "text": "Gode rutiner med karbohydrat før, under og etter trening er beskyttende med tanke på:",
+            "sub_items": [
+              "Stressreaksjoner",
+              "Bentetthet",
+              "Knokler"
+            ]
+          }
+        ],
+        "bg_info_box": {
+          "title": "Selv om du får i deg nok kalorier, kan for lite karbohydrater fremskynde utviklingen av REDs.",
+          "description": ""
+        }
+      },
+      "screen_10": {
+        "title": "Praktiske tips å ta med seg i hverdagen",
+        "subtitle": "Trykk på sirkelen med rollen som beskriver deg best for å få enkle tips til små valg, rutiner og tanker det er viktig å ha med seg i det daglige forebyggende arbeidet mot energimangel.",
         "description1": "",
         "list_items1": [
           "",
@@ -305,7 +789,86 @@
           "",
           ""
         ],
-        "description2": ""
+        "cir_text_img_list": {
+          "title1": "UTØVER",
+          "title2": "TRENER",
+          "title3": "FORELDER"
+        },
+        "bg_info_box": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "screen_11": {
+        "title": "UTØVER",
+        "subtitle": "",
+        "description1": "",
+        "list_items1": [
+          "Spis noe hver 3. - 4. time - i tillegg til etter trening",
+          "Vanskelig å spise rett etter trening? Bruk smoothie, energibar eller drikkeyoghurt",
+          "Noter deg kroppslige mønstre: søvn, energinivå, humør, treningsrespons, etc. ",
+          "Si ifra om det er noe som bekymrer deg",
+          "Vær ekstra bevisst på å spise mer de dagene du trener hardt"
+        ],
+        "bg_info_box": {
+          "title": "Sett opp treningsuken din:",
+          "description": "Marker hvilke dager som er harde og hvilke som er rolige. På harde dager trenger du ekstra påfyll - planlegg ekstra måltider på forhånd."
+        }
+      },
+      "screen_12": {
+        "title": "TRENER",
+        "subtitle": "Du er en nøkkelperson for forebygging - ikke bare i treningsplanen, men i miljøet du bygger rundt utøverne",
+        "description1": "",
+        "list_items1": [
+          " <strong> Etabler fast praksis for påfyll </strong> rett etter trening (f.eks. oppfordre til å ha med banan, smoothie, brødmat el.)",
+          "Oppmuntre utøvere til å <strong> registrere hvordan kroppen har det </strong> - f.eks. gjennom dagbok: søvn, mat, humør og prestasjon",
+          "Fokuser på spørsmål som ikke bare er relatert til prestasjon, men også <strong>overskudd og respons </strong> på trening",
+          "Ved bekymring: samarbeid med foreldre tidlig"
+        ],
+        "bg_info_box": {
+          "title": "Gå gjennom treningsplanen med utøveren:",
+          "description": "Hvilke dager er tyngst? Hvor er det ekstra viktig å få det ekstra påfyllet? Hjelp dem å koble belastning med behov for mat og hvile."
+        }
+      },
+      "screen_13": {
+        "title": "FORELDER",
+        "subtitle": "Du er en nøkkelperson for forebygging - du trenger ikke være ekspert, det viktigste er at du følger med og støtter",
+        "description1": "",
+        "list_items1": [
+          "<strong>Sørg for at matmengden justeres etter alder, vekst og treningsmengde</strong> - mange fortsetter med samme matpakke som da de var yngre selv om kroppen trenger mer",
+          "Ha faste rutiner for måltider, søvn og hvile",
+          "Registrer endringer i humør, søvnmønster, overskudd og appetitt",
+          "Ha en åpen samtale om kroppslige signaler: energinivå, søvn, menstruasjonssyklus, morgenereksjon - forklar hvorfor dette sier noe om helse",
+          "Reager tidlig hvis noe skurrer - <strong> det er lettere å justere enn å reparere </strong>"
+        ],
+        "bg_info_box": {
+          "title": "Sett dere ned og se på treningsuken sammen:",
+          "description": "Når trener du mest? Hvilke typer mellommåltidsmat er det lurt å ha tilgjengelig på disse dagene?"
+        }
+      },
+      "screen_14": {
+        "title": "Quiz",
+        "question": "Hvorfor er det viktig å tenke på når på dagen du spiser?",
+        "options1": "Kroppen tåler mer mat om kvelden",
+        "options2": "Det er best å spise mest før du legger deg",
+        "options3": "Tidlig og jevnt matinntak gir bedre overskudd og prestasjon",
+        "options4": "Det spiller ingen rolle - bare du får i deg nok totalt"
+      },
+      "screen_15": {
+        "title": "Quiz",
+        "question": "Hva kan være en nyttig øvelse for å sikre godt energiinntak i hverdagen?",
+        "options1": "Planlegge ukens måltider kun rundt middag",
+        "options2": "Registrere humør og søvn hver dag",
+        "options3": "Telle kalorier og justere ukentlig",
+        "options4": "Se på treningsuka og vurdere hvilke dager som krever ekstra mat"
+      },
+      "screen_16": {
+        "title": "Quiz",
+        "question": "Hvilken av disse er ikke en vanlig helsemessig konsekvens av REDs?",
+        "options1": "Økt beinstyrke",
+        "options2": "Forstyrret hormonbalanse",
+        "options3": "Økt risiko for belastningsskader",
+        "options4": "Forsinket pubertetsutvikling"
       }
     }
   },

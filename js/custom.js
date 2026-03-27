@@ -33,7 +33,26 @@ gsap.set(slideContent[0], { autoAlpha: 1, y: 0 });
 updateCounter();
 
 function changeSlide(i, dir) {
-    if (i < 0 || i >= slides.length || animating) return;
+    if (animating) return;
+
+    // 🔥 LAST SLIDE HANDLE
+    if (i >= slides.length) {
+
+        let path = window.location.pathname;
+
+        if (path.includes('/no/')) {
+            window.location.href = "/sunnUtover/no/";
+        } 
+        else if (path.includes('/en/')) {
+            window.location.href = "/sunnUtover/en/";
+        } 
+        else {
+            window.location.href = "/sunnUtover/";
+        }
+
+        return;
+    }
+    if (i < 0) return;
 
     animating = true;
 

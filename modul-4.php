@@ -26,7 +26,7 @@
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="step-slide-box-slider">
-                                                <!-- <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item">
                                                     <div class="step-slide-box-description-con p-0">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -67,14 +67,18 @@
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="step-slide-box-caption">
-                                                                        <h2>Hvorfor forebygge LEA og REDs?</h2>
+                                                                    <div class="step-slide-box-caption"> 
+                                                                        <h2><?php echo __("modul4Page.screens.screen_02.title"); ?></h2>
                                                                         <ul>
-                                                                            <li>REDs utvikler seg ofte gradvis noe som kan gjøre det vanskelig å oppdage</li>
-                                                                            <li>REDs ødelegger både helse og prestasjon </li>
-                                                                            <li>Tidlig innsats gir bedre effekt enn behandling i etterkant </li>
-                                                                            <li>Mange unge utøvere, trenere og foreldre kjenner ikke signalene - det må vi endre </li>
-                                                                        </ul>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_02.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                            ?>
+                                                                        </ul> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -88,7 +92,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong> Å kontinuerlig jobbe forebyggende med REDs er avgjørende for å beskytte kroppens utvikling, helse og prestasjon. </strong></h4>
+                                                                                <h4><strong><?php echo __("modul4Page.screens.screen_02.bg_info_box.title"); ?></strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -105,8 +109,8 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-5">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Selvmonitorering - Lær deg å kjenne kroppen din</h2>
-                                                                        <p>Å følge med på kroppens signaler er noe av det viktigste du kan gjøre for å oppdage lav energitilgjengelighet og REDs tidlig. </p>
+                                                                        <h2><?php echo __("modul4Page.screens.screen_03.title"); ?></h2>
+                                                                        <p> <?php echo __("modul4Page.screens.screen_03.description1"); ?> </p> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-7">
@@ -115,34 +119,25 @@
                                                                             <div class="table-responsive">
                                                                                 <table>
                                                                                     <tbody>
-                                                                                        <tr>
-                                                                                            <th class="w-35">Parameter</th>
-                                                                                            <th class="w-65">Tegn du kan se etter</th>
-                                                                                        </tr>
-                                                                                        <tr>
-                                                                                            <td>🏃‍♀️ Treningsrespons</td>
-                                                                                            <td>Stagnasjon/fremgang stopper, lav energi på økter</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>😴 Søvnkvalitet</td>
-                                                                                            <td>Urolig søvn, vanskelig å sovne, våkner sliten</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>🤕 Sykdom/skade</td>
-                                                                                            <td>Hyppige skader, treg heling, ofte forkjølet</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>⚖️ Hormonstatus</td>
-                                                                                            <td>Manglende/uregelmessig menstruasjon (jenter), manglende morgenereksjon (gutter)</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>🧠 Humør/motivasjon</td>
-                                                                                            <td>Nedstemthet, uvanlig irritabel</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>🍽️ Appetitt og matinntak</td>
-                                                                                            <td>Hopper over måltider, glemmer å spise etter trening, spiser mindre enn vanlig</td>
-                                                                                        </tr>
+                                                                                        <?php
+                                                                                        $table = __("modul4Page.screens.screen_03.table");
+
+                                                                                        if(isset($table['headers'])){
+                                                                                            echo '<tr>';
+                                                                                            echo '<th class="w-35">'.$table['headers'][0].'</th>';
+                                                                                            echo '<th class="w-65">'.$table['headers'][1].'</th>';
+                                                                                            echo '</tr>';
+                                                                                        }
+
+                                                                                        if(isset($table['rows']) && is_array($table['rows'])){
+                                                                                            foreach($table['rows'] as $row){
+                                                                                                echo '<tr>';
+                                                                                                echo '<td>'.$row['col1'].'</td>';
+                                                                                                echo '<td>'.$row['col2'].'</td>';
+                                                                                                echo '</tr>';
+                                                                                            }
+                                                                                        }
+                                                                                        ?>
                                                                                     </tbody>
                                                                                 </table>
                                                                             </div>
@@ -156,7 +151,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong> Følg gjerne med på de listede parametrene ukentlig (dette kan gjøres i en dagbok eller app) </strong></h4>
+                                                                                <h4><strong><?php echo __("modul4Page.screens.screen_03.bg_info_box.title"); ?></strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -173,50 +168,45 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-5">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Følg med på trender </h2>
-                                                                        <p>Det er helt normalt å ha en dårlig dag eller uke. Det som er viktig, er å følge med på utviklingen over tid: </p>
+                                                                        <h2><?php echo __("modul4Page.screens.screen_04.title"); ?></h2>
+                                                                        <p> <?php echo __("modul4Page.screens.screen_04.description1"); ?> </p> 
                                                                         <ul>
-                                                                            <li>Blir søvnen gradvis dårligere?</li>
-                                                                            <li>Føler du deg sliten uke etter uke?</li>
-                                                                            <li>Har humøret vært nede lenge?</li>
-                                                                            <li>Har  menstruasjon uteblitt i flere måneder?</li>
-                                                                        </ul>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_04.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                            ?>
+                                                                        </ul> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-7">
                                                                     <div class="step-slide-box-img">
                                                                         <div class="table-line-white-bg"> 
                                                                             <div class="table-responsive">
-                                                                                <table>
+                                                                                 <table>
                                                                                     <tbody>
-                                                                                        <tr>
-                                                                                            <th class="w-35">Parameter</th>
-                                                                                            <th class="w-65">Tegn du kan se etter</th>
-                                                                                        </tr>
-                                                                                        <tr>
-                                                                                            <td>🏃‍♀️ Treningsrespons</td>
-                                                                                            <td>Stagnasjon/fremgang stopper, lav energi på økter</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>😴 Søvnkvalitet</td>
-                                                                                            <td>Urolig søvn, vanskelig å sovne, våkner sliten</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>🤕 Sykdom/skade</td>
-                                                                                            <td>Hyppige skader, treg heling, ofte forkjølet</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>⚖️ Hormonstatus</td>
-                                                                                            <td>Manglende/uregelmessig menstruasjon (jenter), manglende morgenereksjon (gutter)</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>🧠 Humør/motivasjon</td>
-                                                                                            <td>Nedstemthet, uvanlig irritabel</td>
-                                                                                        </tr>
-                                                                                         <tr>
-                                                                                            <td>🍽️ Appetitt og matinntak</td>
-                                                                                            <td>Hopper over måltider, glemmer å spise etter trening, spiser mindre enn vanlig</td>
-                                                                                        </tr>
+                                                                                        <?php
+                                                                                        $table = __("modul4Page.screens.screen_04.table");
+
+                                                                                        if(isset($table['headers'])){
+                                                                                            echo '<tr>';
+                                                                                            echo '<th class="w-35">'.$table['headers'][0].'</th>';
+                                                                                            echo '<th class="w-65">'.$table['headers'][1].'</th>';
+                                                                                            echo '</tr>';
+                                                                                        }
+
+                                                                                        if(isset($table['rows']) && is_array($table['rows'])){
+                                                                                            foreach($table['rows'] as $row){
+                                                                                                echo '<tr>';
+                                                                                                echo '<td>'.$row['col1'].'</td>';
+                                                                                                echo '<td>'.$row['col2'].'</td>';
+                                                                                                echo '</tr>';
+                                                                                            }
+                                                                                        }
+                                                                                        ?>
                                                                                     </tbody>
                                                                                 </table>
                                                                             </div>
@@ -230,7 +220,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong> Hvis negative trender vedvarer over mange uker bør det tas på alvor.</strong></h4>
+                                                                                <h4><strong> <?php echo __("modul4Page.screens.screen_04.bg_info_box.title"); ?> </strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -247,51 +237,43 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption chackbox-list-ul">
-                                                                        <h2>Observer og tørr å stille spørsmål</h2>
-                                                                        <h4>Trenere og foreldre har en viktig oppgave for å fange opp lav energitilgjengelighet. <br/> Sjekklisten under kan være et bra startpunkt for samtale. </h4>
+                                                                        <h2><?php echo __("modul4Page.screens.screen_05.title"); ?></h2> 
+                                                                        <h4><?php echo __("modul4Page.screens.screen_05.subtitle"); ?></h4>
                                                                         <ul>
-                                                                            <li class="form-check">
-                                                                                <input class="form-check-input" type="checkbox" id="check1">
-                                                                                <label for="check1">Er jeg trøtt hele tiden til tross for tilstrekkelig mengde søvn?</label>
-                                                                            </li>
-                                                                            <li class="form-check">
-                                                                                <input class="form-check-input" type="checkbox" id="check2">
-                                                                                <label for="check2">Er jeg mer støl enn vanlig og klarer ikke helt å restituere meg mellom treningsøktene?</label>
-                                                                            </li>
-                                                                            <li class="form-check">
-                                                                                <input class="form-check-input" type="checkbox" id="check3">
-                                                                                <label for="check3">Har prestasjonsutviklingen min stagnert uten klare grunner?</label>
-                                                                            </li>
-                                                                        </ul>
+                                                                            <?php
+                                                                            $leftList = __("modul4Page.screens.screen_05.checkbox_list.left");
+
+                                                                            if(is_array($leftList)){
+                                                                                $i = 1;
+                                                                                foreach($leftList as $item){
+                                                                                    echo '<li class="form-check">
+                                                                                            <input class="form-check-input" type="checkbox" id="forebygging-check-'.$i.'">
+                                                                                            <label for="forebygging-check-'.$i.'">'.$item.'</label>
+                                                                                        </li>';
+                                                                                    $i++;
+                                                                                }
+                                                                            }
+                                                                            ?>
+                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption chackbox-list-ul">
                                                                         <ul>
-                                                                            <li class="form-check">
-                                                                                <input class="form-check-input" type="checkbox" id="check4">
-                                                                                <label class="form-check-label" for="check4">Er jeg ofte lei meg eller har dårlig humør og/eller store humørsvingninger?</label>
-                                                                            </li>
-                                                                            <li class="form-check">
-                                                                                <input class="form-check-input" type="checkbox" id="check5">
-                                                                                <label class="form-check-label" for="check5">Har jeg hatt gjentatte skader det siste året?</label>
-                                                                            </li>
-                                                                            <li class="form-check">
-                                                                                <input class="form-check-input" type="checkbox" id="check6">
-                                                                                <label class="form-check-label" for="check6">Har jeg hatt tretthetsbrudd eller stressreaksjon?</label>
-                                                                            </li>
-                                                                            <li class="form-check">
-                                                                                <input class="form-check-input" type="checkbox" id="check7">
-                                                                                <label class="form-check-label" for="check7">Er jeg ofte syk?</label>
-                                                                            </li>
-                                                                            <li class="form-check">
-                                                                                <input class="form-check-input" type="checkbox" id="check8">
-                                                                                <label class="form-check-label" for="check8">Kvinner: Er menstruasjonen uregelemessig eller borte?</label>
-                                                                            </li>
-                                                                            <li class="form-check">
-                                                                                <input class="form-check-input" type="checkbox" id="check9">
-                                                                                <label class="form-check-label" for="check9">Menn: Har jeg lavere sexlyst enn vanlig? Har morgenereksjon blitt sjeldnere?</label>
-                                                                            </li>
+                                                                            <?php
+                                                                            $rightList = __("modul4Page.screens.screen_05.checkbox_list.right");
+
+                                                                            if(is_array($rightList)){
+                                                                                $i = count($leftList) + 1;
+                                                                                foreach($rightList as $item){
+                                                                                    echo '<li class="form-check">
+                                                                                            <input class="form-check-input" type="checkbox" id="forebygging-check-'.$i.'">
+                                                                                            <label class="form-check-label" for="forebygging-check-'.$i.'">'.$item.'</label>
+                                                                                        </li>';
+                                                                                    $i++;
+                                                                                }
+                                                                            }
+                                                                            ?>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -302,7 +284,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong> NB! Hvert tegn kan ha andre årsaker enn REDs.</strong></h4>
+                                                                                <h4><strong> <?php echo __("modul4Page.screens.screen_05.bg_info_box.title"); ?></strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -319,10 +301,10 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-7">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Ernæring - det handler om å fylle batteriet</h2>
-                                                                        <p>Trener du mye vil du ha et større batteri du må fylle opp.</p>
-                                                                        <p>For å fylle dette batteriet er det viktig at vi starter med de næringsrike matvarene; som inneholder byggeklossene vi trenger for et godt fundament. </p>
-                                                                        <p>For en som trener mye og har et stort energibehov er det i perioder også viktig å legge til ekstra, for eksempel i form av bakst, barer, sportsdrikke, sjokolade, brus også videre.</p>
+                                                                        <h2><?php echo __("modul4Page.screens.screen_06.title"); ?></h2> 
+                                                                        <p><?php echo __("modul4Page.screens.screen_06.description1"); ?></p>
+                                                                        <p><?php echo __("modul4Page.screens.screen_06.description2"); ?></p>
+                                                                        <p><?php echo __("modul4Page.screens.screen_06.description3"); ?></p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -337,7 +319,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong> Mat med mye energi er ikke “usunt” for deg som trener mye, det er nødvendig for å raskt få fylt på.</strong></h4>
+                                                                                <h4><strong> <?php echo __("modul4Page.screens.screen_06.bg_info_box.title"); ?></strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -346,7 +328,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
-                                                </div>-->
+                                                </div>
                                                 <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
@@ -354,59 +336,71 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-5 col-xl-4">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Øvelse - Trening og energibehov</h2>
-                                                                        <p class="mb-1">Ta en titt på treningsuken din og spør deg selv:</p>
+                                                                        <h2><?php echo __("modul4Page.screens.screen_07.title"); ?></h2>
+                                                                        <p class="mb-1"><?php echo __("modul4Page.screens.screen_07.description1"); ?></p>
                                                                         <ul>
-                                                                            <li>Hvilke dager er harde / med mye trening?</li>
-                                                                            <li>Hvilke dager er rolige?</li>
-                                                                            <li>Hvilke dager er det viktigst å være bevisst på å fylle på ekstra?</li>
-                                                                        </ul>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_07.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                                ?>
+                                                                        </ul> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-7 col-xl-8">
                                                                     <div class="step-slide-box-img">
                                                                         <div class="table-line-white-bg"> 
                                                                             <div class="table-responsive">
-                                                                                <table>
-                                                                                    <tbody>
-                                                                                        <tr>
-                                                                                            <th class="w-10">Mandag</th>
-                                                                                            <th class="w-10">Tirsdag</th>
-                                                                                            <th class="w-10">Onsdag</th>
-                                                                                            <th class="w-10">Torsdag</th>
-                                                                                            <th class="w-10">Fredag</th>
-                                                                                            <th class="w-10">Lørdag</th>
-                                                                                            <th class="w-10">Søndag</th>
-                                                                                        </tr>
-                                                                                        <tr>
-                                                                                            <td>Lett jogg</td>
-                                                                                            <td>Intervaller</td>
-                                                                                            <td>Fri</td>
-                                                                                            <td>Intervaller</td>
-                                                                                            <td></td>
-                                                                                            <td></td>
-                                                                                            <td></td>
-                                                                                        </tr> 
-                                                                                         <tr>
-                                                                                            <td>Styrke</td>
-                                                                                            <td>Intervaller</td>
-                                                                                            <td>Rolig langtur</td>
-                                                                                            <td>Intervaller</td>
-                                                                                            <td></td>
-                                                                                            <td></td>
-                                                                                            <td></td>
-                                                                                        </tr> 
-                                                                                         <tr>
-                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Mellom</strong><br/><img class="mt-1" src="images/icon-battery-mellom.svg" /></div></td>
-                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Stort</strong><br/><img class="mt-1" src="images/icon-battery-stort.svg" /></div></td>
-                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Lavere</strong><br/><img class="mt-1" src="images/icon-battery-lavere.svg" /></div></td>
-                                                                                            <td>Energibehov:<br/><div class="text-center mt-2"><strong>Stort</strong><br/><img class="mt-1" src="images/icon-battery-stort.svg" /></div></td>
-                                                                                            <td></td>
-                                                                                            <td></td>
-                                                                                            <td></td>
-                                                                                        </tr> 
-                                                                                    </tbody>
-                                                                                </table>
+                                                                                <?php
+                                                                                    $table = __("modul4Page.screens.screen_07.weekly_table");
+
+                                                                                    if($table){
+                                                                                        echo '<table><tbody>';
+
+                                                                                        // HEADER
+                                                                                        if(isset($table['headers'])){
+                                                                                            echo '<tr>';
+                                                                                            foreach($table['headers'] as $head){
+                                                                                                echo '<th class="w-10">'.$head.'</th>';
+                                                                                            }
+                                                                                            echo '</tr>';
+                                                                                        }
+
+                                                                                        // ROWS
+                                                                                        if(isset($table['rows'])){
+                                                                                            foreach($table['rows'] as $row){
+                                                                                                echo '<tr>';
+
+                                                                                                foreach($row as $cell){
+
+                                                                                                    echo '<td>';
+
+                                                                                                    // If cell is object (energy block)
+                                                                                                    if(is_array($cell) && isset($cell['text'])){
+                                                                                                        echo 'Energibehov:<br/>
+                                                                                                            <div class="text-center mt-2">
+                                                                                                                <strong>'.$cell['text'].'</strong><br/>
+                                                                                                                <img class="mt-1" src="'.$cell['icon'].'" />
+                                                                                                            </div>';
+                                                                                                    }
+                                                                                                    // normal text
+                                                                                                    else{
+                                                                                                        echo $cell;
+                                                                                                    }
+
+                                                                                                    echo '</td>';
+                                                                                                }
+
+                                                                                                echo '</tr>';
+                                                                                            }
+                                                                                        }
+
+                                                                                        echo '</tbody></table>';
+                                                                                    }
+                                                                                    ?>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -418,7 +412,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong> Denne øvelsen er det fint om utøver gjør sammen med forelder og trener .</strong></h4>
+                                                                                 <h4><strong> <?php echo __("modul4Page.screens.screen_07.bg_info_box.title"); ?></strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -435,22 +429,41 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Spis nok gjennom hele dagen</h2>
-                                                                        <p class="mb-1">Mange unge utøvere </p>
+                                                                        <h2><?php echo __("modul4Page.screens.screen_08.title"); ?></h2>
+                                                                        <p class="mb-1"><?php echo __("modul4Page.screens.screen_08.description1"); ?> </p>
                                                                         <ul>
-                                                                            <li>Spiser for lite totalt</li>
-                                                                            <li>Fordeler matinntaket dårlig i løpet av dagen</li>
-                                                                            <li>Mangler riktig type næring rundt trening</li>
-                                                                        </ul>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_08.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                                ?>
+                                                                        </ul> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption icon-text-ul">
                                                                         <ul>
-                                                                            <li><span class="icon-text-img"><img src="images/icon-clock-countdown.svg"></span><span class="icon-text-title">Spis noe hver 3. - 4. time - ikke vent for lenge mellom måltidene</span></li>
-                                                                            <li><span class="icon-text-img"><img src="images/icon-battery-charging-vertical.svg"></span><span class="icon-text-title">Ha alltid et lite måltid klar til etter trening</span></li>
-                                                                            <li><span class="icon-text-img"><img src="images/icon-bread.svg"></span><span class="icon-text-title">Ikke kutt ut karbohydrater - kroppen trenger dem, særlig under trening!</span></li>
-                                                                        </ul>
+                                                                            <?php
+                                                                            $iconList = __("modul4Page.screens.screen_08.icon_list_items");
+
+                                                                            if(is_array($iconList)){
+                                                                                foreach($iconList as $item){
+                                                                                    $icon = $item['icon'];
+                                                                                    $text = $item['text'];
+
+                                                                                    echo '<li>
+                                                                                            <span class="icon-text-img">
+                                                                                                <img src="'.$icon.'">
+                                                                                            </span>
+                                                                                            <span class="icon-text-title">'.$text.'</span>
+                                                                                        </li>';
+                                                                                }
+                                                                            }
+                                                                            ?>
+                                                                            </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12">
@@ -460,7 +473,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong> Er det vanskelig å få i seg mat om morgenen, eller rett etter trening? <br/> Da kan ulike typer drikke eller flytende måltider som smoothie og drikkeyoghurt være gode alternativ.</strong></h4>
+                                                                                 <h4><strong> <?php echo __("modul4Page.screens.screen_08.bg_info_box.title"); ?></strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -477,19 +490,33 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Karbohydrater = viktig treningsdrivstoff </h2>
+                                                                        <h2><?php echo __("modul4Page.screens.screen_09.title"); ?></h2>
                                                                         <ul>
-                                                                            <li>Jo høyere intensitet - jo viktigere blir karbohydrat som drivstoff</li>
-                                                                            <li>Ved <strong> lav karbohydrattilgang over tid </strong> kan kroppen komme i <strong>"energisparingsmodus"</strong>, med mange av de samme symptomene som ved REDs</li>
-                                                                            <li>
-                                                                                Gode rutiner med karbohydrat før, under og etter trening er beskyttende med tanke på: 
-                                                                                <ul>
-                                                                                    <li>Stressreaksjoner</li>
-                                                                                    <li>Bentetthet</li>
-                                                                                    <li>Knokler</li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_09.sub_list_items1");
+                                                                                
+                                                                                foreach($list as $item){
+                                                                                
+                                                                                    if(is_string($item)){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }
+                                                                                
+                                                                                    if(is_array($item)){
+                                                                                        echo "<li>{$item['text']}";
+                                                                                
+                                                                                        if(isset($item['sub_items'])){
+                                                                                            echo "<ul>";
+                                                                                            foreach($item['sub_items'] as $sub){
+                                                                                                echo "<li>$sub</li>";
+                                                                                            }
+                                                                                            echo "</ul>";
+                                                                                        }
+                                                                                
+                                                                                        echo "</li>";
+                                                                                    }
+                                                                                }
+                                                                                ?>
+                                                                        </ul> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -504,7 +531,7 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong> Selv om du får i deg nok kalorier, kan for lite karbohydrater fremskynde utviklingen av REDs. </strong></h4>
+                                                                                <h4><strong><?php echo __("modul4Page.screens.screen_09.bg_info_box.title"); ?></strong></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -514,48 +541,48 @@
                                                     </div>
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item" id="role-selection-slide">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Praktiske tips å ta med seg i hverdagen</h2>
-                                                                        <h3 class="fw-normal">Trykk på sirkelen med rollen som beskriver deg best for å få enkle tips til små valg, rutiner og tanker det er viktig å ha med seg i det daglige forebyggende arbeidet mot energimangel.</h3>
+                                                                        <h2><?php echo __("modul4Page.screens.screen_10.title"); ?></h2> 
+                                                                        <h3 class="fw-normal"><?php echo __("modul4Page.screens.screen_10.subtitle"); ?></h3>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-img">
                                                                         <div class="row align-items-center justify-content-around">
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
+                                                                                <div class="circle-img-caption-box-con open-utover">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-4-img-10-a.jpg"/>                                                                                        
                                                                                     </figure>
                                                                                     <div class="circle-img-caption-box-caption">
-                                                                                        <h3>UTØVER</h3>
-                                                                                        <p>(trykk for å se tips)</p>
+                                                                                        <h3><?php echo __("modul4Page.screens.screen_10.cir_text_img_list.title1"); ?></h3>
+                                                                                        <p>(<?php echo __("common.tap_to_see_tips"); ?>)</p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow">
+                                                                                <div class="circle-img-caption-box-con open-trener">
                                                                                     <figure class="circle-img-caption-box-img">
                                                                                         <img src="images/box-modul-4-img-10-b.jpg"/>                                                                                        
                                                                                     </figure>
                                                                                     <div class="circle-img-caption-box-caption">
-                                                                                        <h3>TRENER</h3>
-                                                                                        <p>(trykk for å se tips)</p>
+                                                                                        <h3><?php echo __("modul4Page.screens.screen_10.cir_text_img_list.title2"); ?></h3>
+                                                                                        <p>(<?php echo __("common.tap_to_see_tips"); ?>)</p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                                                                                <div class="circle-img-caption-box-con sliderBoxDownArrow circle-img-caption-img-not">
+                                                                                <div class="circle-img-caption-box-con open-forelder circle-img-caption-img-not">
                                                                                     <figure class="circle-img-caption-box-img"> </figure>
                                                                                     <div class="circle-img-caption-box-caption">
-                                                                                        <h3>FORELDER</h3>
-                                                                                        <p>(trykk for å se tips)</p>
+                                                                                        <h3><?php echo __("modul4Page.screens.screen_10.cir_text_img_list.title3"); ?></h3>
+                                                                                        <p>(<?php echo __("common.tap_to_see_tips"); ?>)</p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -566,21 +593,24 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="step-slide-box-item">
-                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                <div class="step-slide-box-item" id="utover-slide">
+                                                    <div class="slider-box-arrow go-to-role"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>UTØVER</h2>
+                                                                         <h2><?php echo __("modul4Page.screens.screen_11.title"); ?></h2>  
                                                                         <ul>
-                                                                            <li>Spis noe hver 3. - 4. time - i tillegg til etter trening</li>
-                                                                            <li>Vanskelig å spise rett etter trening? Bruk smoothie, energibar eller drikkeyoghurt</li>
-                                                                            <li>Noter deg kroppslige mønstre: søvn, energinivå, humør, treningsrespons, etc. </li>
-                                                                            <li>Si ifra om det er noe som bekymrer deg</li>
-                                                                            <li>Vær ekstra bevisst på å spise mer de dagene du trener hardt </li>
-                                                                        </ul>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_11.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                                ?>
+                                                                        </ul> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -595,8 +625,8 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong>Sett opp treningsuken din:</strong></h4>
-                                                                                <h4> Marker hvilke dager som er harde og hvilke som er rolige. På harde dager trenger du ekstra påfyll - planlegg ekstra måltider på forhånd.</h4>
+                                                                                <h4><strong> <?php echo __("modul4Page.screens.screen_11.bg_info_box.title"); ?></strong></h4>
+                                                                                <h4> <?php echo __("modul4Page.screens.screen_11.bg_info_box.description"); ?></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -604,23 +634,27 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow go-to-quiz"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
-                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                <div class="step-slide-box-item" id="trener-slide">
+                                                    <div class="slider-box-arrow go-to-role"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2 class="mb-1">TRENER</h2>
-                                                                        <h4><i>Du er en nøkkelperson for forebygging - ikke bare i treningsplanen, men i miljøet du bygger rundt utøverne</i></h4>
+                                                                        <h2 class="mb-1"><?php echo __("modul4Page.screens.screen_12.title"); ?></h2> 
+                                                                        <h4><i><?php echo __("modul4Page.screens.screen_12.subtitle"); ?></i></h4>
                                                                         <ul>
-                                                                            <li> <strong> Etabler fast praksis for påfyll </strong> rett etter trening (f.eks. oppfordre til å ha med banan, smoothie, brødmat el.) </li>
-                                                                            <li> Oppmuntre utøvere til å <strong> registrere hvordan kroppen har det </strong> - f.eks. gjennom dagbok: søvn, mat, humør og prestasjon </li>
-                                                                            <li> Fokuser på spørsmål som ikke bare er relatert til prestasjon, men også <strong>overskudd og respons </strong> på trening </li>
-                                                                            <li> Ved bekymring: samarbeid med foreldre tidlig </li>
-                                                                        </ul>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_12.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                                ?>
+                                                                        </ul> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -635,8 +669,8 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong>Gå gjennom treningsplanen med utøveren:</strong></h4>
-                                                                                <h4> Hvilke dager er tyngst? Hvor er det ekstra viktig å få det ekstra påfyllet? Hjelp dem å koble belastning med behov for mat og hvile.  </h4>
+                                                                                <h4><strong> <?php echo __("modul4Page.screens.screen_12.bg_info_box.title"); ?></strong></h4>
+                                                                                <h4> <?php echo __("modul4Page.screens.screen_12.bg_info_box.description"); ?></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -644,24 +678,27 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow go-to-quiz"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
-                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                <div class="step-slide-box-item" id="forelder-slide">
+                                                    <div class="slider-box-arrow go-to-role"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-12 col-lg-7 col-xl-8">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2 class="mb-1">FORELDER</h2>
-                                                                        <h4> <i> Du er en nøkkelperson for forebygging - du trenger ikke være ekspert, det viktigste er at du følger med og støtter </i> </h4>
+                                                                         <h2><?php echo __("modul4Page.screens.screen_13.title"); ?></h2>  
+                                                                        <h4> <i><?php echo __("modul4Page.screens.screen_13.subtitle"); ?>  </i> </h4>
                                                                         <ul>
-                                                                            <li><strong>Sørg for at matmengden justeres etter alder, vekst og treningsmengde</strong> - mange fortsetter med samme matpakke som da de var yngre selv om kroppen trenger mer</li>
-                                                                            <li>Ha faste rutiner for måltider, søvn og hvile</li>
-                                                                            <li>Registrer endringer i humør, søvnmønster, overskudd og appetitt</li>
-                                                                            <li>Ha en åpen samtale om kroppslige signaler: energinivå, søvn, menstruasjonssyklus, morgenereksjon - forklar hvorfor dette sier noe om helse</li>
-                                                                            <li>Reager tidlig hvis noe skurrer - <strong> det er lettere å justere enn å reparere </strong></li>
-                                                                        </ul>
+                                                                            <?php
+                                                                                $list = __("modul4Page.screens.screen_13.list_items1");
+                                                                                if(is_array($list)){
+                                                                                    foreach($list as $item){
+                                                                                        echo "<li>$item</li>";
+                                                                                    }   
+                                                                                }
+                                                                                ?>
+                                                                        </ul> 
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-5 col-xl-4">
@@ -676,8 +713,8 @@
                                                                                 <figure><img src="images/light-bulb.svg"></figure>
                                                                             </div>
                                                                             <div class="bg-img-text-text">
-                                                                                <h4><strong>Sett dere ned og se på treningsuken sammen:</strong></h4>
-                                                                                <h4> Når trener du mest? Hvilke typer mellommåltidsmat er det lurt å ha tilgjengelig på disse dagene?</h4>
+                                                                                <h4><strong> <?php echo __("modul4Page.screens.screen_13.bg_info_box.title"); ?></strong></h4>
+                                                                                <h4> <?php echo __("modul4Page.screens.screen_13.bg_info_box.description"); ?></h4>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -685,45 +722,45 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                    <div class="slider-box-arrow go-to-quiz"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item" id="quiz-slide-1">
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Quiz</h2>
-                                                                        <p>Hva trenger kroppen mer av på dager med høy treningsbelastning?</p>
+                                                                         <h2><?php echo __("modul4Page.screens.screen_14.title"); ?></h2>
+                                                                        <p><?php echo __("modul4Page.screens.screen_14.question"); ?></p>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio1">
-                                                                            Grønnsaker
+                                                                                <?php echo __("modul4Page.screens.screen_14.options1"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio2">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio2">
-                                                                            Proteiner
+                                                                                <?php echo __("modul4Page.screens.screen_14.options2"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio3">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio3">
-                                                                            Karbohydrater
+                                                                                <?php echo __("modul4Page.screens.screen_14.options3"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide1Radio" id="sliderBoxSlide1Radio4">
                                                                             <label class="radio-label" for="sliderBoxSlide1Radio4">
-                                                                            Vitamintilskudd
+                                                                                <?php echo __("modul4Page.screens.screen_14.options4"); ?>
                                                                             </label>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn step-box-btn-form text-center"> 
-                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
+                                                                        <button type="submit" class="btn quiz-next"><span>  <?php echo __("common.next"); ?> </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -736,80 +773,80 @@
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Quiz</h2>
-                                                                        <p>Hvorfor er det viktig å tenke på når på dagen du spiser?</p>
+                                                                         <h2><?php echo __("modul4Page.screens.screen_15.title"); ?></h2>
+                                                                        <p><?php echo __("modul4Page.screens.screen_15.question"); ?></p>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio1">
-                                                                            Kroppen tåler mer mat om kvelden
+                                                                                <?php echo __("modul4Page.screens.screen_15.options1"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio2">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio2">
-                                                                            Det er best å spise mest før du legger deg
+                                                                                <?php echo __("modul4Page.screens.screen_15.options2"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio3">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio3">
-                                                                            Tidlig og jevnt matinntak gir bedre overskudd og prestasjon
+                                                                                <?php echo __("modul4Page.screens.screen_15.options3"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide2Radio" id="sliderBoxSlide2Radio4">
                                                                             <label class="radio-label" for="sliderBoxSlide2Radio4">
-                                                                            Det spiller ingen rolle - bare du får i deg nok totalt
+                                                                                <?php echo __("modul4Page.screens.screen_15.options4"); ?>
                                                                             </label>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn step-box-btn-form text-center"> 
-                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
+                                                                        <button type="submit" class="btn quiz-next"><span>  <?php echo __("common.next"); ?> </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="step-slide-box-item">
+                                                <div class="step-slide-box-item" >
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
                                                                 <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 col-xxl-8">
                                                                     <div class="step-slide-box-caption">
-                                                                        <h2>Quiz</h2>
-                                                                        <p>Hva kan være en nyttig øvelse for å sikre godt energiinntak i hverdagen?</p>
+                                                                          <h2><?php echo __("modul4Page.screens.screen_16.title"); ?></h2>
+                                                                        <p><?php echo __("modul4Page.screens.screen_16.question"); ?></p>
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide3Radio" id="sliderBoxSlide3Radio1">
                                                                             <label class="radio-label" for="sliderBoxSlide3Radio1">
-                                                                            Planlegge ukens måltider kun rundt middag
+                                                                                <?php echo __("modul4Page.screens.screen_16.options1"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-success">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide3Radio" id="sliderBoxSlide3Radio2">
                                                                             <label class="radio-label" for="sliderBoxSlide3Radio2">
-                                                                            Registrere humør og søvn hver dag
+                                                                                <?php echo __("modul4Page.screens.screen_16.options2"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide3Radio" id="sliderBoxSlide3Radio3">
                                                                             <label class="radio-label" for="sliderBoxSlide3Radio3">
-                                                                            Telle kalorier og justere ukentlig
+                                                                                <?php echo __("modul4Page.screens.screen_16.options3"); ?>
                                                                             </label>
                                                                         </div>
                                                                         <div class="radio-label-grop radio-error">
                                                                             <input class="radio-input" type="radio" name="sliderBoxSlide3Radio" id="sliderBoxSlide3Radio4">
                                                                             <label class="radio-label" for="sliderBoxSlide3Radio4">
-                                                                            Se på treningsuka og vurdere hvilke dager som krever ekstra mat
+                                                                                <?php echo __("modul4Page.screens.screen_16.options4"); ?>
                                                                             </label>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn step-box-btn-form text-center"> 
-                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span> Neste </span></button>
+                                                                        <button type="submit" class="btn quiz-next"><span>  <?php echo __("common.next"); ?> </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -829,3 +866,66 @@
     </div>
 </section>
 <?php include 'commons/footer.php'; ?>
+
+<script>
+$(document).ready(function(){
+
+    function showSlide(index){
+        $('.step-slide-box-item').hide();
+        $('.step-slide-box-item').eq(index).show();
+
+        $('html, body').animate({
+            scrollTop: $('.step-slide-box-slider').offset().top
+        }, 60);
+    }
+
+    // IMAGE CLICK
+    $('.open-utover').click(function(){
+        showSlide($('#utover-slide').index());
+    });
+
+    $('.open-trener').click(function(){
+        showSlide($('#trener-slide').index());
+    });
+
+    $('.open-forelder').click(function(){
+        showSlide($('#forelder-slide').index());
+    });
+
+    // 🔼 BACK TO ROLE
+    $('.go-to-role').click(function(){
+        showSlide($('#role-selection-slide').index());
+    });
+
+    // 🔽 GO TO QUIZ
+    $('.go-to-quiz').click(function(){
+        showSlide($('#quiz-slide-1').index());
+    });
+
+    $('.quiz-next').click(function(){
+
+        let totalSlides = $('.step-slide-box-item').length;
+        let current = $(this).closest('.step-slide-box-item').index();
+
+        if (current === totalSlides - 1) {
+
+            // 🔥 detect language from URL
+            let path = window.location.pathname;
+
+            if (path.includes('/no/')) {
+                window.location.href = "/sunnUtover/no/";
+            } else if (path.includes('/en/')) {
+                window.location.href = "/sunnUtover/en/";
+            } else {
+                // fallback
+                window.location.href = "/sunnUtover/";
+            }
+
+            return;
+        }
+
+        showSlide(current + 1);
+    });
+
+});
+</script>
