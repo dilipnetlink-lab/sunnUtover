@@ -286,26 +286,190 @@
       "screen_01": {
         "title": "Learning Objectives",
         "subtitle": "",
-        "description1": "<strong>Prevention</strong> is about everything that happens before it has gone too far, namely:",
+        "description1": "<strong>Prevention</strong> is about everything that happens before things go too far, meaning to:",
         "list_items1": [
-          "Anticipating risk",
-          "Recognizing early signs of low energy availability and REDs",
-          "Facilitating good habits",
-          "Contributing to safety and openness"
+          "Anticipate risks",
+          "Recognize early signs of low energy availability and REDs",
+          "Facilitate good habits",
+          "Promote safety and openness"
         ],
-        "description2": "This module will go through important aspects and good practices related to prevention, so that you as an athlete, coach, or parent are better prepared."
+        "description2": "This module will go through key aspects and best practices related to prevention, so that you as an athlete, coach, or parent are better equipped."
       },
+
       "screen_02": {
-        "title": "",
-        "subtitle": "",
-        "description1": "",
+        "title": "Why prevent LEA and REDs?",
         "list_items1": [
-          "",
-          "",
-          "",
-          ""
+          "REDs often develops gradually, making it difficult to detect",
+          "REDs negatively affects both health and performance",
+          "Early intervention is more effective than treatment later",
+          "Many young athletes, coaches, and parents are unaware of the signals – this needs to change"
         ],
-        "description2": ""
+        "bg_info_box": {
+          "title": "Continuously working preventively with REDs is crucial to protect the body’s development, health, and performance."
+        }
+      },
+
+      "screen_03": {
+        "title": "Self-monitoring - Learn to understand your body",
+        "description1": "Paying attention to your body's signals is one of the most important things you can do to detect low energy availability and REDs early.",
+        "table": {
+          "headers": ["Parameter", "What to look for"],
+          "rows": [
+            {
+              "col1": "🏃‍♀️ Training response",
+              "col2": "Stagnation/progress stops, low energy during sessions"
+            },
+            {
+              "col1": "😴 Sleep quality",
+              "col2": "Restless sleep, difficulty falling asleep, waking up tired"
+            },
+            {
+              "col1": "🤕 Illness/injury",
+              "col2": "Frequent injuries, slow recovery, often sick"
+            },
+            {
+              "col1": "⚖️ Hormonal status",
+              "col2": "Missing/irregular menstruation (girls), reduced morning erections (boys)"
+            },
+            {
+              "col1": "🧠 Mood/motivation",
+              "col2": "Low mood, unusual irritability"
+            },
+            {
+              "col1": "🍽️ Appetite and food intake",
+              "col2": "Skipping meals, forgetting to eat after training, eating less than usual"
+            }
+          ]
+        },
+        "bg_info_box": {
+          "title": "Try to monitor these parameters weekly (this can be done in a diary or app)."
+        }
+      },
+
+      "screen_04": {
+        "title": "Follow trends",
+        "description1": "It is completely normal to have a bad day or week. What matters is tracking changes over time:",
+        "list_items1": [
+          "Is your sleep gradually getting worse?",
+          "Do you feel tired week after week?",
+          "Has your mood been low for a long time?",
+          "Has menstruation been absent for several months?"
+        ],
+        "table": {
+          "headers": ["Parameter", "What to look for"],
+          "rows": [
+            {
+              "col1": "🏃‍♀️ Training response",
+              "col2": "Stagnation/progress stops, low energy during sessions"
+            },
+            {
+              "col1": "😴 Sleep quality",
+              "col2": "Restless sleep, difficulty falling asleep, waking up tired"
+            },
+            {
+              "col1": "🤕 Illness/injury",
+              "col2": "Frequent injuries, slow recovery, often sick"
+            },
+            {
+              "col1": "⚖️ Hormonal status",
+              "col2": "Missing/irregular menstruation (girls), reduced morning erections (boys)"
+            },
+            {
+              "col1": "🧠 Mood/motivation",
+              "col2": "Low mood, unusual irritability"
+            },
+            {
+              "col1": "🍽️ Appetite and food intake",
+              "col2": "Skipping meals, forgetting to eat after training, eating less than usual"
+            }
+          ]
+        },
+        "bg_info_box": {
+          "title": "If negative trends persist over several weeks, they should be taken seriously."
+        }
+      },
+
+      "screen_05": {
+        "title": "Observe and dare to ask questions",
+        "subtitle": "Coaches and parents play an important role in identifying low energy availability.",
+        "checkbox_list": {
+          "left": [
+            "Am I constantly tired despite getting enough sleep?",
+            "Am I more sore than usual and struggling to recover between sessions?",
+            "Has my performance stopped improving without clear reason?"
+          ],
+          "right": [
+            "Do I often feel low or have mood swings?",
+            "Have I had repeated injuries this past year?",
+            "Have I had stress fractures or fatigue injuries?",
+            "Am I often sick?",
+            "Women: Is my menstrual cycle irregular or absent?",
+            "Men: Do I have lower libido or fewer morning erections?"
+          ]
+        },
+        "bg_info_box": {
+          "title": "Note: Each sign may have causes other than REDs."
+        }
+      },
+
+      "screen_07": {
+        "title": "Exercise - Training and energy needs",
+        "description1": "Take a look at your training week and ask yourself:",
+        "list_items1": [
+          "Which days are hard / high training load?",
+          "Which days are easy?",
+          "Which days require extra fueling?"
+        ],
+        "weekly_table": {
+          "headers": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "rows": [
+            ["Easy jog","Intervals","Rest","Intervals","","",""],
+            ["Strength","Intervals","Long easy run","Intervals","","",""],
+            [
+              {"text":"Medium","icon":"images/icon-battery-mellom.svg"},
+              {"text":"High","icon":"images/icon-battery-stort.svg"},
+              {"text":"Low","icon":"images/icon-battery-lavere.svg"},
+              {"text":"High","icon":"images/icon-battery-stort.svg"},
+              "","",""
+            ]
+          ]
+        },
+        "bg_info_box": {
+          "title": "This exercise is best done together with a parent and coach."
+        }
+      },
+
+      "screen_08": {
+        "title": "Eat enough throughout the day",
+        "description1": "Many young athletes:",
+        "list_items1": [
+          "Eat too little overall",
+          "Distribute food intake poorly throughout the day",
+          "Lack proper nutrition around training"
+        ],
+        "icon_list_items": [
+          {
+            "icon": "images/icon-clock-countdown.svg",
+            "text": "Eat something every 3–4 hours"
+          },
+          {
+            "icon": "images/icon-battery-charging-vertical.svg",
+            "text": "Have food ready after training"
+          },
+          {
+            "icon": "images/icon-bread.svg",
+            "text": "Do not cut carbohydrates – your body needs them"
+          }
+        ]
+      },
+
+      "screen_14": {
+        "title": "Quiz",
+        "question": "Why is it important to consider when you eat?",
+        "options1": "The body tolerates more food in the evening",
+        "options2": "It is best to eat the most before bed",
+        "options3": "Early and evenly distributed meals improve energy and performance",
+        "options4": "It doesn’t matter as long as total intake is enough"
       }
     }
   },
@@ -502,4 +666,4 @@
       }
     }
   }
-}
+} 
