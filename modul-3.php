@@ -950,3 +950,59 @@ document.addEventListener("click", function(e){
 
 });
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    let slides = document.querySelectorAll(".step-slide-box-item");
+    let currentSlide = 0;
+    let totalSlides = slides.length;
+
+    function showSlide(index) {
+
+        // remove active from all slides
+        slides.forEach(slide => slide.classList.remove("active"));
+
+        // current slide active
+        let current = slides[index];
+        current.classList.add("active");
+
+        // 🔥 ICON ACTIVE LOGIC
+        let icons = current.querySelectorAll(".icon-list-menu-ul ul li");
+
+        // remove all active icons
+        icons.forEach(icon => icon.classList.remove("active"));
+
+        // 👉 mapping slide → icon
+        let iconIndex = index - 1;
+
+        if (iconIndex >= 0 && iconIndex < icons.length) {
+            icons[iconIndex].classList.add("active");
+        }
+    }
+
+    // NEXT button
+    document.querySelectorAll(".sliderBoxDownArrow").forEach(btn => {
+        btn.addEventListener("click", function () {
+            if (currentSlide < totalSlides - 1) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        });
+    });
+
+    // PREV button
+    document.querySelectorAll(".sliderBoxUpArrow").forEach(btn => {
+        btn.addEventListener("click", function () {
+            if (currentSlide > 0) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
+    });
+
+    // INIT
+    showSlide(0);
+
+});
+</script>

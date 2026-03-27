@@ -37,21 +37,15 @@ function changeSlide(i, dir) {
 
     // 🔥 LAST SLIDE HANDLE
     if (i >= slides.length) {
+        // OPTION 1 → redirect to index
+        window.location.href = "index.php";
 
-        let path = window.location.pathname;
-
-        if (path.includes('/no/')) {
-            window.location.href = "/sunnUtover/no/";
-        } 
-        else if (path.includes('/en/')) {
-            window.location.href = "/sunnUtover/en/";
-        } 
-        else {
-            window.location.href = "/sunnUtover/";
-        }
+        // OPTION 2 → module 2 page (example)
+        // window.location.href = "module-2.php";
 
         return;
     }
+
     if (i < 0) return;
 
     animating = true;

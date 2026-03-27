@@ -99,9 +99,9 @@
 }
 
 /* 🟢 RESET ONLY WHEN COMING BACK FROM RED */
-/* .seesaw.state-center.has-animated svg .beam {
+.seesaw.state-center.has-animated svg .beam {
     animation: beamReset 0.6s ease forwards;
-} */
+}
 
 /* ✨ LIFT */
 .seesaw {
@@ -136,10 +136,10 @@
 }
 
 /* 🟢 CONTENT RESET ONLY AFTER RED */
-/* .seesaw.state-center.has-animated svg .left-content,
+.seesaw.state-center.has-animated svg .left-content,
 .seesaw.state-center.has-animated svg .right-content {
     animation: resetCenter 0.6s ease forwards;
-} */
+}
 
 /* 🔥 BEAM DOWN */
 @keyframes beamDrop {
@@ -149,10 +149,10 @@
 }
 
 /* 🔥 BEAM RESET */
-/* @keyframes beamReset {
+@keyframes beamReset {
     0% { transform: rotate(14deg); }
     100% { transform: rotate(0deg); }
-} */
+}
 
 /* 🔥 LEFT CONTENT */
 @keyframes leftDrop {
@@ -169,9 +169,8 @@
 }
 
 /* 🔥 RESET */
-/* @keyframes resetCenter {
+@keyframes resetCenter {
     0% { transform: translateY(30px) rotate(2deg); }
     100% { transform: translateY(0) rotate(0); }
-} */
-
+}
 
