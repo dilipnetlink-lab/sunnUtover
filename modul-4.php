@@ -760,8 +760,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn step-box-btn-form text-center"> 
-                                                                        <button type="button" class="btn quiz-next"><span> Neste </span></button>
-                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span>  <?php echo __("common.next"); ?> </span></button>
+                                                                        <button type="submit" class="btn quiz-next"><span>  <?php echo __("common.next"); ?> </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -804,8 +803,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn step-box-btn-form text-center"> 
-                                                                        <button type="button" class="btn quiz-next"><span> Neste </span></button>
-                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span>  <?php echo __("common.next"); ?> </span></button>
+                                                                        <button type="submit" class="btn quiz-next"><span>  <?php echo __("common.next"); ?> </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -848,8 +846,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-btn step-box-btn-form text-center"> 
-                                                                        <button type="button" class="btn quiz-next"><span> Neste </span></button>
-                                                                        <button type="submit" class="btn btn-next-icon sliderBoxDownArrow"><span>  <?php echo __("common.next"); ?> </span></button>
+                                                                        <button type="submit" class="btn quiz-next"><span>  <?php echo __("common.next"); ?> </span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
