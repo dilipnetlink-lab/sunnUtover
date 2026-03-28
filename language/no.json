@@ -532,7 +532,7 @@
       },
       "screen_03": {
         "title": "Selvmonitorering - Lær deg å kjenne kroppen din",
-        "description1": "Å følge med på kroppens signaler...",
+        "description1": "Å følge med på kroppens signaler er noe av det viktigste du kan gjøre for å oppdage lav energitilgjengelighet og REDs tidlig. ",
         "table": {
           "headers": [
             "Parameter",
@@ -960,11 +960,13 @@
       },
       "screen_06": {
         "title": "REDs finnes på et spekter",
-        "description": "Trafiklyset for energibalanse og helse i idrett"
+        "description": "Trafiklyset for energibalanse og helse i idrett",
+        "image_url": "images/box-modul-5-img-3-no.svg"
       },
       "screen_07": {
         "title": "REDs finnes på et spekter",
-        "description": "Trafiklyset for energibalanse og helse i idrett"
+        "description": "Trafiklyset for energibalanse og helse i idrett",
+        "image_url": "images/box-modul-5-img-4-no.svg"
       },
       "screen_08": {
         "title": "Hvordan foregår behandling?",

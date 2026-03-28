@@ -46,7 +46,7 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-1.jpg" class="rounded"/></figure>
                                                                     </div>
@@ -72,12 +72,12 @@
                                                                         <h4><?php echo __("modul2Page.screens.screen_02.subtitle"); ?> </h4>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-6 col-lg-6">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-2-a.svg" class="rounded"/></figure>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-6 col-lg-6">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-2-b.svg" class="rounded"/></figure>
                                                                     </div>
@@ -107,7 +107,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_03.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-3.svg" class="rounded"/></figure>
                                                                     </div>
@@ -137,7 +137,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_04.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-4.svg" class="rounded"/></figure>
                                                                     </div>
@@ -179,7 +179,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_05.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-5.svg" class="rounded"/></figure>
                                                                     </div>
@@ -209,7 +209,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_06.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-6.svg" class="rounded"/></figure>
                                                                     </div>
@@ -239,7 +239,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_07.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-7.svg" class="rounded"/></figure>
                                                                     </div>
@@ -269,7 +269,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_08.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-8.svg" class="rounded"/></figure>
                                                                     </div>
@@ -299,7 +299,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_09.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-9.svg" class="rounded"/></figure>
                                                                     </div>
@@ -329,7 +329,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_10.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-10.svg" class="rounded"/></figure>
                                                                     </div>
@@ -359,7 +359,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_11.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-11.svg" class="rounded"/></figure>
                                                                     </div>
@@ -389,7 +389,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_12.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-12.svg" class="rounded"/></figure>
                                                                     </div>
@@ -419,7 +419,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_13.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-13.svg" class="rounded"/></figure>
                                                                     </div>
@@ -449,7 +449,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_14.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-14.svg" class="rounded"/></figure>
                                                                     </div>
@@ -479,7 +479,7 @@
                                                                         <p><?php echo __("modul2Page.screens.screen_15.description2"); ?></p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                <div class="col-sm-12 col-md-12 col-lg-6 align-self-end">
                                                                     <div class="step-slide-box-img">
                                                                         <figure><img src="images/box-modul-2-img-15.svg" class="rounded"/></figure>
                                                                     </div>
@@ -519,7 +519,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                                                    <div class="step-slide-box-img">
+                                                                    <div class="step-slide-box-img align-self-center">
                                                                         <figure><img src="images/box-modul-2-img-16.svg" class="rounded"/></figure>
                                                                     </div>
                                                                 </div>
@@ -529,6 +529,7 @@
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
                                                 <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -572,6 +573,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">

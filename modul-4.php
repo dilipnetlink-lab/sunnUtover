@@ -725,6 +725,7 @@
                                                     <div class="slider-box-arrow go-to-quiz"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
                                                 <div class="step-slide-box-item" id="quiz-slide-1">
+                                                    <div class="slider-box-arrow quiz-prev"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -768,6 +769,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow quiz-prev"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -811,6 +813,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="step-slide-box-item" >
+                                                    <div class="slider-box-arrow quiz-prev"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -870,7 +873,19 @@
 <script>
 $(document).ready(function(){
 
-    function showSlide(index){
+    // ===== GLOBAL STATE =====
+    let slideHistory = [];
+    let selectedRole = null;
+
+    // ===== SHOW SLIDE =====
+    function showSlide(index, isBack = false){
+
+        let currentIndex = $('.step-slide-box-item:visible').index();
+
+        if(!isBack && currentIndex !== -1){
+            slideHistory.push(currentIndex);
+        }
+
         $('.step-slide-box-item').hide();
         $('.step-slide-box-item').eq(index).show();
 
@@ -879,29 +894,48 @@ $(document).ready(function(){
         }, 60);
     }
 
-    // IMAGE CLICK
+    // ===== INITIAL LOAD =====
+    showSlide(0);
+
+    // ===== IMAGE CLICK =====
     $('.open-utover').click(function(){
+        selectedRole = 'utover';
         showSlide($('#utover-slide').index());
     });
 
     $('.open-trener').click(function(){
+        selectedRole = 'trener';
         showSlide($('#trener-slide').index());
     });
 
     $('.open-forelder').click(function(){
+        selectedRole = 'forelder';
         showSlide($('#forelder-slide').index());
     });
 
-    // 🔼 BACK TO ROLE
-    $('.go-to-role').click(function(){
-        showSlide($('#role-selection-slide').index());
-    });
-
-    // 🔽 GO TO QUIZ
+    // ===== GO TO QUIZ =====
     $('.go-to-quiz').click(function(){
         showSlide($('#quiz-slide-1').index());
     });
 
+    // ===== QUIZ PREV (🔥 MAIN FIX) =====
+    $(document).on('click', '.quiz-prev', function(){
+        goBack();
+    });
+
+    function goBack(){
+        if(slideHistory.length > 0){
+            let prevIndex = slideHistory.pop();
+            showSlide(prevIndex, true);
+        }
+    }
+
+    // ===== ROLE BACK (KEEP SEPARATE) =====
+    $('.go-to-role').click(function(){
+        showSlide($('#role-selection-slide').index());
+    });
+
+    // ===== QUIZ NEXT =====
     $('.quiz-next').click(function(){
 
         let totalSlides = $('.step-slide-box-item').length;
@@ -909,7 +943,6 @@ $(document).ready(function(){
 
         if (current === totalSlides - 1) {
 
-            // 🔥 detect language from URL
             let path = window.location.pathname;
 
             if (path.includes('/no/')) {
@@ -917,7 +950,6 @@ $(document).ready(function(){
             } else if (path.includes('/en/')) {
                 window.location.href = "/sunnUtover/en/";
             } else {
-                // fallback
                 window.location.href = "/sunnUtover/";
             }
 

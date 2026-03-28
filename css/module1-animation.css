@@ -1,3 +1,4 @@
+/* Battery Animations */
 .battery-body {
   filter: drop-shadow(0 0 8px #C5F529);
 }
@@ -5,173 +6,79 @@
   opacity: 0;
 }
 
-/* IMPORTANT: use steps() */
 .l1 { animation: l1 2.5s infinite steps(1); }
 .l2 { animation: l2 2.5s infinite steps(1); }
 .l3 { animation: l3 2.5s infinite steps(1); }
 .l4 { animation: l4 2.5s infinite steps(1); }
 
-/* 🔋 stacking */
-
-/* 1 */
-@keyframes l1 {
-  0% { opacity: 0; }
-  10% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-/* 2 */
-@keyframes l2 {
-  0% { opacity: 0; }
-  30% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-/* 3 */
-@keyframes l3 {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-/* 4 */
-@keyframes l4 {
-  0% { opacity: 0; }
-  70% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
+@keyframes l1 { 0%, 100% { opacity: 0; } 10%, 90% { opacity: 1; } }
+@keyframes l2 { 0%, 100% { opacity: 0; } 30%, 90% { opacity: 1; } }
+@keyframes l3 { 0%, 100% { opacity: 0; } 50%, 90% { opacity: 1; } }
+@keyframes l4 { 0%, 100% { opacity: 0; } 70%, 90% { opacity: 1; } }
 
 .battery-low {
   animation: lowBattery 1.2s infinite;
 }
 
-/* LIGHT → DARK */
 @keyframes lowBattery {
-  0% {
-    opacity: 1; /* full visible */
-    filter: drop-shadow(0 0 10px #EF5350);
-  }
-  50% {
-    opacity: 0.3; /* dim (dark feel) */
-    filter: drop-shadow(0 0 2px #EF5350);
-  }
-  100% {
-    opacity: 1;
-    filter: drop-shadow(0 0 10px #EF5350);
-  }
+  0%, 100% { opacity: 1; filter: drop-shadow(0 0 10px #EF5350); }
+  50% { opacity: 0.3; filter: drop-shadow(0 0 2px #EF5350); }
 }
 
-/* 🎯 BEAM */
-.seesaw svg .beam {
+/* 🎯 SEESAW REFIXED */
+.seesaw {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     transform-origin: center;
-    transform-box: fill-box;
     will-change: transform;
 }
 
-/* BASE COLOR */
 .seesaw svg .beam,
+.seesaw svg .left-content,
+.seesaw svg .right-content,
 .seesaw svg .base {
-    fill: #B5D334;
-    transition: fill 0.4s ease;
+    transform-origin: center;
+    transform-box: fill-box;
+    transition: transform 0.6s ease, fill 0.4s ease; /* Default smooth transition */
 }
 
-/* 🟢 DEFAULT CENTER (NO ANIMATION) */
-.seesaw.state-center svg .beam {
-    transform: rotate(0deg);
-}
+/* 🟢 DEFAULT / RESET STATE */
+.seesaw.state-center svg .beam { transform: rotate(0deg); }
+.seesaw.state-center svg .left-content, 
+.seesaw.state-center svg .right-content { transform: translateY(0) rotate(0); }
+.seesaw.state-center svg .base { fill: #B5D334 !important; }
 
-.seesaw.state-center svg .base {
-    fill: #B5D334 !important;
-}
-
-/* 🔴 NEGATIVE (ONLY AFTER INTERACTION) */
+/* 🔴 NEGATIVE STATE (The Drop) */
 .seesaw.state-negative.has-animated svg .beam {
     animation: beamDrop 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
     fill: #ff4d4d !important;
 }
 
-.seesaw.state-negative svg .base {
-    fill: #ff4d4d !important;
-}
-
-/* 🟢 RESET ONLY WHEN COMING BACK FROM RED */
-/* .seesaw.state-center.has-animated svg .beam {
-    animation: beamReset 0.6s ease forwards;
-} */
-
-/* ✨ LIFT */
-.seesaw {
-    transition: transform 0.4s ease;
-}
-
-.seesaw.state-negative {
-    transform: translateY(-6px);
-}
-
-.seesaw.state-center {
-    transform: translateY(0px);
-}
-
-/* ✨ CONTENT BASE */
-.seesaw svg .left-content,
-.seesaw svg .right-content {
-    transform-origin: center;
-    transform-box: fill-box;
-    will-change: transform;
-}
-
-/* 🔴 CONTENT DOWN (SYNC FIXED) */
 .seesaw.state-negative.has-animated svg .left-content {
     animation: leftDrop 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
-    animation-delay: -0.05s; /* 🔥 sync trick */
 }
 
 .seesaw.state-negative.has-animated svg .right-content {
     animation: rightDrop 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
-    animation-delay: -0.05s;
 }
 
-/* 🟢 CONTENT RESET ONLY AFTER RED */
-/* .seesaw.state-center.has-animated svg .left-content,
-.seesaw.state-center.has-animated svg .right-content {
-    animation: resetCenter 0.6s ease forwards;
-} */
+.seesaw.state-negative svg .base {
+    fill: #ff4d4d !important;
+    transform: translateY(-6px);
+}
 
-/* 🔥 BEAM DOWN */
+/* 🔥 KEYFRAMES */
 @keyframes beamDrop {
     0% { transform: rotate(0deg); }
-    40% { transform: rotate(16deg); }
+    45% { transform: rotate(16deg); }
     100% { transform: rotate(14deg); }
 }
 
-/* 🔥 BEAM RESET */
-/* @keyframes beamReset {
-    0% { transform: rotate(14deg); }
-    100% { transform: rotate(0deg); }
-} */
-
-/* 🔥 LEFT CONTENT */
 @keyframes leftDrop {
-    0% { transform: translateY(0) rotate(0); }
-    20% { transform: translateY(-12px) rotate(-1deg); } /* 🔥 earlier motion */
+    0% { transform: translateY(0); }
     100% { transform: translateY(-30px) rotate(-2deg); }
 }
 
-/* 🔥 RIGHT CONTENT */
 @keyframes rightDrop {
-    0% { transform: translateY(0) rotate(0); }
-    20% { transform: translateY(14px) rotate(1deg); }
+    0% { transform: translateY(0); }
     100% { transform: translateY(30px) rotate(2deg); }
 }
-
-/* 🔥 RESET */
-/* @keyframes resetCenter {
-    0% { transform: translateY(30px) rotate(2deg); }
-    100% { transform: translateY(0) rotate(0); }
-} */
-
-
