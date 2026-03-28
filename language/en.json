@@ -962,11 +962,13 @@
       },
       "screen_06": {
         "title": "REDs exists on a spectrum",
-        "description": "The traffic light for energy balance and health in sports"
+        "description": "The traffic light for energy balance and health in sports",
+        "image_url": "images/box-modul-5-img-3-en.svg"
       },
       "screen_07": {
         "title": "REDs exists on a spectrum",
-        "description": "The traffic light for energy balance and health in sports"
+        "description": "The traffic light for energy balance and health in sports",
+        "image_url": "images/box-modul-5-img-3-en.svg"
       },
       "screen_08": {
         "title": "How does treatment proceed?",

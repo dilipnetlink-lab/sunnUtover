@@ -210,12 +210,12 @@ header {
         display: inline-block;
         padding: 0;
         overflow-x: hidden;
-        height: calc(100vh - 103px);
+        height: calc(100vh - 85px);
         position: relative;
     }
     .navbar .navbar-collapse.menu-header {
         position: fixed;
-        top: 103px;
+        top: 85px;
         background: var(--primaryColor);
         width: 100%;
         left: 0;
@@ -285,5 +285,12 @@ header {
     }
     .profile-menu-link {
         font-size: 0;
+    }
+    .navbar-brand{
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    .navbar-brand img{
+        width: 160px;
     }
 }

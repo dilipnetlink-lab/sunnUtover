@@ -206,14 +206,19 @@ textarea.form-control {
 .radio-label-grop.radio-success .radio-input:focus {
     border-color: var(--successColor);
     box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.25);
-}
-@media only screen and (max-width: 1399.98px) {
-}
+} 
 @media only screen and (max-width: 1199.98px) {
+    .radio-label-grop{
+         margin: 7px auto;
+    }
 }
 @media only screen and (max-width: 991.98px) {
+    .radio-label-grop{
+         margin: 6px auto;
+    }
 }
 @media only screen and (max-width: 767.98px) {
-}
-@media only screen and (max-width: 575.98px) {
-}
+    .radio-label-grop{
+         margin: 5px auto;
+    }
+} 
