@@ -76,7 +76,7 @@
         --sectionPadding: 45px;
         /* HeadingFont */
         --XXlHeadingFont: 32px;
-        --XlHeadingFont: 26px;
+        --XlHeadingFont: 25px;
         --lgHeadingFont: 24px;
         --mdHeadingFont: 22px;
         --smHeadingFont: 19px;
@@ -103,7 +103,7 @@
         --sectionPadding: 40px;
         /* HeadingFont */
         --XXlHeadingFont: 28px;
-        --XlHeadingFont: 25px;
+        --XlHeadingFont: 24px;
         --lgHeadingFont: 23px;
         --mdHeadingFont: 21px;
         --smHeadingFont: 18px;
@@ -122,6 +122,33 @@
         --lgMargin: 17px;
         --mdMargin: 16px;
         --smMargin: 15px;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    :root {
+         /* sectionPadding */
+        --sectionPadding: 35px;
+        /* HeadingFont */
+        --XXlHeadingFont: 24px;
+        --XlHeadingFont: 23px;
+        --lgHeadingFont: 21px;
+        --mdHeadingFont: 19px;
+        --smHeadingFont: 16px;
+        --xsHeadingFont: 14px;
+        /* TextFont */
+        --lgTextFont: 18px;
+        --normalTextFont: 16px;
+        --mdTextFont: 15px;
+        --smTextFont: 14px;
+        --xsTextFont: 13px;
+        --xxsTextFont: 12px;
+        /* formFont */
+        --btnFont: 14px;
+        --inputTextFont: 14px;
+        /* TagMargin */
+        --lgMargin: 16px;
+        --mdMargin: 14px;
+        --smMargin: 14px;
     }
 }
 /* Text Colors */
@@ -264,6 +291,16 @@ h6,
     .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 /* Margin Top (mt) */

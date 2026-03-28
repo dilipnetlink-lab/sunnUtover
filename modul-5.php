@@ -307,7 +307,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-img img-top-fixed">
-                                                                        <figure><img src="images/box-modul-5-img-3.svg" class="rounded"/></figure>
+                                                                        <figure><img src="<?php echo __("modul5Page.screens.screen_06.image_url"); ?>" class="rounded"/></figure>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -328,7 +328,7 @@
                                                                 </div>
                                                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                                                     <div class="step-slide-box-img img-top-fixed">
-                                                                        <figure><img src="images/box-modul-5-img-4.svg" class="rounded"/></figure>
+                                                                          <figure><img src="<?php echo __("modul5Page.screens.screen_07.image_url"); ?>" class="rounded"/></figure>
                                                                     </div>
                                                                 </div>
                                                             </div>

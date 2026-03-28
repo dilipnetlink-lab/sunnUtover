@@ -69,7 +69,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-6 d-flex">
-                                            <div class="step-box-list-col same-box active">
+                                            <div class="step-box-list-col same-box">
                                                 <figure><img src="images/box-modul-4-img-1.jpg"/></figure>
                                                 <div class="step-box-list-caption">
                                                     <div class="step-box-list-title">
@@ -85,7 +85,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-6 d-flex">
-                                            <div class="step-box-list-col same-box active">
+                                            <div class="step-box-list-col same-box">
                                                 <figure><img src="images/box-modul-5-img-1.jpg"/></figure>
                                                 <div class="step-box-list-caption">
                                                     <div class="step-box-list-title">
