@@ -60,6 +60,61 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                 <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
+                                                    <div class="step-slide-box-description-con">
+                                                        <div class="step-slide-box-description-wrapper">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                                                    <div class="step-slide-box-caption pb-0">                                                                        
+                                                                        <div class="icon-text-con">
+                                                                            <div class="icon-text-left">
+                                                                                <img src="images/ion-warning-outline.svg" alt="">
+                                                                            </div>
+                                                                            <div class="icon-text-right">
+                                                                                <h2>Kroppen sier ifra</h2> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                    <div class="step-slide-box-caption">
+                                                                        <p>Når kroppen får for lite energi over tid, prøver den å tilpasse seg, noe som kan få en rekke konsekvenser. Mange av konsekvensene gjorde vi oss kjent med i forrige modul. Disse vil i større eller mindre grad vise seg som kroppslige symptomer.</p>
+                                                                    </div>
+                                                                </div>
+                                                                 <div class="col-sm-12 col-md-12 col-lg-6">
+                                                                    <div class="step-slide-box-caption"> 
+                                                                        <p>Symptomer er kroppens måte å si fra på. Å ta dem på alvor er viktig. </p>
+                                                                        <p>I denne modulen skal vi gå gjennom diverse <strong>fysiske og psykiske symptomer</strong> på REDs. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="bg-img-text-con">
+                                                                        <div class="bg-img-text-full">
+                                                                            <div class="bg-img-text-img">
+                                                                                <figure><img src="images/search.svg"></figure>
+                                                                            </div>
+                                                                            <div class="bg-img-text-text">
+                                                                                <h4 class="mb-2"><strong>Hvorfor er det viktig å forstå symptomene?</strong></h4>
+                                                                                <h4>REDs kan utvikle seg gradvis uten at man merker det. Derfor er det viktig å være bevisst på hvilke parametere man bør følge med på jevnlig. På den måten: </h4>
+                                                                                <ul>
+                                                                                    <li>Kan du <strong> ta grep tidlig </strong> </li>
+                                                                                    <li>Kan du <strong> beskytte både helse og prestasjon </strong></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="icon-list-menu-con bottom-icon-list-menu">
+                                                                        <?php include 'commons/icon-list-menu.php'; ?>
+                                                                    </div>
+                                                                </div>                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
+                                                </div>
                                                 <div class="step-slide-box-item">
                                                     <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
@@ -894,7 +949,7 @@
 
 
 <script>
-
+    
 let innerIndex = 0;
 
 document.addEventListener("click", function(e){
@@ -949,9 +1004,7 @@ document.addEventListener("click", function(e){
     }
 
 });
-</script>
 
-<script>
 document.addEventListener("DOMContentLoaded", function () {
 
     let slides = document.querySelectorAll(".step-slide-box-item");
@@ -974,7 +1027,7 @@ document.addEventListener("DOMContentLoaded", function () {
         icons.forEach(icon => icon.classList.remove("active"));
 
         // 👉 mapping slide → icon
-        let iconIndex = index - 1;
+        let iconIndex = index - 2;
 
         if (iconIndex >= 0 && iconIndex < icons.length) {
             icons[iconIndex].classList.add("active");
@@ -1005,4 +1058,5 @@ document.addEventListener("DOMContentLoaded", function () {
     showSlide(0);
 
 });
+
 </script>
