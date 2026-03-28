@@ -529,6 +529,7 @@
                                                     <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                 </div>
                                                 <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">
@@ -572,6 +573,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="step-slide-box-item">
+                                                    <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                     <div class="step-slide-box-description-con">
                                                         <div class="step-slide-box-description-wrapper">
                                                             <div class="row align-items-center">

@@ -37,21 +37,19 @@ function changeSlide(i, dir) {
 
     // 🔥 LAST SLIDE HANDLE
     if (i >= slides.length) {
-
-        let path = window.location.pathname;
+        const path = window.location.pathname;
 
         if (path.includes('/no/')) {
             window.location.href = "/sunnUtover/no/";
-        } 
-        else if (path.includes('/en/')) {
+        } else if (path.includes('/en/')) {
             window.location.href = "/sunnUtover/en/";
-        } 
-        else {
+        } else {
             window.location.href = "/sunnUtover/";
         }
 
         return;
     }
+
     if (i < 0) return;
 
     animating = true;
@@ -125,3 +123,4 @@ $(function () {
     });
 });
 /* End-Language-Logo */
+

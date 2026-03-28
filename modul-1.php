@@ -286,6 +286,7 @@
                                                         <div class="slider-box-arrow sliderBoxDownArrow"><i class="bi bi-chevron-down"></i></div>
                                                     </div>
                                                     <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                         <div class="step-slide-box-description-con">
                                                             <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
@@ -329,6 +330,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="step-slide-box-item">
+                                                        <div class="slider-box-arrow sliderBoxUpArrow"><i class="bi bi-chevron-up"></i></div>
                                                         <div class="step-slide-box-description-con">
                                                             <div class="step-slide-box-description-wrapper">
                                                                 <div class="row align-items-center">
@@ -387,49 +389,35 @@
 <?php include 'commons/footer.php'; ?>
 <script>
 document.querySelectorAll('.sliderBoxDownArrow').forEach(btn => {
- btn.addEventListener('click', function () {
+    btn.addEventListener('click', function () {
+        let currentSlide = this.closest('.step-slide-box-item');
+        let nextSlide = currentSlide?.nextElementSibling;
 
- let currentSlide = this.closest('.step-slide-box-item');
- let nextSlide = currentSlide?.nextElementSibling;
+        if (!nextSlide) return;
 
- if (!nextSlide) return;
-
- let seesaw = nextSlide.querySelector('.seesaw');
-
- if (!seesaw) return;
-
- void seesaw.offsetWidth;
-
- if (seesaw.classList.contains('negative-slide')) {
-
- // already red hoy to skip
- if (seesaw.classList.contains('state-negative')) return;
-
- seesaw.classList.remove('state-center');
- seesaw.classList.add('state-negative');
-
- // 🔥 ADD THIS (IMPORTANT)
- seesaw.classList.add('has-animated');
- }
- });
+        let seesaw = nextSlide.querySelector('.seesaw');
+        if (seesaw && seesaw.classList.contains('negative-slide')) {
+            // Force a slight delay or reflow to ensure smooth transition start
+            seesaw.classList.add('has-animated');
+            
+            // Trigger the negative state
+            seesaw.classList.remove('state-center');
+            seesaw.classList.add('state-negative');
+        }
+    });
 });
 
-
-// ⬆️ PREV → ONLY ahi reset karvu
 document.querySelectorAll('.sliderBoxUpArrow').forEach(btn => {
- btn.addEventListener('click', function () {
+    btn.addEventListener('click', function () {
+        let currentSlide = this.closest('.step-slide-box-item');
+        let seesaw = currentSlide.querySelector('.seesaw');
 
- let currentSlide = this.closest('.step-slide-box-item');
-
- let seesaw = currentSlide.querySelector('.seesaw');
-
- if (seesaw) {
- seesaw.classList.remove('state-negative');
- seesaw.classList.add('state-center');
-
- // 🔥 ADD THIS (IMPORTANT)
- seesaw.classList.add('has-animated');
- }
- });
+        if (seesaw) {
+            // Removing state-negative triggers the 'transition' back to 0deg
+            // specified in the .state-center CSS blocks.
+            seesaw.classList.remove('state-negative');
+            seesaw.classList.add('state-center');
+        }
+    });
 });
 </script>
