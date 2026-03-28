@@ -211,14 +211,23 @@ textarea.form-control {
     .radio-label-grop{
          margin: 7px auto;
     }
+    .radio-label-grop .radio-input{
+        top: 14px;
+    }
 }
 @media only screen and (max-width: 991.98px) {
     .radio-label-grop{
          margin: 6px auto;
     }
+     .radio-label-grop .radio-input{
+        top: 13px;
+    }
 }
 @media only screen and (max-width: 767.98px) {
     .radio-label-grop{
          margin: 5px auto;
+    }
+     .radio-label-grop .radio-input{
+        top: 12px;
     }
 } 
