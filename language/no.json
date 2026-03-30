@@ -848,27 +848,27 @@
       },
       "screen_14": {
         "title": "Quiz",
+        "question": "Hva trenger kroppen mer av på dager med høy treningsbelastning?",
+        "options1": "Grønnsaker",
+        "options2": "Proteiner",
+        "options3": "Karbohydrater",
+        "options4": "Vitamintilskudd"
+      },
+      "screen_15": {
+        "title": "Quiz",
         "question": "Hvorfor er det viktig å tenke på når på dagen du spiser?",
         "options1": "Kroppen tåler mer mat om kvelden",
         "options2": "Det er best å spise mest før du legger deg",
         "options3": "Tidlig og jevnt matinntak gir bedre overskudd og prestasjon",
         "options4": "Det spiller ingen rolle - bare du får i deg nok totalt"
       },
-      "screen_15": {
+      "screen_16": {
         "title": "Quiz",
         "question": "Hva kan være en nyttig øvelse for å sikre godt energiinntak i hverdagen?",
         "options1": "Planlegge ukens måltider kun rundt middag",
         "options2": "Registrere humør og søvn hver dag",
         "options3": "Telle kalorier og justere ukentlig",
         "options4": "Se på treningsuka og vurdere hvilke dager som krever ekstra mat"
-      },
-      "screen_16": {
-        "title": "Quiz",
-        "question": "Hvilken av disse er ikke en vanlig helsemessig konsekvens av REDs?",
-        "options1": "Økt beinstyrke",
-        "options2": "Forstyrret hormonbalanse",
-        "options3": "Økt risiko for belastningsskader",
-        "options4": "Forsinket pubertetsutvikling"
       }
     }
   },
