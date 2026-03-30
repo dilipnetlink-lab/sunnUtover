@@ -645,6 +645,23 @@
           ""
         ]
       },
+      "screen_06": {
+        "title": "Nutrition - it's about filling the battery",
+        "subtitle": "",
+        "description1": "If you train heavily, you have a <strong>larger battery</strong> that you must fill up.",
+        "description2": "To fill this battery, it is important that we start with nutritious foods; which contain the building blocks we need for a solid foundation.",
+        "description3": "For someone who trains a lot and has high energy needs, it is sometimes also important to add extra, for example in the form of pastries, bars, sports drinks, chocolate, soda, and so on.",
+        "list_items1": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bg_info_box": {
+          "title": "High-energy food is not \"unhealthy\" for you when you train a lot, it is necessary to quickly refuel.",
+          "description": ""
+        }
+      },
       "screen_07": {
         "title": "Exercise - Training and energy needs",
         "description1": "Take a look at your training week and ask yourself:",
@@ -736,31 +753,6 @@
         "subtitle": "",
         "bg_info_box": {
           "title": "Is it difficult to eat something in the morning or right after training? <br/> Then different types of drinks or liquid meals like smoothies and drinking yogurt can be good alternatives.",
-          "description": ""
-        }
-      },
-      "screen_14": {
-        "title": "Quiz",
-        "question": "Why is it important to consider when you eat?",
-        "options1": "The body tolerates more food in the evening",
-        "options2": "It is best to eat the most before bed",
-        "options3": "Early and evenly distributed meals improve energy and performance",
-        "options4": "It doesn’t matter as long as total intake is enough"
-      },
-      "screen_06": {
-        "title": "Nutrition - it's about filling the battery",
-        "subtitle": "",
-        "description1": "If you train heavily, you have a <strong>larger battery</strong> that you must fill up.",
-        "description2": "To fill this battery, it is important that we start with nutritious foods; which contain the building blocks we need for a solid foundation.",
-        "description3": "For someone who trains a lot and has high energy needs, it is sometimes also important to add extra, for example in the form of pastries, bars, sports drinks, chocolate, soda, and so on.",
-        "list_items1": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "bg_info_box": {
-          "title": "High-energy food is not \"unhealthy\" for you when you train a lot, it is necessary to quickly refuel.",
           "description": ""
         }
       },
@@ -856,21 +848,30 @@
           "description": "When do you train the most? What types of snack foods is it wise to have available on these days?"
         }
       },
+
+      "screen_14": {
+        "title": "Quiz",
+        "question": "What does the body need more of on days with high training load?",
+        "options1": "Vegetables",
+        "options2": "Proteins",
+        "options3": "Carbohydrates",
+        "options4": "Vitamin supplements"
+      },
       "screen_15": {
         "title": "Quiz",
-        "question": "What can be a useful exercise to ensure good energy intake in everyday life?",
-        "options1": "Planning the week's meals only around dinner",
-        "options2": "Registering mood and sleep every day",
-        "options3": "Counting calories and adjusting weekly",
-        "options4": "Looking at the training week and evaluating which days require extra food"
+        "question": "Why is it important to consider when during the day you eat?",
+        "options1": "The body can handle more food in the evening",
+        "options2": "It’s best to eat the most before going to bed",
+        "options3": "Eating early and regularly provides better energy and performance",
+        "options4": "It doesn’t matter—as long as you get enough overall"
       },
       "screen_16": {
         "title": "Quiz",
-        "question": "Which of these is not a common health consequence of REDs?",
-        "options1": "Increased bone strength",
-        "options2": "Disturbed hormone balance",
-        "options3": "Increased risk of stress injuries",
-        "options4": "Delayed pubertal development"
+        "question": "What can be a useful strategy to ensure adequate energy intake in daily life?",
+        "options1": "Plan weekly meals only around dinner",
+        "options2": "Track mood and sleep every day",
+        "options3": "Count calories and adjust weekly",
+        "options4": "Review your training week and identify days that require extra food"
       }
     }
   },
