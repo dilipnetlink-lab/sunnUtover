@@ -20,7 +20,7 @@
         global $lang;
         $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
         $host = $_SERVER['HTTP_HOST'];
-        $folder = "reds-project/"; 
+        $folder = "sunnUtover/"; 
         if (empty($path)) {
             return $protocol . $host . "/" . $folder . $lang . "/";
         }

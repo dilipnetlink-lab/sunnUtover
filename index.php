@@ -3,13 +3,13 @@
     <div class="container-fluid section-padding step-box-con">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12" data-aos="fade-up">
                     <div class="page-top-caption">
                         <h1><?php echo __("homePage.title"); ?></h1>
                         <p><?php echo __("homePage.description"); ?></p>
                     </div>
                 </div>
-                <div class="col-sm-12">
+                <div class="col-sm-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="step-box">
                         <div class="row">
                             <div class="colo-sm-12">
@@ -26,7 +26,7 @@
                             <div class="colo-sm-12">
                                 <div class="step-box-list-con">
                                     <div class="row">
-                                        <div class="col-lg-6 d-flex">
+                                        <div class="col-lg-6 d-flex" data-aos="fade-up">
                                             <div class="step-box-list-col same-box completed">
                                                 <figure><img src="images/box-modul-1-img-1.jpg"/></figure>
                                                 <div class="step-box-list-caption">
@@ -40,7 +40,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 d-flex">
+                                        <div class="col-lg-6 d-flex" data-aos="fade-up">
                                             <div class="step-box-list-col same-box completed">
                                                 <figure><img src="images/box-modul-2-img-1.jpg"/></figure>
                                                 <div class="step-box-list-caption">
@@ -54,7 +54,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 d-flex">
+                                        <div class="col-lg-6 d-flex" data-aos="fade-up">
                                             <div class="step-box-list-col same-box active">
                                                 <figure><img src="images/box-modul-3-img-1.jpg"/></figure>
                                                 <div class="step-box-list-caption">
@@ -68,7 +68,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 d-flex">
+                                        <div class="col-lg-6 d-flex" data-aos="fade-up">
                                             <div class="step-box-list-col same-box">
                                                 <figure><img src="images/box-modul-4-img-1.jpg"/></figure>
                                                 <div class="step-box-list-caption">
@@ -84,7 +84,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 d-flex">
+                                        <div class="col-lg-6 d-flex" data-aos="fade-up">
                                             <div class="step-box-list-col same-box">
                                                 <figure><img src="images/box-modul-5-img-1.jpg"/></figure>
                                                 <div class="step-box-list-caption">
