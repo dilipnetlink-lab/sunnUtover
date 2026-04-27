@@ -52,6 +52,16 @@ textarea.form-control {
     color: var(--textColor);
     border-color: var(--darkGrayColor);
 }
+.btn.btn-white {
+    background-color: var(--whiteColor);
+    color: var(--textColor);
+    border-color: var(--whiteColor);
+}
+.btn.btn-white:hover {
+    background-color: var(--lightGrayColor);
+    color: var(--textColor);
+    border-color: var(--lightGrayColor);
+}
 .btn.btn-next-icon span {
     position: relative;
     padding-right: 20px;
