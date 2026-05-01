@@ -1,4 +1,4 @@
- <?php include 'commons/header.php'; ?>
+<?php include 'commons/header.php'; ?>
 <section>
     <div class="container-fluid section-padding page-box-con">
         <div class="container">
@@ -37,13 +37,13 @@
                                                                             <h6><?php echo __("modul1Page.screens.screen_01.subtitle"); ?> </h6>
                                                                             <ul>
                                                                                 <?php
-                                                                                    $list = __("modul1Page.screens.screen_01.list_items1");
-                                                                                    if(is_array($list)){
-                                                                                        foreach($list as $item){
-                                                                                            echo "<li>$item</li>";
-                                                                                        }   
+                                                                                $list = __("modul1Page.screens.screen_01.list_items1");
+                                                                                if (is_array($list)) {
+                                                                                    foreach ($list as $item) {
+                                                                                        echo "<li>$item</li>";
                                                                                     }
-                                                                                    ?>
+                                                                                }
+                                                                                ?>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -72,13 +72,13 @@
                                                                             <p><?php echo __("modul1Page.screens.screen_02.description1"); ?></p>
                                                                             <ul>
                                                                                 <?php
-                                                                                    $list = __("modul1Page.screens.screen_02.list_items1");
-                                                                                    if(is_array($list)){
-                                                                                        foreach($list as $item){
-                                                                                            echo "<li>$item</li>";
-                                                                                        }   
+                                                                                $list = __("modul1Page.screens.screen_02.list_items1");
+                                                                                if (is_array($list)) {
+                                                                                    foreach ($list as $item) {
+                                                                                        echo "<li>$item</li>";
                                                                                     }
-                                                                                    ?>
+                                                                                }
+                                                                                ?>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -242,7 +242,7 @@
                                                                     </div>
                                                                     <div class="col-sm-12 col-md-12 col-lg-5">
                                                                         <div class="step-slide-box-img">
-                                                                            <figure><img src="images/box-modul-1-img-8.svg" class="rounded"/></figure>
+                                                                            <figure><a href="images/box-modul-1-img-8.svg"  data-fancybox="gallery"><img src="images/box-modul-1-img-8.svg" class="rounded"/></a></figure>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -270,10 +270,10 @@
                                                                                 <div class="table-responsive">
                                                                                     <table>
                                                                                         <?php for ($i = 1; $i <= 9; $i++) { ?>
-                                                                                        <tr>
-                                                                                            <td><?php echo __("modul1Page.screens.screen_09.table_info.tr{$i}_td1"); ?></td>
-                                                                                            <td><?php echo __("modul1Page.screens.screen_09.table_info.tr{$i}_td2"); ?></td>
-                                                                                        </tr>
+                                                                                            <tr>
+                                                                                                <td><?php echo __("modul1Page.screens.screen_09.table_info.tr{$i}_td1"); ?></td>
+                                                                                                <td><?php echo __("modul1Page.screens.screen_09.table_info.tr{$i}_td2"); ?></td>
+                                                                                            </tr>
                                                                                         <?php } ?>
                                                                                     </table>
                                                                                 </div>

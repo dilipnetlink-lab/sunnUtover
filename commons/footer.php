@@ -5,6 +5,11 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script type="text/javascript" src="js/custom.js" defer></script> 
-
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+            Fancybox.bind("[data-fancybox]", {
+                // optional settings
+            });
+        </script>
     </body>
 </html>
